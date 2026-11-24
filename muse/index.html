@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overnight News — Intraday Paper Test</title>
+<style>
+  body { margin: 0; background: #faf9f6; color: #1a1a1a;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .sub { color: #666; margin: 0 0 28px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 20px;
+    border-top: 1px solid #e3e0d8; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .note { background: #f1efe9; border-left: 3px solid #8a8578;
+    padding: 12px 14px; font-size: 14px; color: #444; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 12px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #e3e0d8;
+    vertical-align: top; }
+  th { color: #666; font-weight: 600; }
+  .up { color: #1a7a3a; font-weight: 600; }
+  .down { color: #b3261e; font-weight: 600; }
+  .score { font-variant-numeric: tabular-nums; }
+  .muted { color: #888; }
+  .dayhead { font-weight: 700; margin-top: 20px; }
+  .dayhead .muted { font-weight: 400; }
+  a { color: #1a5fb4; }
+  footer { margin-top: 40px; color: #888; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Overnight News — Intraday Paper Test</h1>
+  <p class="sub">Nifty 500 universe &middot; paper test only &middot; first picks Wed 25 Nov 2026</p>
+
+  <p class="note">Paper test only — no real money is at stake. This page records
+  whether overnight news predicts a stock&rsquo;s intraday direction. It is not
+  investment advice.</p>
+
+  <h2>How it works</h2>
+  <ul>
+    <li><strong>Universe:</strong> Nifty 500 stocks.</li>
+    <li><strong>News window:</strong> 4:00 pm on the last trading day to 8:30 am on the
+      next trading day. Weekends and market holidays sit inside the window, so no
+      news is missed.</li>
+    <li><strong>Sources:</strong> Google News RSS (primary) and ET Markets RSS
+      (supplement). Exchange filings would be the best source, but BSE
+      announcements are blocked from our server, so filings only reach us
+      indirectly through newswires. Moneycontrol is unusable as a primary
+      source — it carries no publication timestamps.</li>
+    <li><strong>Filtering:</strong> hard rules keep only real company news —
+      results, orders, upgrades and downgrades, deals, approvals, incidents —
+      and drop routine price pages, macro news and false matches. Namesake
+      false positives (a cricket team, a foreign parent, a show sharing a
+      name) are caught by an exclusion list that grows as new ones appear.</li>
+    <li><strong>Scoring:</strong> hybrid, sentiment-based, and subjective. The
+      shortlist is read and scored by judgement, &minus;2 to +2, with a
+      one-line reason. Size and context count: a large order beats a small
+      one, a big-drug approval beats a small-drug one. No formula.</li>
+    <li><strong>Picks:</strong> the 2&ndash;3 stories with the highest absolute
+      score each morning, up or down. If the best story scores 0, there is no
+      pick that day. Picks go out before 9:00 am.</li>
+    <li><strong>Judging:</strong> each pick is logged with the 9:15 open price,
+      the ~9:30 price and the close. A pick is right if the close moved in the
+      predicted direction from the open. After 2&ndash;3 weeks we judge the hit
+      rate — and whether 9:15 or 9:30 was the better entry.</li>
+  </ul>
+
+  <h2>Picks &amp; results</h2>
+  <div id="results"><p class="muted">Loading&hellip;</p></div>
+
+  <h2>Honest limits</h2>
+  <ul>
+    <li>Most of the 500 get no news on a given night — on the dry-run night,
+      only 13 of the 500 had real overnight news. Picks skew to large caps
+      and news-heavy days. Thin coverage is expected, not a failure.</li>
+    <li>Gap-ups usually fade from the open: earlier backtesting found stocks
+      gapping up 2%+ end green 72% of the time but fall from the open on
+      average. That is why this test is judged open-to-close, not on the gap.</li>
+    <li>Free news sources keep no months-long per-stock history, so the proof
+      is this forward paper test, not a long backtest.</li>
+  </ul>
+
+  <footer>Methodology and results live in this folder (<code>muse/</code>)
+  alongside the picker code and daily data files —
+  <a href="https://github.com/5HU3HENDU/intraday/tree/main/muse">browse the folder on GitHub</a>.</footer>
+</main>
+<script>
+fetch('paper-test-log.json', {cache: 'no-store'})
+  .then(function (r) { return r.json(); })
+  .then(function (log) {
+    var el = document.getElementById('results');
+    var days = (log.days || []).slice().sort(function (a, b) {
+      return (a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
+    });
+    if (!days.length) {
+      el.innerHTML = '<p>No picks yet. First picks land on the morning of ' +
+        'Wed 25 Nov 2026, before 9:00 am — the window runs from Mon 23 Nov, ' +
+        '4:00 pm (the last trading day before the Tue 24 Nov holiday) to ' +
+        'Wed 25 Nov, 8:30 am.</p>';
+      return;
+    }
+    var byDate = {};
+    days.forEach(function (p) { (byDate[p.date] = byDate[p.date] || []).push(p); });
+    var html = '';
+    var right = 0, judged = 0, retOpen = [], ret0930 = [];
+    Object.keys(byDate).sort().reverse().forEach(function (date) {
+      html += '<p class="dayhead">' + date +
+        ' <span class="muted">— <a href="shortlist-' + date + '.json">shortlist</a></span></p>';
+      html += '<table><tr><th>Stock</th><th>Direction</th><th>Score</th>' +
+        '<th>Reason</th><th>Open &rarr; close</th><th>9:30 &rarr; close</th><th>Right?</th></tr>';
+      byDate[date].forEach(function (p) {
+        var dir = p.direction === 'up'
+          ? '<span class="up">Up</span>' : '<span class="down">Down</span>';
+        var ro = (p.ret_from_open_pct == null) ? '&mdash;'
+          : (p.ret_from_open_pct > 0 ? '+' : '') + p.ret_from_open_pct.toFixed(2) + '%';
+        var r9 = (p.ret_from_0930_pct == null) ? '&mdash;'
+          : (p.ret_from_0930_pct > 0 ? '+' : '') + p.ret_from_0930_pct.toFixed(2) + '%';
+        var ok = (p.correct == null) ? '&mdash;' : (p.correct ? 'Yes' : 'No');
+        if (p.correct != null) { judged++; if (p.correct) right++; }
+        if (p.ret_from_open_pct != null) retOpen.push(p.ret_from_open_pct * (p.direction === 'up' ? 1 : -1));
+        if (p.ret_from_0930_pct != null) ret0930.push(p.ret_from_0930_pct * (p.direction === 'up' ? 1 : -1));
+        html += '<tr><td><a href="https://www.google.com/finance/quote/' + p.stock +
+          ':NSE">' + p.stock + '</a><br><span class="muted">' + (p.company || '') +
+          '</span></td><td>' + dir + '</td><td class="score">' +
+          (p.score > 0 ? '+' : '') + p.score + '</td><td>' + (p.reason || '') +
+          '<br><span class="muted">' + (p.story || '') + '</span></td><td>' + ro +
+          '</td><td>' + r9 + '</td><td>' + ok + '</td></tr>';
+      });
+      html += '</table>';
+    });
+    function avg(a) { return a.length ? (a.reduce(function (s, x) { return s + x; }, 0) / a.length) : null; }
+    var ao = avg(retOpen), a9 = avg(ret0930);
+    html += '<p class="muted">So far: ' + right + ' of ' + judged + ' picks right' +
+      (ao == null ? '.' : ' &middot; avg move in the predicted direction from the open: ' +
+      (ao > 0 ? '+' : '') + ao.toFixed(2) + '% &middot; from 9:30: ' +
+      (a9 > 0 ? '+' : '') + a9.toFixed(2) + '%.') + '</p>';
+    el.innerHTML = html;
+  })
+  .catch(function () {
+    document.getElementById('results').innerHTML =
+      '<p>No picks yet. First picks land on the morning of Wed 25 Nov 2026, ' +
+      'before 9:00 am.</p>';
+  });
+</script>
+</body>
+</html>

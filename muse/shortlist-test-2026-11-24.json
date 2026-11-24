@@ -1,0 +1,2498 @@
+{
+  "run_date": "2026-11-24",
+  "is_trading_day": true,
+  "window": {
+    "start_ist": "2026-11-23 16:00 IST",
+    "end_ist": "2026-11-24 08:30 IST",
+    "last_trading_day": "2026-11-23"
+  },
+  "yahoo_check": "explicit window, no trading-day check",
+  "universe": "NIFTY500",
+  "universe_size": 500,
+  "per_source": {
+    "google-news": {
+      "fetched": 8279,
+      "failed": 0
+    },
+    "et-markets": {
+      "fetched": 50,
+      "failed": 0
+    }
+  },
+  "stats": {
+    "raw_items": 8329,
+    "in_window": 627,
+    "after_dedupe": 598,
+    "matched_rows": 356,
+    "distinct_stocks": 123,
+    "excluded_rows": 202,
+    "dropped_macro": 6,
+    "unmatched_non_macro": 102,
+    "dropped_soft_stories": 95,
+    "stories": 58
+  },
+  "stories": [
+    {
+      "story_id": "S1",
+      "stocks": [
+        {
+          "symbol": "APLAPOLLO",
+          "company": "APL Apollo Tubes Ltd."
+        },
+        {
+          "symbol": "TATASTEEL",
+          "company": "Tata Steel Ltd."
+        }
+      ],
+      "headline": "Tata Steel to capitalise APL Apollo to bring down acquisition debt; says minority investor interest will be protected- Moneycontrol.com",
+      "summary": "",
+      "sources": [
+        "Bloomberg.com",
+        "Business Standard",
+        "Business Upturn",
+        "BusinessLine",
+        "CNBC TV18",
+        "ET Manufacturing",
+        "Finimize",
+        "FlipItMoney",
+        "GMK Center",
+        "IndexBox",
+        "India News Network",
+        "IndiaIPO",
+        "Indian Retailer",
+        "Kalkine",
+        "LinkedIn",
+        "Metro Rail News",
+        "MillenniumPost",
+        "Moneycontrol.com",
+        "Rediff MoneyWiz",
+        "TechStory",
+        "Telegraph India",
+        "The Economic Times",
+        "The Indian Express",
+        "The Times of India",
+        "The Week",
+        "TradingView",
+        "Urban Acres",
+        "findarticles.com",
+        "scanx.trade",
+        "www.marketscreener.com"
+      ],
+      "published_ist": "2026-11-23 16:01 IST",
+      "last_seen_ist": "2026-11-24 07:49 IST",
+      "item_count": 54,
+      "links": [
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZE9QNW95dW1xaTdQSDM3TFJBZXM0UGxxX1p3ODZZcF95UEMxcF9CSTlEYWF3bWhTX0ZEUmRYZ1lGTEpUM0o1a2hoMnlXcTM3U25NN29oQ2JBM21LTno1Q216c2lScFVtbGJXTEVvakZLc1NrbmwyNE5xRFFQN1FuMzZVYVY2aDFYWFJGSE13MlczTWdtSkxuTHBLLXZ0ZDFwVUZGSWdyX1lRVDJvTVVsaDAzR0FpcEc0TG1OQzJVLW5ld0pmVmVva0EtdWVwUHc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPU3I0V25mSnBBOGJnbmtON2hfd09JN3F3RjFsRUFKV0dGN0U0dGl1N3llTFh0Q2hDT2doeGlDSlVabE5HbWdNLUpjZ3pxLVZuSmo5MmNFZmVXa1JWMmdLWjRscklOS0hkZlBET0d4VkM1VkR0VEVTLTFwNmt5XzJsYTgwUzVJQWVHTHc4bmN2N3hsblFiOVNTOEdpMDdnSzNmWC1uTzhYc2EwMm42VlMtekJzZnBFRmFqb05PeFMzRlhlOXNoMEV5NTZFdkx1dEpzWkFRZW5NRmRLbGlr0gHiAUFVX3lxTE5KZ2dLVS1UeEtwM3ZlRF9feTZyeFFZeHlkdG1uWkgzbFBKV2tMVDAzNTJmVlAtdVZXNlpaSTh4aV8tRDFMMTRseXp3WWg0MTVuR1lrdng1TVJXNW5MdEtQNmRSaHlQWUhGNUg1Ym1LUlBUY05ldWRPRWFQTzBqTHZ0MjN5YWROUy1xVjd4bE5RNm10NktCRmhJOEVWRmRQbEt5amdnc1VyUlR1OXF0SW5TVi1IZEkyWTFsUl9qS29reDFtajcyZ21vRVBKcXJVTkpURGtCS25QWk5KQTBHQkpWN0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOWF2bmpvcnZUcVJWS0dXTkFuVU1IWFZYSU5aZkpwdmtzTWRVUHFFbUNaYUZyM2xRSF9Zc3VpZjRvSWhDTmdUOWdlQUotQ0pZallBSGJvdVIySHowTlV6SXhvblc2ZW5kNlV1eVdSOWo1Uy1zRkNBejlHVFA5aDRxMlNMNDFCM0NLLUR6QkFqZFVmd0RGWjhlOHNwdjlzNzZyWWc?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU2sybXVJeWdJa0RTLVRkaWIzUUtNV1VKZ2VVNlBQU2dFdHI1MjBwYkpGR2FMRkF1aEdtWXpvZmQybVExcFFlbGM1TXItcTEtcURMMjdWT1RLaU5fdjZrd3h1UXl0TExJOXBNZGNTT21BSS0zMUtoSnZFcVpic0w4MzhJWERTaEFwVE5HY0U5emJUX1Bqc2c?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1Rrc2UzTmQtcmtTd2NYMDM0NjJ3VVYxX1poanltMzFtNmc2a0pxdGhMUTJFWkdCTFUwRUh3Vk50M1RZTXhzYkdzT0dTcVJrbmZTdm5mRWNHN3VseFpickZVTnhXQWpmYWU2TVNyVm45Z3BVeHk5YUhwbXdmWXdIUTl1czFsSnEzZjh5MTVSSXNWUlVlT1J1YkV1UGVTWTl6cnNOMi1vWmRKNjVnZlByeTdTXzJUU2VBdWhTUTM5bnhnUFJkbDVr0gHMAUFVX3lxTE1GcnAyNnMzVWNLbXViWTIzVjNidDJaYl9WYk55ZV93MENrX1VwVXg3RUxGTXhfYkRWZWtaMFVQWEwtZG5nVnNqYnlELXdJeHVTZzVLQ1lObWZDOVpQMXZqOTA3UEI0ZVpTck5ycHVfSGk2RmJaaVZQNTdBeUlkYk44UXBWSEYyTGVkQjZsRWlVbkpuaThLMHFQY1ItUHJNREFnTFQtSHpVS3lvVGpyWGF6Ni1ScGd4bEtDTGM2dms3MGNsMW5JeHowTERUcA?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3NuSnFLclNKNzA0NW5IVnJaS01kSERxd0I4TENsVGtEY05GQmlSdjZYZXhycEpOT2N1RkVVMHRwYU8ycS14UllXYlp0aENUV3BzMVRDUGZHU25zdEEwQ211N1oyR21FaEVDQk52ZEdqNHpDLXM0bWt6LURYbkZCSg?oc=5",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd0M0Zml0ZjFsNlowOVlBbzFIbVlXdWc2UzVEaTlxUzR3eDNYdVotS0U5NXNOTTd2VlpoZDJFU1VvOHBGSFJpQW5KQS02eTdGLU9aNENVQ3NpMm9tUF9reGdtN2Rja1NZTTNPdDR0ZTNlMWdjVTg2WXRUNWZmemxYc0NZbTBXQm16S0FoZ1BQdHowV2EtbUtjbFgzUnFCMTBDS3poLTNiOTdKNklMb09Lckl3ZGdEVXdfTE1kWGhVSjJodlotT2FKZGM3Q1Zid9IB0wFBVV95cUxOTDVsd3lMVnY4U3UtWWpNaUI5OXVzNW5mZVJyQlBFbV94NTBnc0VYaVhjM0k4WjZ2clMyRWxRLUYtdHlRek82X2dwUzVVdEpIQk95aVQ4TEpaUDcydXJ0VFEyeHlnNE8wenpCdWxuejM2d3BpQXVYMXh5YUJqaW5WZVFmd0xPbjB5T0JUdnlfTUxRVWl4RXdOWWNBUVVZLWF5LXRZZm95bDR4RVZPWEdQekVqWUwtQlRiSnZqdXcwa0dlakUxeWdJRU5Db0xrV0k4SHRr?oc=5",
+        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPc09OTzZxeXJmOXhzUnBmMDJMVVcwT044VTNHaXkwbkw1bUtDbV9KZFBJalVLalFfRmlzNXREeVRNNHdCVEt6UnhwNFBtbjZBNVFLd3VPR3Bvd0Y5SGRZRlZLNDBxZXVvT2lRbXRjTERnMFZ5ZDNlMndVQU5MUGFHa3NacGFQMkRSYUhncTJhUmk5LVpjZENPMnZ6dHAxUTBqTEJrRGRhUEMya1NnVF9CUG4xdnZuMXlOY3lWdlZxVC05dVJFeUxMWmdUajRIRnRpajFQVnU1MF9LM2pTa1RTeFhBNU8yMXFZaFc1dHR5SG9QWFMySVVBdFR2R1lNYUMzUDQzWmloS2NiX1BTeWVyZ9IBlgJBVV95cUxQQjJraHJmRHplNkU5bkhyMHpfZmU0ZVY1dTN1N0Y2cEFRVTdPeTZFZjBBVGpQd3ZncUdDN0dvdDZZcm5HckU3dHQ2VnBkN3RqN3FGQkJZbEJyX2lMWkhZeUtnOGJ5U3d5UTA2R0U3MjNrdXVWUFd5Y0VjRzZETG85ZVNFTTN0bE5HUURVbjRmOF9hY0RraVVPTzlodnhiNVBSZUhkTG42QjllV0dYcnQwOWVoSDV2eFBIa2sySE45dkhyNlBmTmZiVnlmc2ZBbkY5aHdfVElZQkR1R2xhVlVkVjBrWVZvSjU2V0ZRSTlSQW5GQThYcjJtdmFNOVpyUTBhZ1JuTkowbTRZWjdoT09FLXJFeFNzUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2M0SHFIZXNUQnlEelhPTDlqVlpzWDhUSUxlT25tc05nM1owWW9YeWFIMmYtZ1NndW44Y0FrY3Y0X28xTFBrcEVDdlJqanpZRmR3NEZYZm8zZkpXTXF5X0ZLdzZRWTlOUVFic0tTRmtaeVFlRmlkU3hjVHFRYmEyb2JhY1pzUTBNNzFnSzYwQUNwaDJNR05JNmhubnpyVEh2OVNSRExrbWpreHdDWjlDMDh3YTR0dHZfcFdXdDVLWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNDRVa081ZUljWEpFZm0zX2FkcGJXS1dXUzY2ZXRNcGhGelhHbTdTd1ZUVnZzMGFXeVcyMjVrT3NoLWRvbFlfY3ZCQXJLenBrTVQtSzVqNjBQaE5XOV9HeWdWMEN4Y1h6TzJRYThZaWNBX3JXZWhPd09hb1AwX2w1NmxYTGJaZ2dLbzNFbVFELWFTM180WHozWVJpSUFuS0NfYXhNTGhrUEp6eVcwWXJtd0h2eHfSAboBQVVfeXFMUGhpSUlEanp1NlVMU1J5b2lWcVFhTEdCeGF5SFpmeFZEY2U3bWpyMUxFSTJyQVBTNjBrSjhzNWRRTXM3bzlvSHpfcjE0MjgzNllzS1VSRTBpOW91VC1PWE43SXZ4X1gzLXRjMjFkaG9wSGFPUzU3UVFoSjlFdXl3dWZ1NGlwNFdOOVdnUUtwRk0zb210OFhiWFR0bERYVjJGRUdQWFBNMTlfcEpJWlBDLUtNYXNYNGVyTk5R?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTFBKd0V0VE5hNmc4ZnVxU25tcnYyYXkweWpMUW5rWU96WHR4aHI1QUhJTXdSVjNMa0tUZ1gyWnRiellQek1uTnhnREZFckpQRHVYTVVEclNxRl9pcV9xdnB0dWpkb2xRbi1XcVkyRm5DRU5tZw?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMWwxald2RlZhY2dHZkMxT1NQU2tEazZFLW9wZmZESlV3eGlrZmwzV1ZkVTNRaG1UcUozS0N3OTY0ak8xWXRQMF9XemFzdnI3TW1fWHhJUm5CUUVXVkJrTEZtZkFsaTV5S3N0LTkxNDNjSDFuWGFxSnlRSHlGQ0JXblB6WEJSTVRjNC1WWUVlb2jSAZYBQVVfeXFMTlVOTTJhY3NOcW4xMFNYSUh6SlhmTk1LTkdrR2FfeGxNbzdzQ0IzWlFxUWg0Y0FlcHUtbFJVQzA2Sk9mWXN5ajQ0Und4R3RKUkR1MnNqa3FkclRReEJHZXVUeVRHWk5EN001UHotMnhPRDlOTjVMOUIxbWNlSmJYMjJKdDIzaTFTUWpSNGZ4MVlsOVdWampB?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUnRYOFZpRjRxNFVzbHpnNzUzLWNUZVExS3FOTnJrVnBzYWNhVnRxWlpsekIxejlUNENCWGdRZ3VaMmdmaVRUMmMya01WQmdjN3h4ZjBKMVRXZ25ZTEdPTGNpWmpGMXhkYm8xUk1DY0FPUHlTYURQZG1QdUd1TUc0cFh3LWplQjhUbThrdE51YmY?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGpEdS1xN05leUtnV2xQMUJJR2dSVnl0clJZdE9HaDFCZzVCLWFpai1nZVpIcFkzYlNCTnNsRUNFZ09USEdNdUhyRkFNRWpPZ0xCX19yb2pWd0FZTk9mTW50M0FHclZnZTJxcEdhbWJTX0V2aXR3bk1oWm51cG9jSW1QeGZ0aFJFYTBFUk9ObHQtY1JVRWtFblJKS2cxYU9vek5LZk1PWXBEcHYteGZjZVY5Yk5CaHI0UTFNRg?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHczY0dLdHM2V3gweHFfbEJCb3pldEw3cHdqWFRHek9veHA3cGVKQkE2dThNMXZvc3VlZkREci1TeTE4XzZSZW92NF9RVTZxVDM0UDZaQ3Q3eW54SlRxZmFSX1p6bmtlY1YyOWFaTWE1RElNRHRrQUExY0JJOVlqeW9SbEE2SnlNVlFBdXJNclRYUDV3eXAtSUc2WlFPdDRxTkdHZXF0ektubFZFbkR4RHpKYk9DeWM?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZWFGY1ZWS3RFbGZRcUFRSDUtWnpPUzlVVmh3akZFTHNCQWRheTlNc0JxRjlXbUpDUkNhZ2lYSjlMMVhLMlY5YzBPZ2UxRTdWXzBEbVV6ZzN5YnFnTjdGczNubGZEQllxcXlWSkpPWHZZWnpNNVozcDl5VW5wUGVlS0NRYnNlcnBTYzJZYW0yMTQ1TC1xMnh5UVUwS29xWVhuR1JINnFaY09wOGM0U0JnSG5fOGR5SU5wcXAyU3JFaUVSY0RXQTk5bXZWSl9OTUdHZjFlc2lxX3ltQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk5SQTh1MXRPNHRWbXlzOXVWbmhFamVUQjlnSFY4cUV3MS1UY2tFWWtBY2syRVp2Wl9Zb1ppWXlRN0tIeld1LWFOdjRyaUl0ZjktNGROTEpEdkg2Nmx3SnMzSDEzM3l0LXpraVkxeWJsTlIwbl81YU13N3B6VFJqWWRYbmtHYkRYSVBrM080SFpzT2pUbU9Qd080Qmo0U3l5OVRrZkZMazBXcHZYMGNVbUphTFBOZ2FQM0U1ZGc3eUotd9IByAFBVV95cUxNSmp4ZzRKZ0YxRHBtZ1RZU0JmNVF1N09LQ0pvUjRwTEptX3JJaDF3X05aVjR2NVJwOWNMSHlIYi1jT2dhYzJQaXJRMm85LUJoc2hZV2F5UXBzaV91WEZyTm1NU2NLUDBVQUx0bG1XNmtWQXgzQWRrdTlRYk9WXzRmZ3JncjRNUjJhTGt6UlJlckgzanYwSEFReno0LW1vV1NsckRjYlptMnJkd3FPNEZtbm9oWnNLbHdVUzhDMmNfWWViQ3Z6SVZEVg?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHAxV2lUVHNqZUs1UzdLbWVWZW1aOEJiX2IxNGt0M1Q1b2xkMTNMZU95SVdLQUMtc04zQ3Z3MVNHS2RiSWNkTlc4M1RxdTZaeXNoWEdvU29OUHBqQ0RMYkZHSldEWTNJc19DUXZ0NUR4NTd4VE5NTEpyaUhFTFdOaDJjd3ZkcVU3ckg5aFMzYzc3TzVpbTkzTmRNZzUyai1IVmktSTlTYzRHMEllSzBXRzhvVU5zMG8?oc=5",
+        "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPZk9xRmFIdWEtQ1NiaW9BTlR1VTd4YW5NeWFMb1lQeGZ4aHljMGFTSm15LWFlNUNaWElETU1xMmIxbWNOQkQwRzN5MEE5bjR4Ti1DelZVel85VThPX3owdUdoNW9sTHBXSEEyRjQxWEgwSTNuUHhvV0NGVnAtSUlWaDIzQl96N29qZG13SVA4MEM1cGFYNFdZRGxoVkYzclA0SEpsZVpJdlhfbTkzbjRxMWpzRlV3anByXy12cEJveEk4c0lycjVuMzkweTVCbW9pejcwWHUtNllMNHhLcGNMZnJTUy16cENSREEwXzhMZktEU1lEcjlB0gH8AUFVX3lxTE9nMjZjcUxmb0JpaTRwQVFyUGZ5N1F6VmgzbU1veURkSEdfWmdzcWVSUHBYNjZhQk9DVFpheTBXX1hQRk5qenhDOW96QWJFMkpIeXJjZjVzVFd1ekZlbFczRjFaS01ZWUdPaGFkUU8wekpWbXRGQlJnMDRyMk5xaDNMcXBRYXNpNXV3VTdCTnlCY2JuandGbWNFemFscDBMVncyNEphaGpwZmJCMlU4MUszVHV0Zk1nZmlZM0tSTVcyY2FvUFd2bXBNaU4wUzkweDNxN0dWRHotUU5HVUpobE44OWJ3cWpDbWRIaDEzcC1DVi1QQXd6TW4yeXJxNw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZERKYlVWb2VlajJEZjNrSm16N2VtOEE3NXBXd21GeVhjYUh5djR4VDdEZjAxeWdLWG54QmpBYWFJdGNNRWZhd2FLczRObTFpTXdEZFhTT2tDa2VUdTRIM0F4Vl9fYUZ4ZmZOSHMxdk1XYjZlNXJfSmplOFR2aF9Ibll2TzdRZzBvdUhnaXlGUU94cmNMN1FUVkhYVWNNQndKbGVHRjllcXJad1gwY3Qzci1wR0dZeFBYOVBGQzZiaUnSAcYBQVVfeXFMTVpLNFNaUWt5TnRpVDN0T0VzQ0tXRzdpTGZXT3E3bElKTXBjVEhYOUF0ajB0UHNLeDBJb1JGaVFzN2ppemdBN3dOSU1xSTJVY3dybGd2Zkp4T3U3T2pTdFh5d0MxV1cyS0NEdnVZb2o1ZWFWcmtGTjBIQmhKT09DRGd1ZE9nRnc5MTJPNEJvWm5PZUR3Q0RLSzZPWVFwcEFRTTFTTUtQanpRaS1qOGNWZG81SE1jTElxb3l5WWlDaHBEeGtKWVB3?oc=5",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVllLUGdJVFRVSlZtVzFULXJhd2xDRTVfcE01WEVhXzZQeFdPbkpweERwU0k5cGxJXzBScE9OOEZUWTg3c1dwZTdnZmtNSDBlV3lFSVNadFNCVTc4LXhnRGpUNHIzb1RNM2h1dTRMMjBoa2tPemkzQkhiWlNkRHVuS05SLUlBMkIxOTctcEdBY1R2T1dRaXFEQXpCMUExY3JPSUpRQlA5MUhDeVN6TFotbFVSaG91QzZZTG9tbDl1NVlyRXVtaF80YW04QW1TNXFwUjRZbFIyc20wZlE?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxObktiNDdic2E5UE1vOGR0NGUxS1p4UnhJekV3aWNQeWQ3YVU0bTlYZjd4TEl1aXZLZkw3TDNlc1FVRUJhVXZ0ZTdrUTBfLVkzSkJxTzN3QkhEZlNMcEljT3ZvczVUZmYwRTcwcF8xZmcwNkUya1R5MjlXR3pXWnZoVDNUVUw5SHFQWUYyYXA3TDE5TzNCZjFV?oc=5",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOE5mVDhROGZJNDRobjVCQnl0VkluNnFOcjdWWFRRSTlMZ19Nc21HVXNqLVBTSWdOcG5VUkpZdmVhWGdCVkdlVjViU0FNZDF6YTNWNDVtM0taUlFPYjVJMG5UTGFXWTkwTTh6QzNQZW1hUkc0S21QT0RpSnRFUDV5MkpITlB0WHdncDlKd0kyd0hscU9uVmRFd29ydFpOR3V1VUMwVW0zYmltZzZHRmM2N1pVTmozWXpkSnRqN2ptRWJ5TXFFN3NoaEZ5NnQ5ZmU3ZUdLWW5PY0I?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVmZvTFJ0ZS1oQ1NFNDVYSFVUZ3gzZ1NBbHFfM2RXSEx3emxoXzR1bkxScTJhcE03NWp1NE1ES21XQndwS3NLRjVmWk1Wb0RKb0lQeEs4VXcxYmtyeXBLUlRScWpveUZrUVdKSGpfTGQ5RmRpeTdvUXJRRDlVdTZKMV9INHRCU1hYNU51S3FkUW4zUXg5NGwyTlFVYW13dkdrUVUyaTBZREthRVNETVZMSDdHTdIBuAFBVV95cUxPS0xqMW44QXB4UVhOcVgybERtcXZVdUtXWU9SUWNEek1PV1RncnlrOW10VjNQZmhKbnN3cHFBbGVTMWZsbnpIUzJvOHdtcXc3U2hDS0pqR1VuazdkaXc2bDZDS3FrdnhLNUNDMGFNaFdTd2FCcjJRRDZYWWxnTmE2OVdNdlNXNXdxOWszbXVEOHpwVWFWVVdJMnZyNS1pMWh0OE5OWTAzYXJQXy1POUhIVFhndDJBcTlv?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT0RkMUszak1YeWVEdmt1cl9vMHZYWmpEY0ZOVjJzNHhtYUlVa3o2MlIyU3lIUEQxZURjSXZTT3ZGZzUzV1dvbzNsbk95dnRDTjFVQWkyeFpqM1laUFpPcEJyYTZ1eG00eFZxMGdCazMtQU16STh5aldKWWlBMDJnMU0xWmJCU3ZWQ2F2bWYzV0VBVU5LQWJDVVFYNldBWVFFeGx6RkhBdkw2dmtsYk9USXNMRGozLUNQ?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFdzdjFTU1pjMFZJVnc5RDZ0WW5yRWZkNDByUjV5YVZJYjBqOFlEVnA4cHpOOUdFbGRPNk5jWjFNak1rZ3NwUGFvZDlwelo1cGRRX1BHNUVBa0FZNkdBbmdJMDZuNy1FMTBidlBGUFFhMGkzR28zTGQxakFBY0d3d2xmWjVWNHpsOE85cF9veHc1cmlIWEVtSXVLTzdKLTI2VG1MT3F3?oc=5",
+        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMThrZzJmU3ExU3h0R2l1eEVjMEZPanhnb0dlTHZ4ZC0xYV9DeFFrQ3pVOHhnMDRJa1Zybm9ROTlSZ1REWDNZbDRUT2RGUHB3U1hIR1RRWHFTejdqWjdpSVg5bXN2TEZMbVY5eHoxSEhOUDkzTDR5MHVuTTNJRnl5VnJjUVFndGstd1JCYzRmQ1lIVW50dWRDM2VMNG1GUnZqUmlfNVp1YlhQZ3lWLWVTeXE2aU16STZ0NlRLdGl0YmxST3hxNU41VFktcVp3M3FiMzJRbmozenR3SDRzem11ZlVRYlRnRTNYWlE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1o5dE5nQnJOTHp3OWVXVzlmRUZPNDJZc1RkYjl5QVdWSkRLdC11bVMtcm9NVC0wclNnVDgyMlRmdXlvd01xYnFwRFJHaG4zcGlIUk9kdlFpMjZqa0MxWEs1dFM5S1RuRG4tTTY1VUdLclByZkFrRktnRzcyeTNmbFFwVDNJOEtzQnM4TVN4MlhkMjlEUEttX3BtR1FfSWRvNXpKSFp0bkliUzF6d0EtY00xTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZjc2NE9xb2JkWmpYdFpLZVUtcERTZ19UdjNUeHNEbGJOZ053c0pUMVU4cE5oRlhTVWFTOHJoWEFiLTBkM1FoVjNMRXhYMXNXTGprSUdpbWo2Y2VUakNyb083RXNKOEJJVlgtZjJqc3AyeTlvdjBuTE9VamlDS2VmNVhKUDN3ZXdSdHlidDBjRERBOVJlZkNXVVRVSHhxd3VVRlJpemZJUWJVb2J3OHR0ejhWeFBJeDhVWG45SXVXWnV0S3E0Nm5BTG1pbGR5TWFrcG9ad0lRRTQtdmpIOEVfUlZIREJaRzZlaEViUkN4RTF3QnfSAfgBQVVfeXFMTnVzZF9tX3dFM2dBM21KNUp6Ykp4cE5zNDI0UDJqQTNQWlloOTBTR1ZONUZEUUxldHlQa3pZcWtrZjVDOTVOUm9ucnlyT185Ml9wdjY4XzFhZXExcmZPSFdpMTg0b19zbmZZZUNYVVU1QWgtQUE4c01CNXU0c25jeDZJOVRSb2cwN3pNN2E2YmRibEQtYldPbmpRaGtvSUYwMmVQRlI0c2xVRlZuZWp4S3U5MVJzdkdtQ0x4TWJGUV9aTk5jTmkxdDhTVkFxbjd3dW5PTk9rQm9LMzNsS01tR0xvMHlaamhQVHVRMk4tTlc5US1ZWWRVbEQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT281SmNiQXd6TEZ3b1VWZm5nNUtrUGZ2dE5Wa1BPeGx1aFljS21ubzdicXE4Q1ZwWDV1Yy1LeVJ2RWxIa3F3aEFySmlubEVUamh2ZjhNQjBhZVJnVHUzejFuel9OM2YyQlJjRG1jekFsNnNPMTFyeW1idlpTUlZXaVJQY2VjM3lKRVNfdHVTRHJZSzU0alJfWTNCZkRIRzdIN0xFSDZwUUlveDFaNEVob01xMzdXUE44UUtNTGtsRS1jZkp4Z1pTRkU2cXcta3NtZHFhRDFHUEx4b1JGOXZ6blZMemZlRHktQTg5S0lNYTg3UV9vWUtTclVEQXhISGfSAYYCQVVfeXFMTjZGaEY1Nk1aYzVqZDJTS3ZuTXI3S3dkQW9WbXdsbUJZMkNjS3lpbi1WcjNMMm0tYzBRSVNmRUd5cVpyaXFkMjdOb3VsX3k0LWg0bjZFVnBRU1FzMWtqYkZkN1RRSTFWTFhiZ056TEdMUmxrOFdRaF8wTkM2QnRMcWxuWkc5RldVeFBSUk03b0pTRmZ3X0lHT0RqTVRPNHN3ZEktanAtdzluM3VQbll0alZXRUZMMXF2ZFJfbi1wT2lIMG5TSlhMNVdMVUw3aWh2T1dTUzhiXzVuTlpPcm40ZU10OFVTMi1KeUpTQ1dCaFlwNTBYVGVibWVYaFU0MUlhWlBxc1BCdw?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ0x5T1JYQlQ1aklBQ2NmZFRuOTBqZmw2ZXRCMHlwN05tZGpRdlJwOWZfaENxWExNRGlJLUNtaDczbk5pR29Sd3E4VGtrNU44ZmNGSVRHNnVkckdqREVobW9Ba0Z4cUVjLWF4RW83VzYzVWNVeUtULTJwd0VIczBxMEE4WGg2VUVIc0VRX2pkek5aRVFFLUEzelhPa24?oc=5",
+        "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZWdWckNlYUpfWEx0VGhsNXVuMHc0blFpeE5JbDdBU01tSm8wS0NEaFlTOUZDMjJna2hFQTJjU3E0Zm1yX1ZzdzRiaEc3NUtaN1BxbTlDcE1RWng4Wi16RW9OdERQWkVrRkhpM1FXRGF5UGRaNm5GUGVWS0tyWkpGdnc1MC1DamgzSmFVWjlpbXVWSFFLOG1hb3NUcHVLX3BmcTc2LWVtcm1EejJUcURiTndoVzIwanVyNlF3SE1LOXR6Yy0wMEFkdHdRZXpORFZOQU9uSlJtMFA4T3hfdExmbHBxdGJ6T2xIUUJuMk1iNklXUFJrYXkyaNIB_gFBVV95cUxQR29wQVk3Zko5ZEhXWmNaMzdDb0w5VUpOZ0xpREs2QmJESnltd0xNRWdJbUZEREhTRGJVN1hfVEhBVjNIaDB6cF9WZktmUU1aMlV0Y2F3aEdRNndZMmhXQnE2cEYzN2RYQWhnQ01fMi1ReWtVVEh1NHVKc3ZkdFJULUExTWwySVJjU0RHQV85V3lpYWJLaFpjSVBBZkdtRjZDX2FuSTNaQVNWQjhDQWZCUXM0cnRFa2hZMkVZdHRVRHI3Qmw0UkJyb2NndkIzejJRUmRReWJkcU5EM2Y3ZmRfOXlla2tvMzAxYzVFXzBfSjJRVUY5MUxaU01aMUxDQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMipgJBVV95cUxQdGFiSnkzRXRST1h4VDQtWWFIXzZFQkhGUDRxdDBRdldZTm52eVZDTVJnZFFaRVB6ZVlfQm8zX2ZqLXdzenUwZjJCbUk2TGZ2UlVFeTdLZjlic0VHZUdhcHFNWHRBR3lFdzdYbjdZcTRWU3NCZk84RmtlT05GeUxoZHZINHlKc3hsd1NWcEhqWlcwbTFIOVphdWg0YWNQWDdJTVoyOGVzRGNJdmMwZTlsUHdsbkhSZTlSTDFIT3dVeWJKSV9YT3l6SUthRnVtM3psR1AzeEFWb1Mxd3pGZTdaUUNSdWdFcFBWOU1hMkdQNXlaTV80VWdfcU50Q3ZTR2wyWmxRWm5TbXNyZFZES1dDUzEza1dvdHcydEI1UGxhT0tWM25BaEHSAasCQVVfeXFMTURzRjdVZ2ZWN1k2MFJmQlhPb1JLdmZob1JmajdMbnpUOWc4em5DWG1YeXk0dFNUWFA2ekROZWVVZlRxSnRLQ3pFcGJtS2NVcXNEMFF4UWJvU2VYUmxXTlJIak14MWxRaGpjTHNteUFyNU9OVmxtd0hQUTlLM2NKTHM1NDYtZURxcThySnBHSjRsUjY0SkJqVHd3SEdEeVRNRHJDT0ZHcU8wVEg4elVNMzBWVVh5UXRRTmdjUFBnNVRTajBBTU9iOFlnZnF3ZDAyb3ZqdnNsUEFGWmZGNHBfVTJmWlZWUFA0NE5xb0lIV1VHek1MU19yWnlYZEJzd1paZ0hFeTU0QnRpQmZpNDliSWtaLWxxUDRFa3RxTGw5enFMdUZtcW1fR2lKejA?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnI1TUxsMm13NWlRZ182TFY4MVUxdlJzRl91ckF4S01FdXo2MjB3YUZzZHRTTTd2MlVKN3BweUEwTkJkZHBTOVZ4UUdWeUZfUWczZngwUGNxZ01TU1hRSmxsTzR2UzVYUzZKRFl2b0E4czN4dHJ0YzJSX1ZmSVBmSWR5N3BvN0FFaTVFa3JwZC1BODVna1VQQ1BEUVJFU2NHdzBEUE1R?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdlEwOWEzUWZSODB4bVZONlg4UkU4NWlHZVpxQ3Q0U3JDS2VOdjRzei12b0RaTy1HMmpNck84YkNSWk80Nnp5dkllNm13RG1kUERZeVRxa043VGxtQWV1S0h3WW5xZVA5TFZ3SVhsaUtTSHpibUQ5ZDhfaEwzdXREcmlGTU1OTlZIWDlsazQ3akVpU0tzajRHLQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSWY0X05sREh6Q2piamJpdVlqVVJwVmNMM0doZEhpVnlGTWdBcTA1N3luNUhQQ1lpVUxJemotVGtQZTFPX0NMT1RLTmZNS0kwTUhDOXNqT2otQy1sVjlqOWFGejJhYjVaUVhKeXAwa3F3RkNENk85cGczVW5FVHRRX1IzSkcwbjd1aHp1RUdyX1ktd212dldfZ2t1Mlp3Sk1yM01lanE1TWs0TjVPLUHSAbMBQVVfeXFMTkttdmRvRnFlZGdzM2dRLXd5b1BqV182dFFTSWZqTE5WWXpITjhvclBvYUdtZWo4Q0hwbUxuZjF0ZGdBOHRhcm8wNy1Db2NmcUdkVE1ta2Z0UTRtcklyaS1NamJKX3piWTh5ZkpVUkQzNUVtNlk3aUY1Qkd0YVBvY2FVSFhKZ3VTcGpqQU5zTzBMeUd4RjNqbGptS1VhUE9hN1d0aV9EOE5mQ2dfaVdoUzZNV2M?oc=5",
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUNSaWhpNFR5X1NDRTBKRVhCMXJRNlBLa2JIMi1nT1hyVzBrQVNlbFU1N2JxZkV2bWZuSWJRdFlKN0trMUI3WjJNT1ZVZHJGSEFyOTBoaS1VNlA4UlNid1lWMmtRcDdqSlZPaWZhSGpVZ0dVMThzeTdqaE5fclJFbEdXSFNiZUVDRVFBQkFoRkJLTWRpY3c4dlNLVUR0Ql9EVmhSLVBTdG5EcV82MnBvSW1xQ1lJYXg2UmMtNGJ4Z2xfNWNnOExCNnV2RmF2M195ZnNJU0Z30gHbAUFVX3lxTFBJeXdwWVduSTBmdjNReS1RcU5Id3B0STl0dkVyS0dMckRpUXNDWXY1aFZCYlY3OFlyakdLci1LQ1R1S1dpcFJsbnB1azVIUUZmeGtsc0pRTHdIUUZaZ20xTjVPNmZ6YzF5czliaTFJVngtVEg5c2ZyMUhSMzlFRE9vYWJwVmxtd3QzNTNpYktQTk1DeHh5cVZPNGwteXA2RmF4Z2Ruc1VMV281Zi0xX3lzMWVqZnZLRzBqa3VQTDE1bTB1Y1NrSzVBbUdZcW50eEV2S093MTI1Nl81dw?oc=5",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcXFrZzk0S2w3Ukh2cVViZEFTZzVlSkhFRTN5Vzg5Q2hVcDdxZTF3NW9QLXZyTXlsQ1hVN0lGaW9lY2Q4LWdCOVdFSkZlWlotNHViQzJOU0dfaTMxejgzU1NrUDdrdWxhVkVCNEFiZjVmbnRQcjRnczZRZnVMRkw3eEtiR0VoUzY3VFF3WURzTDNlSmpmd3BfVmR2RlZLbmFGa3c1LTVEeWFjM3hETzBKSXRYd0s1TktvUmRpVy03ZkpSQ1BEOU5TY0ZkdXdhVUIzakZLMTktUDVjQnRmOExCTGtBMXdtQzBsY1B0Y0tIV1B5R0850gH6AUFVX3lxTE5ZYU9QQXp2SGE0V3cwVFB6LUk0c1lCTGxROGwzX1pNREVxQXhmSXlPbi00cVB0S3FERzJzS1o1OENZclA0NTZhZ1h4dnJPYUlSajZJS2w3REt4eHF5TFRfZVVSTExZQWdUZWdVRndKOHZfU3dHYXJMNEw0RXduSVZyUEZZQTlRU0NTMjh1a2JPREFTeE9Tbm05WVdBangwdEk1X1ZrdnpIZzRTbVdvb2xpQ1ZGYnhSQm1keDBHeE1qbUt1bUdUVzY2dENMdE5wZ3U3VEFDQmY4S05zUnlfX0pTck9vQWJhbWFnNThoV0lJWFk4UjhMQld3LXc?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZkx0LUc3NzNIYXJNUTF1akJwNW1halVvc09yUkwtamh1aEx2bmZQY0Zsc0NLZFRKSWE2UmFFVmFFaHc5djdHMHVLQ0RtNjFSc2tSaHlUV19QbGw0N1EtaTdDZnpyeHR4OHBjOURyN3lraV8xYTZWSzRvQzhXYmk1bV9MSTBJcUxpNUtVV1VnaVN5ZlZSTVNDdERyNFU1Y1llQ3VUdk5GcFFWQ2xCZkJoX1dTcGdIV0FLLXlPaVZSTnRSdWFsRVloVVpvdkZfR2F40gHWAUFVX3lxTE9BZFUzMGFvZl8yQmFfTEVzOHlka2RrZlQ0a0c3MW42QVh6blVKLXlwUGc3S25sYk1JM0RFdGI1YVZrUGxEZ2NpTXlkd2tfZEJUcGROV2RwcktHNjFUNmdBODl5Sjd1eTYzbXhEbkxJd290eUJNRE84VnVJc0JULUFwMFdramgwSVp6UXNJQXZ5MFZVdURRZUl5YXJ1eklQLUR1WmhXdjRFaVh5bXdpN29lTVppZzc4dVhWSE5BU1J6SHQtUnYtekpXWGhxWTVFRi1VOVQybHc?oc=5",
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYVVRdVNLUVRuc0dQSExXM0M0eGhzTS1BUnFwYTRLNl9NTms5WXZFOHBadlM5TUtKY0h2N1Yzd29XVGdLTTN5ZjFhVEhXQmVVWV9VLThaODFCVTRhTHJUYkgtODlUY2gxbEJIOVV0ckpsNWRiNTVkdlpveXlFbHFLZzdwakYtM18xYk9jZzFXbk0zQklWZzFqdlpzb1hHMHUxWmJJYVNXOTRNZFlVcWlEQzRabU82QjNqRjFhZEpZZGpRRFFQT2FWSl9laTNyT3o4TklEUdIB2gFBVV95cUxNR2dhbFlMbEZFeldvcU9yQnBWRElCUVJaSkVybTFXRmtYYTJDUlBuWmxwWDc4c1ZSWnhFQTdHQjhKaXBZMGN2STJ0UEdKWlF1WFk1V1dzdkZtNTRJZ3VGT0VmWkF6aV9ZWUw4TnJkMDFER1NWN1lxZUk1TThDUjdjRFA1WlV1TDFGR1lSTFROQ0F3dklHeEVBSFhOWkZ3T0RMT1pVa29tOXFpYmVnRFRxTDAwbTFmSXBSMDZ3MEVtenRaNXkzbS1hcEctQldPYWdOcmVMQ2dJeVNmZw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S2",
+      "stocks": [
+        {
+          "symbol": "JWL",
+          "company": "Jupiter Wagons Ltd."
+        }
+      ],
+      "headline": "Jupiter Wagons Announces Metro Train Manufacturing JV With South Korea's Woojin; Shares Fall 3%",
+      "summary": "",
+      "sources": [
+        "APAC Media",
+        "Business Standard",
+        "Business Upturn",
+        "BusinessLine",
+        "FlipItMoney",
+        "HDFC Sky",
+        "IndiaIPO",
+        "Indiablooms",
+        "Maritime Gateway",
+        "Motown India",
+        "Prop News Time",
+        "Sahi",
+        "The Times of India",
+        "Urban Acres"
+      ],
+      "published_ist": "2026-11-23 16:01 IST",
+      "last_seen_ist": "2026-11-24 08:18 IST",
+      "item_count": 14,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ09WQVFwLThBWTBVLWFkVVNHS3FRMjF0YzBwRDBjdjJmY1lKd21ZeXM0aWJFZmtPZy1oZGZDVDd5YU9PYTgtYndBSVE1TW04RHF2ZXAxdTFrN3N5ck5vOXlNLXdIU255WDNBZ3gzOHFlTnhaaW5LQUNVc0NiTlIwMFBsQ2tyTTlmc3IyemI0RVhQd0lYelJJRllmWEJDRnYyYWZUUWEwVDlYQkNLbFExNFVXVWNCZDNvUUNraTFfdjY?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTzFnWTZuT0Q4LVItY0xuRnZNdlhCRGp4cG4yNkFCbUd0VlA5QTlxQUgzVllnazRkby0yRTZMOENaWFh6Mm5Hb3BPdHBEbDU3OWFsVGM3QWJYTEUxVXI0RzRYUzFqVG8wY1BBOGJPb082NnpkcXl1SHpXdWlkT1dWQW5Pd0NMQXhFUVVTQnoxOHAzYWx6LVlsZHBJNl85bGlRam5Oc3l2a19uWlM2Y1E?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRVVvdTlFM1RqeXpZVWlCeDVzTzZGVDI3amxUZWdsZ2t6U2Y4YnZwaGNvNkpqT0ZUZEdkamJHUnhrZGFMV2lTRXdqcXNQWmtRNFJXSHhFUDZKMENlTlNkUVdDeUpmUVFQaVdXaWkzUjJPTUdYdlE5aEF2U0pONEF6ZVBTTWc3QjZ3a2Nqd1hmUkxVY3VmNmRxdkJ1T0lwN2otVTd4WEgwekNkbXloRmw2RGZhUmx2dw?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUY4UDEya2kzM19qVXh0ZHZuSEwtS0pjbUd1OE1pVnpQc3d4WjhGWHJBQzdNUHRsSmg3azl5b19lWlFBTzJfdGNDRTFCWW9jbzZaXzhkcDVSVnM5TE1lelRWak4xQl9ZTm9nVVdDZ3RuQnhrRzlZS05UV0djMC15OHlicHJMdGIycVFjcm5TRUVuUTBicXpkNE9feHFWNlVvaVVNZWtwVkxrVngwT1g1YkxRNlo?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbUV1STFYOUZFOUk1VmNLanhLUGN6MVZXQ2VvLWJlZ29IT1NUbVlXZGtPSW9QX3MyWi12UlV1Y2IzaTdjTll1NDhpVHZnLWhQNDV5Tk00WUJEdi1Wb01zR3R4Zk1sVF95LW1Cb20xQ1lCZVlkOHJaRjdQMDlrVDFfRVdxTy04NjhEbEJ0alFKUENsRmY1cTVKckpRY2dTT0FyLXZhSk1SYVVJbFVuaXc?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUZEU0p5QnFsd1lCOGhnbk9nRTZkbnhhb0pKem9WdXNXY3ZlaElqbG1XWDFQSWxUTE5SbGVIMkt0NFRPY3o4STF0S21EWWZWeTFNMzdrNEh0V0RkTG9uOVQySlRYeEpVMjlMZDU1UUlKaXk4TkhQN2xOTngyeFR1THZMTDcwdU5PSG1US3owaWZ6aFRLUGdZSkpxOUlGaUNITXdyeWZFOUZMaHR1LWhnNGlKTklIZy1WcklVVng0a1JDcDdnNVZkZmkzcFU?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQXdnSjFLcE9RN29WWklObERWV2J6bjUyQTZabmxvV2J5QmxSNzB1RWRzREZzYVBxUXh1akkyWWZLX253V0VnVkxZZTRjcWhMM2pxM3BOdDZLN0pkeGhldmFUSDA5VHY4aVVVMGdoal9CTkJSRWR5V1BnRFlLSGxnRldVaDdJYlAzNGZQQVJBYlg0dFNzdTJWVWlxVVZVY2dfTF9ValFkU1VLQ01yNmRXdzA4bFZrQTlQQlh5SVJjM3A0Z0d1aE5sdzVaaXZiY2xr?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNak1HaWNRd0tDeWhTc01GMXcxOXR2aTRiekJzWTVzNmUwRUI1dENacVc4RnNjMU9hZ01Ud0JPQk5TMnVMYzd6UldIRXYzTVNPc2hDdnVreVZuX2I5OU56bE03QzczamJUZDcyTXBMNDRLODBSRUVpaHh2bjVGdTViVkYtVHhDdURMVF9SaGNiQmZDQWk3WURTWlVoWDhkYkJZWmpyNkNOU1RJejR3U291S29RaW1nVjdQUFh6ZTY3aml6R2djeWZyZmJTY9IB0AFBVV95cUxQRVBHTjVaNW5lZC1vTmxhVG9SNUxEUnNFZ0gxR2FNd200ZVhTZEY2alVnUlE1dDB3RnFvVnhwWEVHR2ZPLUN2ZXBuckJ6U0JRWWJNRWpWaGk0REVjQWxhTENEMExvcHJyampTSzA3UWtJMF96THFPVkdJaWhseXg3VlIxakFrcjcyek01NXRwZE1jV0RHSUJsdElOdmdVMFg2cVVFOTQ3b3FiMHlpTkpMRUJfU0lBVWxhWFFjNFczN1N5akNxeENjd3VoT0RnTEoy?oc=5",
+        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONTBUMDVwRGZIaEw4b0N1Ml8wcHY0bndsQnQ4eHhoUy1lUGVLSkQ0QWFBMkkyWXFlUjlJeTR3VjRsZjNYT3RLZmxzNjJiRWpHOVRpRUlyUjJBX1M1aVU2M2hVVlZtZ2dobXlkVS1YSjh5R2ZBSEZhdVNleHBJVmp6WW5xSnRTODliaXVWajBfVHNPWmFxc2tiblNZcG5feU9CNEF3SlhlSGFVdld5LUJKc3MweFBiZl9jMWdGcFZsU2NlQWxNU0dlQkFrcmRpRU5UMzBxem01T3JXRFdNczd1dVY3Ul82ZWVsTzZ30gHyAUFVX3lxTFBBU2JseF90LVpCSDg1bjZ4eWQ2dkdJQVN0VkROVmM1M0dSdnhUNkNTWWxzalVYZTBVVzhNanJVMkVYT1RTRm9pTkhibDJXNHVmRU9vQUUwT0J4MDhPa19fTVRNcjFyX3BORE5SUmpHY25idjU1Qm5peXl5aU1XZkZVNTNXTDV5X1BLWHdxbTh5dFJLd1BObzN3R1hyUEtnQVdqMkg4cGhSVmFnTHFGZ0hMbWpJeEZKdXN3UmZhSzdyRGVRZWVMODBxUEIzdFloOWlPLTE4ZW5uTjI3a25BeURBOGphWkk0RHFyRTBWc0xHWFBR?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNkxlX0llOXA2bHJ4dS1YR3ByeDJlQ3VWZnJxMFRPZFNRREpXRjZoRi1NbmlWeUpKWnI0UDFFSlpHeWgzSktERkVmSmZheEZLN3dBU0wwblRTb1RySERxSEJsRzVxY1haam9pUTJ2YVZmNUdjVFBreTdFb1lQWm51blhGLU5FZjRBUFJkU1RLcDNyLU5Xdkc1TmNxMEN1WEh3Q0ZfTDRIc3NReG5rb3paNHJ1M0J0eENRUE44OC1ZdEZzSUYzeU1YSEx4aWhSREREem5HMVAybFVoZ9IB3wFBVV95cUxPclVUalBsWG40MEpzWk44UkdGT05YVFBlbEFvTXZER1NqN01JME82Q25BZjNFYVNnd0V0UlFNSnNzeERfVTRFa0hOUHIwRzN0bDZXdW5IcDVmVFdOQURvdFI1NjVSRko1b0F4ZEdBV3RDbUNFNEZzVndGLVlEbmY5MG1oRElsZW9XVlhPOEl2eUxEc0JWZDlJMURfUWtNeThUeE5mZGNrNkJ6bUpSSkNURHhJY1MyZDZjbVYzZERWdmVRWlJSR01Hd19qOE5JOXJrVS0xTjRBNzM2VmwxNU1z?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOamZGTWowdnpUbWVhelR3OUZoVzBZbEVfTWM2WGw5UUowU3hKU2R3bnMyWXpaZjhwbEFoZU1qNkpRYi1vTFB0bEs5ZktTMURLSzlRQV9VblRxak1YQjZPT0JjS0lLYnlZTEY1NHVsVHF1OTlzZXRWYV9XSkQ4TlROVWhUd0VzWmowcXRSeHNLTzZqRFpDZEo4VkNZbFhOd3BLb0JJNC1RVmE3VXEyZm9LWDR0djUtLW13c3FUTC1EWTQxVHc3?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekljZkZTZFVmODFZc0YtZk1vZG9xZXcwdVdXOVgtTnVtU0ZRc01Qd0wtNW1UYTIwdTJlVDBfM1FLZHZNTVhxU0dQcXFJV0hEdklacjdpSWxRYi1sRTQ5UlMzNEhvTF9tLUowSFJhUHVEUHhyLTBTMGZPdXhVdGJsaWwtT29CXzVEdm9HTnM3WDdnVmYxRjZ0bGJvUlQ4YU9YYk84?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR1JFTVJnc2ZuSV90OEFTM09oZG5Jc3lDajJvamFfWm5rcjNCRDFsX2thbVFaOW5jeGZIdEU0ZGc0Z1hXcWstNHFiQmtEdmkzTlBnWlpubUJOd0Z2bVZmcDlka0ZLd19sOHNQdWN4X25sam1EOGZaY2t0enNqUXlRNnQtSHk3MV8wWGdmLUVjLWx6SGZHMHpnNlR3azNRcGU1MjRPOUphZw?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaFp5NXBaVWU0WVJfUkRES0QzbTZ1S2tEVGxrOWt3YkRKNC1NS1AwNmVmZExLRy15NTNpSzVieTZ4VEdrRnpxU1dkbHpobm5Gdm1IalVEVzZPT2YyeUhkM3VzdDM1ODBUc1BJSmNqVFA4TXVoQkw5alV3MWJZSm9zTkRNU1lhR0FSVmUya2JxVGtGNURvaDZzdVBoM041WkhYUW1nTHFud3R3V2VCdEJaMTNsYUZPdEhjSllqWlBVbDR5Rnlf?oc=5"
+      ]
+    },
+    {
+      "story_id": "S3",
+      "stocks": [
+        {
+          "symbol": "DALBHARAT",
+          "company": "Dalmia Bharat Ltd."
+        }
+      ],
+      "headline": "Dalmia Bharat board approves ₹700 crore share buyback at up to ₹1,850 per share",
+      "summary": "",
+      "sources": [
+        "ET Realty",
+        "FlipItMoney",
+        "TradingView",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 16:02 IST",
+      "last_seen_ist": "2026-11-23 21:39 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWjJsNE4zdENjMGxUbnhVT19PUmlleU5jWmduUS1ZUGQ0QWJGOU40ZERqa0p3ZmRNQlp0ZFFKMWhKT1h1UVJ5cVR6TGo2bFc1YWZ3aFBvRUVnSlAwbkp0RGJMeUI3Mng0eHVCWHpsUk5QOGpTOGJKTFdZSWstanF0cDVwMU1jNzRhX0VFQ0tqa1cwYjBxSGE0RzFZWmFUdWE4WVE?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSnkxWTFBRXNxdGVjUUNNU1JwZGtmdmNJdmNXMnA2cm1IS3B3Mk41WnViRUgxSHlNSFJXMW1GUnNIN3BGeWdvWjVfX3R1R1Y5QzZqRDc0RS0xWUxuMWhDT2VjanRra2JBT09hUUU2enA2aVpfTHVDYzYtT21USUpYal9lYjQwaEJpSnBTZW15UEVJZExTMm9BRG5sU25aSW1zNXdkZTRlYXBvVm5JeUR0VGdlLVNfUmV1WjZNWkVKU2JsVVhiMGZyYkxFY3lZN1dGMHBTandHM2tSZ9IB3wFBVV95cUxQNWdUQXVGTEI5eERWUjFlenF4N21QYVFkQWdhVzJ4VTJUZWhHdS11R2tNQkc3Q3hUcXVVejF6TlVrSjVwbnY3Z3JNank1V1AtRHVUalVxUVprWEJ2TFhlQzdydEYxUW9xUEpfeUlSQ0ItUElvc1F6LTZvdjhaR09tVHNjTzUwWUFVeDVIdnlsZk93dzNpRUdKVGlHcEpmejNJamdhNWRMSnZMOWJYcDRsbjR0VFZnVlRMelpCMWRaMVdjWDdkYXZhdmRzMS1TSDJId18wcnZXaGlJUkF1YUhj?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUE9hZkpJZkJ5dmZoNE5lU3JFREV3d3g2c3FVMzd6bGo1d1dZM2pIQjh5VzZnNk9QREt3cm56OXZOYUYzVVhBenVLaHU5Z3M0YUFhRTBBdmdyM1pWXzIzN2NmenFGTDFRdmlKR0NESFpVS0RUZUVLYTBZaDFyTS1uVXFHeV92OWEyUUlja1JueVN6SlFwSnp0TUZXdWY1WmROckUtVHN3Q3BFOFNYT2hWZXdPTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMWVFMTNIWWpTY0hoS1oxMnNMX3lBMUtqMHFOaWxmdnBfVkw0eVcxQ05GUVl5VWIwcmNiZ3BjUHVKYjNlZXprdXU0OWY1Z256aUhwZTQzMVpiZEdhaU5XOWZrOWdIaXBLY2dqblJ3ZmZVT0N6WHZLTDFpejRNNkJuNkZCMmtyY1Ntd3VaVVl6VjBMTVc1aXljSldzenNsN295eUJDWExUMF9WNUJsMWc5di15LV9QY3VDa1FpRkJYZGhxVzA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S4",
+      "stocks": [
+        {
+          "symbol": "COALINDIA",
+          "company": "Coal India Ltd."
+        }
+      ],
+      "headline": "Mahanadi Coalfields, Coal India's Subsidiary, Files Final IPO Prospectus with Registrar of Companies",
+      "summary": "",
+      "sources": [
+        "Kalkine India",
+        "Kalkine Media",
+        "Mining Weekly",
+        "Reuters"
+      ],
+      "published_ist": "2026-11-23 16:07 IST",
+      "last_seen_ist": "2026-11-24 07:09 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeXBaSFI0V0ZhVDY5UGtoMlJqSXQ0U2tlS1FaLWwwZWlJZnVUWFVFOWdWZmc5V1JIYXlqRXYwU0d6WGVQRTRrZXNEeTVWYzZ5am5sLVhaRHF5bjJGbGNZb1F6NUlhNFVBY2hhSWxGMktOY0JkWFNZcVVXc0J6MnBSMGI2Yld3M0F4SnUzSE5yVnIzakt1MFNZcHZZbHVyODJ2N1F6cjhvZi1BS181aDlVY2xxNkgzZWJOQ3FQM2l1MFQ4b05FOGJvYnZlUzlsUlU5RkU0TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTV9acWZoWWwxZ3JhWlJxWUpJYnNGclVKbFk0YjZ2cjhpLXdmYVJ0aTQ2Q09MQ0xyRXZzdWJHTldoOVBhVVdyUUJQVjJ3TjVkVTZoZ19tTE42aFhMUi03dm1Za2RCQ25QZm5NeXFzT0piU1FBVzhZSk9Hd0dHMWVmNkY1SzVfSTl3Y0h0Y1pVdWxGUnJqQzZZSmM1LVpBTDluQ0JRcFNPdXJOV3VySHdpTlR3?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeVBjWnRqOU15U3RvMVNRQk1PSDM4TXZ1SE9iYl9ZWWhzY1dwcjFIbWNPYld1Wk9kY2g1V3lWUDR0ek9TVF9YSHJ3ZVZ2YnVPbzhHcHJzOWhlcmNLT3lBc3hhWW42SGtFNXVaLW5RY0ZheGVYZ3RhOGplVGhtTGhleE5iMHVfbVJWYTU1c2VRSTc5em04cC1rR2JjTmU2bFZmRTNpWGRNZ1ItcVJyWDJnWFRCQjdMT1pUejdENEdQUWc1LXFrOE85RGVmUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOWtrUEgwdDhUSlZRQl9fNjloSWxnUl9TWUxTZUhhSENJVUFzdHBvVnlfLW10UVplX2tWTUladGVvZUNhOUZQZmhRVFo3ZUQwc2FHVXlmR3VWbDJ0aXp1TXpTSTkybTUtN2l6Z0lEZ1d0emZfTklLbFJYM1c0UVFqSUhUV3cxTmdTZzZpS0N1YjZYQjhRbVd4VS1GOVBRVUJWOTB6eWRKUmNIc1JIb1ctemdJUUJpeENlNlM3em9fS2pvMlR1bUNsT2hkd2hIU3B4bzNaTFFjMnJZTGND?oc=5"
+      ]
+    },
+    {
+      "story_id": "S5",
+      "stocks": [
+        {
+          "symbol": "ICICIAMC",
+          "company": "ICICI Prudential Asset Management Company Ltd."
+        }
+      ],
+      "headline": "Icici Prudential Asset Management Company Limited Appoints Prof. Sadhu Trilochan Sastry as an Independent Director, Effective for First Term from January 1, 2027 to December 31, 2031",
+      "summary": "",
+      "sources": [
+        "www.marketscreener.com"
+      ],
+      "published_ist": "2026-11-23 16:07 IST",
+      "last_seen_ist": "2026-11-23 16:07 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbmVuajdOb3dmbGhjR0stdHhULUp2VWM4M01HR3dWRzg3QndFVWZUenA4SjV1blVQMlBDVjZvOGpmMW5hNU1ncmdXWjJrMHIzdWN4MzkzVDdPMlZVTkN2S1cwcHRXNVNOb0NoTXZQUFF3Q012YWNlemZ5M0ZVVnJPYWY5cjIxT0M3OVpfVGtidS1lck1la3F4V2lqMlIzTUVuaExrZ2cza3BnMm1JUWxkVXdxc3B2bEpiemFNWlJFbWpuQVhZQkV4Z1NHVE5hT0ptTGFDLU0tT2lEczNzQllfT0Y5cGF0dk0?oc=5"
+      ]
+    },
+    {
+      "story_id": "S6",
+      "stocks": [
+        {
+          "symbol": "SUZLON",
+          "company": "Suzlon Energy Ltd."
+        }
+      ],
+      "headline": "Suzlon Energy reports cyber incident, says no impact on business-critical applications",
+      "summary": "",
+      "sources": [
+        "BW Businessworld",
+        "BusinessLine",
+        "ET EnergyWorld",
+        "ETLegalWorld"
+      ],
+      "published_ist": "2026-11-23 16:08 IST",
+      "last_seen_ist": "2026-11-24 03:36 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdU1XMW1GMGM4bmNTVGlFV0FLckxyYnJkR29NNURNOE9zazZuR1NiOWhGejl5YklOcFh1U0dQUVpuV1RMV2I2MGQwME1lNWJSaDVYSXJYWUE4akVnc2hsX3JBaHZLR1BvNnNobHVrV2JnaFE3TFZoenRNNlRyOEFLVkxSU2JnX2FHTVJ4UlBkelBGRWtYRFNJLW5QSm14eF9QYWItMm5KZU1FMVZxZFY1c21vY2VfVFZPWFpsOFc5b2tiMnNoQlZrMkV2eDkybEhsY1liYVc0bklHczlLTW9KRDVqdW9fVHo3dUljdkZLQTJWUkJz0gH6AUFVX3lxTFAzcG9VZ3dyOWp1TXFIZjZEMk50WDBYRDY2M21weFpmOFp0SG5HVmJQcElmR0ZsQXcxWTFIRnJoczZoVnpVeW5zanhNc19kNmNOdVNiRDhuYmxqNHRVOHNTellZblJQYzdQZGcycjZHWUxIY1RSYXZaeERoMmFaYzBJb3gxYW1JS1VDd1lvZE5BS25KSGpTa05PMHV5bnRFcWNudlg0OWYtQ1V0MXhkUEQtWDFIX0J2LXhqOG1VenFwOUJrb2hYVUdvVnM3cTlaR3RaRHpDakt6UjNiWnFzRmtGRERLeElSUGpuelI2eWhKZVZ2M1hGUjFPcnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeUhHVmxTV0FMVnpXXy02VnpkM2MyeXNjVDJhZDVpTjYyaEkzbklqWms3LW0yMkdrSmxQSXhTYmZCOFBrQWdNXzFzOXFRRVd2UDRzZE8zdGRfRHpiWnZEWXU5UjhTSEpobzR1eEFTU1ZzYUkteVpkb2t2b1RnNjR5b2lObGpUaTRTOENVbGdlNVUyTE5KbGpLcEFfQ2NTWVI0WUN1ZkJwQkRBamlBSGVfT25OYXRDMldRV0M2WmQ0T0dBT2VuYk95VWttUGI3M0FhcnpTWEkyV0ttUkVoaDlHR29PaFZEQdIB6wFBVV95cUxOQ19wLTRodkpOU0JmYk1PMExBMGdXZ2xtVGJ3Tk9kWjNtbHJBcDNYR0ZBVUlZd3pJMnRFUTRIUE43NERsdzJjV0tNQWU3LUJRWmZMcFItYklCckFLQmxUdFRBV2REWjJpNUtnX3RyNWxKbnJvd2FkZUxiWWlpZXlBS3R3dmc1R0RqQ2YwQXZRazhBSGRMRnpELVJ1SHY2YW1xMEdCRzhLNUNPX25BTUtZSjFQUjZtSkdxaU16UHhNZEVFTjk1Zkh4UnQyazZlOUsyYVNkaFNLZWV5U0FwY2lPSC10SnJqbHVMVXpF?oc=5",
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNTM4WlVveE1aQ2VkNDl6LTZwYjBONGVyc2ZhcHFObnNtRFEyN0E3OEhuZkV2ZWh2di1CS3Y5RTJ1M3ZNd0xBYnlxX3B4MTRuMGhHa0dTZWJXU0pMcFRWSUFZdWhwaFBUaGgxOEY3dmNTU1BEZE1wOXc5Z21vc0wwd0RvOTdHYnd1b25lblRXZ2lfcjJxN2tucXZEZWktbXRxdThmU3ZodEliVUZ6b09EYkJRT3pjeWgzZWUycFBvMmdSUTFyZmNsbTJsZUVuNUJwcThVSVUyS3hidko3a3NxSXlmVGF3VU3SAe4BQVVfeXFMT2tuTVlFTmFpRGtabXZxaVdQMHB1alpmempiMW9SQ3prUHctUHZlNTQ5NW9NWWF1cTg5VlR4UFRNZkc1bmprdjkyaDhzc1NPQVVXVlRfY2JibkVsakpDUWF6RG01WUFFR054WExBckhXUFBJMC1oY0txR05JUllJWjZyY3BjenlvLW1VVzdKRXhCcS0wVDNTMXZyTzJpNUVPRkNYWXRXaGQyem9sSEpUd0JCeTd0QXlBWHlHNWU5YVFTU1VTYlRpbFRhZmQ3Tm1LQmVoUWZUYl9SMzJWaHhUNlVGTW5ZNTBJM1czcTlpUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaC1aTmxXZ3BJdmdodEJnTWFaWVVXNjdDcjRmTENBck1JUnlQOU9oWEZHRzhhMktVOGJxVjhiM0FNZGlTWHZPbHlneEREMmhMX1gtemR3cG1PYjNvWXY2N0hfaE41YjJpWjNRT0EzUjFWbVVnS1c0SmtKMGdPOXRRRnZ0QmhReFBkTDZuSzZ1YVNJQlJhN1prYW1TWUdYQ3JmZTNMWktUcU1paFNHWTBsb0ktNA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S7",
+      "stocks": [
+        {
+          "symbol": "PWL",
+          "company": "Physicswallah Ltd."
+        }
+      ],
+      "headline": "PW enters into Higher Education, announces Physicswallah Digital University in Patiala",
+      "summary": "",
+      "sources": [
+        "CNBC TV18",
+        "Education21",
+        "Indianweb2.com",
+        "TradingView",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 16:14 IST",
+      "last_seen_ist": "2026-11-24 02:09 IST",
+      "item_count": 5,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmF6dWJ2TF9TZFhabnFXLVBlZ2RYZEdwNGxOVGVwejlDVl92M0g3QnB6Y2U0aUlzOUc3cVBhSnY2NmRaWWV5anRPQVpUTzFhdkhUbXF4MVdSejhESFk1TGpWUl9ucnk2ZndUT0hjRTczNHN6RlZjak1fSzE1aW9xTUp0ekFtamFSS21FZThwZGY3RWJHNEg0eVZJT3RsOU91YjdaejVXQkY0cFJaQmVQeDhqeGhPclI5ZHlKV2tNY2N4MzhyazRxLWVENWl1d3h5aGF4aFRDSFR2ZThKcHBpUDREQzRJNU9pWkVMWUVkTGw?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WX0VYR1I1YW9lcE53aTd1T19pRUNxbEcxMzg4aXpIRkdKSE0zcVhVdmlUNktTWk5kdTh3SXM4NFBWWk9SZFd2SHdWUFNNcEs4dEY4Qm5CN0lXOXNZM1BFRl91b05JOXJMTlpNTk1wZFhXbEZJSV96VUwwc3FtZw?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXdXZXNzY0pGTzE1bWVNMEZydGRnaUJmenlSOWg4NVhTUl9RRDRZSW5UUUpPX0UxS2lQZnpHVnd6YzZTT29vdFRiZ09SS2o3UXYyTVJHRWE3d1c5c01ybVBRY3VIdmpjajBKSnFlWEp3VlZxZzBjbmlaaFJ0Z1dueWJwZWoyd1Ezb0oybWtxSzZDeTlRUTNQdElGc0FhOVY4NDRUQXFhVmZqYVJWQUt4ZFdYSEV3bEF3cUc5bmxqQ244ckNl?oc=5",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEhhdTV6VlNlNWF0a1N5b0JUVC02UDNEclBSeThlM0xTU3M5aTU5SFpXZ2FEQV8yXzdrOVp2c25YR0pJd3gzZ1U3Q083cExBVVhMOUdkaG1rTW9kNFNORHg1S2twQ0gyWHYweDVzQ0NYTzZoSUZxSnBYRHRXTWQtZUY1NUpMSVB1R2ZWVzNuY1FnTUJrbjhjd0V5WkVQbXRzbWhDb3N6ckdSNHdzM2YzOE5wQ0Y3T3N1c3R6TnpUNnJ6MXN0RmtBM3VwOVY2RGJKOWZtQzlLRTBrSGfSAeABQVVfeXFMTXJMY3hha19LbktBX2hKOEdPQi1WajgxQ2VQVWZzbVFmSjNJMUVnNS0wSVNrSFFfZGZSVXNqajVLY3M0YkdLaWxzUTg5dkU3X0JIbDFacHlpcWpMUEdXV2Q5Skd5Qmg2V0pwYkRCR19oQnNJOXo5al9rcUJJdFlCTlRhSWdPdUZ3MTdmOUJ5ZFh5U3NIXzRMWlJnMjFMdnBUTjhwMGJUZGJRU1JlenZxdy1TUl9yNXY0dmZtRE9hc2ZqNUxGQ0FGSFVxMlVFbldpWFgxV3J6dTB2Vll2dmFMd2g?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZm5Hd1dkQVhKamlEMEJNV1QzUFNSTmJ0ajhOSkNzSzVlQlZMNUNma0FNTGFkSk5OQ2xOajdURVN0UGVBS0YtdWFqU0JaOGpBcXJMbFlISXlBTTFmVEhudV9LZHJ6alFZaXB3WWxaWjU5TjBONVlEb21xNTZ0VFREVmZTajBpbmZKc0VpYkdyYzFnckZuZzlvU0pRWWE1TTVUbUJGb01HbU8yTHBLdFMtbGlsTU9xS3FrN3pVVlh1T2E1SkxzaldJ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S8",
+      "stocks": [
+        {
+          "symbol": "TECHM",
+          "company": "Tech Mahindra Ltd."
+        }
+      ],
+      "headline": "Tech Mahindra Fixes November 30 Record Date for 1:1 Bonus Issue, Shares Rise 2.13 per cent",
+      "summary": "",
+      "sources": [
+        "Dalal Street Investment Journal"
+      ],
+      "published_ist": "2026-11-23 16:16 IST",
+      "last_seen_ist": "2026-11-23 16:16 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRTZfbHZDbHg2WUJna29GMkxWUVU5cWk5LTFIQzFOUzhhUHJSZFZKRWtWd2NIV0Y2NHhxRVoxb1pNQ295UHowMDhuZFpyMk1WeEZjLWlDTUtxQUd4VlVpZ01yLVlTcS00U3BjejVEdF9rQnNCVlBkdDdnY3diQWxPdURTdjA4WkRydVVJLUdIMXIxRE1EQnpVTDlHbmdoU1VCNHNjSElJaDgwalRfMno4WWFGVlhJOWFfUGs0UXNDOEJuZzlBUEExLUx3?oc=5"
+      ]
+    },
+    {
+      "story_id": "S9",
+      "stocks": [
+        {
+          "symbol": "TATACAP",
+          "company": "Tata Capital Ltd."
+        }
+      ],
+      "headline": "Tata Capital brings back ‘Sawaal Karo, Phir Loan Lo’ with Shubman Gill as ‘Inspector Gill’",
+      "summary": "",
+      "sources": [
+        "IMPACT Magazine"
+      ],
+      "published_ist": "2026-11-23 16:18 IST",
+      "last_seen_ist": "2026-11-23 16:18 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb2pzWXlTQ01XUjdxNm0wMUt1Qk9DeGJLSW1iWW5DYmR6UkRPNUpHRlhGeHZIbDAxbXp4RzQ3T2RtUm13SGk5WnVwNE8zS1U1WmZobWZtWldIX0tmcVVjaGhBRi1hUE5vaU9oLUNhem1fVUxlV04tWGxacXdVYzIyUEpMdDk3S1lvbGFGTnJpWkVFbEQ4WHUwT3Fpbk1kRGdqaFRaMldVenQ5enQ4VDF0cmdNQ0p2eUtPUjVoUHJTNEZuM3FoN3dsN2YxRGtqc1dwTjlsb2lBTEE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S10",
+      "stocks": [
+        {
+          "symbol": "ADANIENSOL",
+          "company": "Adani Energy Solutions Ltd."
+        }
+      ],
+      "headline": "Adani Energy Solutions Wins Project to Evacuate 2,400 MW of Power in Bihar",
+      "summary": "",
+      "sources": [
+        "Energy Bangla",
+        "Solarbytes"
+      ],
+      "published_ist": "2026-11-23 16:27 IST",
+      "last_seen_ist": "2026-11-23 19:33 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnVrUUdrYzFxWi15dTJVeXpYTHdlUDJaMHJQNGxzRjZObUhIZmpldjVpRENuZHExTnpadFJxRzVGVWEzTk9OUWpPbHJVNnRmSHNveDJ2RDNQTWVIRThWUjRqOGFlR2d3aEt4OTlBM19adGd4TjFKM0pCNEZhX3IyYlpiV3JvY3hwbDg3R3dCZEN0UDdEWXdNanN1aXVqbDJWUXNwMWthaEZTUFNEUVQ5OQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVERlcjQzYWVjMFI4WW1aekZ1SktXaXpxY2VfTS1IZ19GYlI4dTNIVTQtczI2aEJwb1pmN2VzSUNXdE1MQ2FvV1U5bmxYZDJLbnkwbG5WOGFoSU9nWTJuek81MU5GZmtvRTBybVVRdHRIeEQwOHlhdm1LeDE4a0huOFlZNUcwdEdFQlRvMWdRaDRSbV82RFZ0ZHRscnRQNGlL?oc=5"
+      ]
+    },
+    {
+      "story_id": "S11",
+      "stocks": [
+        {
+          "symbol": "LTTS",
+          "company": "L&T Technology Services Ltd."
+        }
+      ],
+      "headline": "L&T Technology Services Launches SDVault.ai™ to Bring Engineering Intelligence to the Software-Defined Vehicle V-Cycle",
+      "summary": "",
+      "sources": [
+        "Analytics India Magazine",
+        "ELE Times",
+        "LTTS",
+        "Manufacturing Today India"
+      ],
+      "published_ist": "2026-11-23 16:30 IST",
+      "last_seen_ist": "2026-11-23 17:16 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX09NeUdBcEZqbWFLQVdIU1BYS05WbXZXWmxLN3hJYWFOMk85Tm9HNFFyd25ITkJ5azhZNmVxZEx2NG5FRkF5TW9oMHRMcFEyUGVjczRQOHVJNDNFZHhra2FkelE5SVFVYjBMcnl2VF84WEtvUkRzaU5ZMmJlN2ZXNjVrNEJvZGYycVhHTjAydlMtbWc3ZHFYdnBNNlg0UUx2UXhkcGsweDRoMURLb0VtUmdB?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsUXhPY1Z5V0NaQnFDbmRQc3FoTkUyaFpsejhRWVFKdHFydlg2U2lZbFAyS1AwTTgydElKTUpDaGNpU2R2a2FsMlhYSTNpQTJZcmpxYXZ4OGNSYXN0VWEzcURqOHJYTWc4dk92TGlYRWF1SkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xNUhuOWtNS0JBYVIyNjRsMVJQUThZLVVYU3h1RFpPZE0xSjVPOUc2RVdyVS1xTmE3NDRYVm9jRDcwS1UzYmpDUWRkcnVXTTdOcWV4eC1vTlV2bUdfTDc0OTFDU2Y?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRHNxZmU5azI1dzFuZ2tjQjdNYmFLSEtWRTJ1ODFSS3NOM19jYXh1QnlKUloxb3Q3MDVEYXRZWW9pMXV1NzNOR1RxVFk4a0RQQU4wX1BqU2FXRUJ6YnM2dTZESEFvSXpWdVNmMHZMRzFZOXdMZkhCSTVHVEVqXzFmUFVqQ28xWWlzckh5cUZwYkVkNWo2TTY3d1NTb3RXdGdhZFZrY3JMcXlkZTVESDgwcF9FU05aS0c3VnF3Mmd6OA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S12",
+      "stocks": [
+        {
+          "symbol": "BHARATFORG",
+          "company": "Bharat Forge Ltd."
+        }
+      ],
+      "headline": "Bharat Forge faces near-term margin pressure despite strong revenue growth",
+      "summary": "",
+      "sources": [
+        "Business Standard"
+      ],
+      "published_ist": "2026-11-23 16:37 IST",
+      "last_seen_ist": "2026-11-23 16:37 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTDhkUElFaGx2WHhKTlFlc3FPUlhVMzZwajh5aGdUa0hlYTZRRmxsTU9DamgxRXNSTXAzZU1OWjJaSUxYYmNidXJkQWpOckVDTWdlMHFsaVdHa2FlTUNuTDQ1ZTRxN3lPd2FRQjlXdjlOMXp4ZWRmd01veEFHOUNmank5QlVKakFfdnNpVGJnaUhCMlIwMnhsN2Y3T09rZXZoZTYtRXVKdmU3NkVCQzJDLTIwcWEyLUU5T3VZYUJTNXlsaHgzdzMtQVJR0gHPAUFVX3lxTE5FYUVEdE5FTTZWdmdYVWFhakNWU2lvTllSc0xtNFlJaU1EaTh1NC10Qk9iUXhSTGk4T3RrdEVGd19NWWp5SEVJYUxlamFvN0NhRzAtSjVHVHU5MXJWNXhWZEhORWhsU0Z1dDNudGZoc3p3Yk9hR1lMX1hsTXd5RjNWMzI4dUJHV1lReWNYZTlIekdoVHBqa1Jkd0VOMnB1N1F2dmp1YU9jSTVMc3Y3N21BcGRhbjczZERFQmx2UnlUcDk5QXVYZW1KT01lR0dWWQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S13",
+      "stocks": [
+        {
+          "symbol": "PTCIL",
+          "company": "PTC Industries Ltd."
+        }
+      ],
+      "headline": "PTC Industries bags defence contract to supply 400 tonnes of titanium products",
+      "summary": "",
+      "sources": [
+        "BusinessLine",
+        "ET Manufacturing",
+        "Investment Guru India"
+      ],
+      "published_ist": "2026-11-23 16:41 IST",
+      "last_seen_ist": "2026-11-24 06:09 IST",
+      "item_count": 3,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZi1RLS1yQ1NLVm1zYU5CeUlrOVpZNW5jd3pjd2d2a09makYyalQtRkdqVFdrYWpaM1RSeW1WYkNpOHhBeks3VEQ4QVpDNFNEay0wekhUU3p4T3NlOVBTOWhQVklnUmZOeHJYWDBoNW8wWkhpVnJJcnhWUjRtaG9YZVFBOFc0ZEthQkx4U0I1WnRBM1lMcG1JZUh3UGdsSmdTVW1zSklGTHhZSk1QdEJRWWd1ZUc5QUhBSHV6VzBmX0JOQmxZN3FvZHRQQmxQa3hjSG5wYUNlWUlQVWhSZkt6eU1kNNIB6gFBVV95cUxOVFQwSlhfWWoxTHdHS3lCUUYweTFJd2VpM0ZzbWZpWkVQSm9uajg2c2pJYzR5bmJWR19xcm9halQ5MFNhejNySWFYYlhaU3lHVjVpYTdvN1FUX0V6Nk96cW9rdnhjbnJiZVA2U1daSU5YaUx4YXVpVEV2akJjN3M5UlpoYmZOcGNmWnNoT1oyVVJQcnh2YzIyMlFucWN5MGg5ME10Wm5ZOXhUSDJ5dVJhREo4LW8wOWNqX01nS1lqWHJGMDNjMnROU1I5RGF0UUE1YU9KWGJaaWhGa3dWM2xVaW5XWWpLT0dhd2c?oc=5",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLUV0QWdTTVRtei1aWi0xSXJiVV8yS2Iwem5Kc2dSaDFFZzBHNGtFSElwNkJUWG00V09iY1RuNUhIUUdRX0RjNDBXSmV5NEZmTGdiM1VQZXIzTW1mX2RMUG4zMHR3U1RjakhKbHFTY1A4NkhlYjdmWlctWjNtVFZVVDZ3ZEdzVnRFQUhFOWlzZnp2UzUwRGpBdFVDOG9FWjNXUW5KQ3VFdDJFNjhVbFhNUkxoYjBGeWd5bjh2blgxWUVJc05zYnZMOUNEejh4b0c4SEFPaU5FRm1pWXdKNjA5Z3hZQlB4Rmx4TWQ3YXdialRPMjZp0gH6AUFVX3lxTE9aR0hQS0FmYm5CTXhYRWlGaWR1OXZQcS1seERKdExmTnF4d2Qxd1BwOU5fMURSLXg1ZGtXUjhqWHlmQjVnT3RsTkx4emVUM1ZMVU1zMVA0MDVEa1Ita0MzR2tkaVpGVEhGQ2FVbzRaUDhvRGd1WW5QdEdrRkJsTFhRX01WRTQwdWpOZk5FcFJEdnF2cm01NTZlOE02dEgtc1hUVHpaZXNnUlhHOFRTZmk2bExMTkUwSnhPODZTN1AxWmgybDNjQzlIZUhGbWo0SUxwTFgzX3JoNENfdlc0U24xLV9neWdSalB3dWJkRGFxVHlFOUtHMEtESWc?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSl9YVjhURWMySk9fQ1lrUktTUWRZVHlaY3p2Sktma1pfU05mX05IR3pPd3dfUVkweXUybFVYNVN5Y3VXWHBCRUhWeGNSWWEzTV9qdWJIWkl5MHkzMWJwYlpKTW45NkwxZTRHZUZCT2dDSUtIc0NIUzdWWnlqTUpBX19TQW95SHhESnlHZVZja00xYVhsWTdwNHljZzZxU0xKRVVtNGFJZ19sRTR1aVhqeUNLLXVhem1rOUE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S14",
+      "stocks": [
+        {
+          "symbol": "TITAGARH",
+          "company": "Titagarh Rail Systems Ltd."
+        }
+      ],
+      "headline": "Presstonic Engineering wins Rs 1.48 crore work order from Titagarh Rail Systems for Mumbai Metro Line 6",
+      "summary": "",
+      "sources": [
+        "BusinessLine",
+        "FlipItMoney",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 16:43 IST",
+      "last_seen_ist": "2026-11-24 00:19 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaElKTk5QdzBfRHVpaDU3QWJxNFJVZ1hLSkJuVTh1V3dGbXpXLXZIVHhjOHQzU2xITnl6TGQzanliSjFJcDZodFc5TmNMVUFnWGJvLUFFa3EwQTRWa2VvYllORGRyV0REMVlJdUgzY3QzcW1xLV83NDBFaEh2OVFUNHFHOUk0YURGNjNmdFNhenQzMmRMVkF6REhrbXkwQVNBbkJCOXMwSUpsNTNpZHRNeG93U2tsdmJEVEVBTUc4Q20zX2xaMmFTZWlBVEhaaU94ZTc5ZkdkdXNPSVJkM3lhcDZCZGtGUjRFMHZtT3lfeVhrbXdBRTNhcmtzdGh4YW9W0gGHAkFVX3lxTE02M3dSX0hZRUhXdFRKUFBzUWpJYlp5amxYNGRraENaMl9KTHVfYjNIaHZrMEV3aDhfUzNUUkhxdTVmS19qSlVuREZkeHBMc0Ztd0VGb1QtR3Z5ZG9yMGRLZ3pUNUQ4THVGUy05X3NhNi10OTNUbkpmVjR6WXpIRlVWTjQ4YU9GRUp0bGVyVHdjN2VPX2hpYnFyZndmM3VsN2MxZHRjcC1rUVRmQWRLajJ6NFc0VHQ5QS1aV2NhV0hBcm9palA5M2FVTU8tQlBacXliN1FRN2l2THFITkQ1Q3VVRGhEOVZhR0tkM19SWDQ2LUh3QjJLcWdBc0VIQ1BtaC04el84c3lV?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3dhc0MxT0xVdEhZenlZaGk2a2x5d2E4bU5zSExkX0U2bFNLSU5sZ1M2ZURmTkI4b2s0Q1RPOGkxMTRET2F6OWhXU2YxczhGUGpNZEZSUVFoT0dENGR1dEJJQmZtOEJsTWZad0pOQkRVTm8xTlcwVGNDUW4zT2RMRDd6TVVHbTJSR3pmNmoyLVZtU1Z0VTVXN2lyaHhNeXM2cUVxaWlOemdXSGpF?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFR1dFA2ZHo1S1RKalY1bUJENktTRmg3SW8ySjdiLWpiemFqb01LT093MHFzZW14ZDhoOVRWSGkyS2hmQ1VyaHd1U01jYWV2akwzRUlscTlUNHpYSGtnUmR1cUdiNGZ6Y2dDaHdPT2RKWmdDYjU2TzdMSExmVXVEU3l3YlBMNTZLc3BVd1R2QkdTaVl6M0p6ckcwZnhYbDVad0RwWUNQNlNEUGxJZTAwRFV0UjdhNnVYaFZVTmlJWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczRUT05GOWVFWTFkYTlFTkV3ZldwVk1qXzFfYktwQXhfS2VfclVwQkdLRU5ZM0FDZnpvNmd0MHZEeFB4eXhQU0ZZc21oMzdwdjlrZ05lNU5aUUVqUmxWdU8yaGIzaVdmV2pud3Nlc3RsX21GdzdDZWFhZ3ZWMEtGMVFramNsdkFlaEJjdXk5LU4tUUVsbnk2Tm9WWVlmdWM4MmsyenJDVU5TekhWMHk3YTdta3RhT0RoNmZvT2NkZFM?oc=5"
+      ]
+    },
+    {
+      "story_id": "S15",
+      "stocks": [
+        {
+          "symbol": "TVSMOTOR",
+          "company": "TVS Motor Company Ltd."
+        }
+      ],
+      "headline": "Heritage Foods and TVS Motor Company launch electric vehicles for village milk collection",
+      "summary": "",
+      "sources": [
+        "Dairy News Today"
+      ],
+      "published_ist": "2026-11-23 16:43 IST",
+      "last_seen_ist": "2026-11-23 16:43 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdWFaYVJsYlVJSnRiR3pRTXU1RFVCTkQ4V1puVnFULW1IUXRodm5pOElTN3d3MzRkQWI2aVc4djhCelhkeXg5QVV2Y3ZRemZGbG5uTF9zZElPZ28xUHVxQ3Nqd1Q1OXNCU3NFUzRkc3ZRWnYzbWVqVmh3NHM2cGJ1M0FuZF94Ty1Nek51T2tuWkY5NFVvbWVQeDJXZWVrMlJPY1hTSGhoZ0JPdU1DWWtWZzAzSFpkQzVjbWVRNHdBMlotWXdiQTM5b2I5R2FUODFLeEh5aw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S16",
+      "stocks": [
+        {
+          "symbol": "INTELLECT",
+          "company": "Intellect Design Arena Ltd."
+        }
+      ],
+      "headline": "Intellect Design Arena wins Gartner recognition, stock jumps 6.4%",
+      "summary": "",
+      "sources": [
+        "BusinessLine",
+        "TradingView"
+      ],
+      "published_ist": "2026-11-23 16:46 IST",
+      "last_seen_ist": "2026-11-23 17:03 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3NjbWhTYW1aWDRCZThyQXBQOE9LcXJrQUtZQ2lodDgwUnhjTjhsenZ3emwyRWh5UmdQdXJSekVoQlVaNUtFVVlfTnRMUnctTHkyN1gxSE9uTVhoMGIwdGd6RWY0Y0NEamJZLU5CWW1QOUxyNTMxeElPQlhfWlpCNElKcEdra2YyZENkR1FhWnU5RVFlTnZSQmgxRFk4c0V2X3FHYXZDZEt5X09CYzhYSHVobk5MNmVuN3JoVlNad3VYTjRnUWo2VU9LbUpYN2NiTUp2SFh5b3LSAd8BQVVfeXFMTjlnUEd1bHhoYjc5aEdINjlaQmdqWWN1dnpQZF9FTkZVQUhxanBoS1U5RUlnVTl2cmtfaDNhYmg5QmVGZklZcVpTT1FuNkFJbm9PcEg4SUtJRUd2dEh2V2o0T0dFaFREUmgtUnVjUEdKNGpSX2ItR3k4OVVlT0ZnQjZ5SWRqOEQ3SnQySzdRQldhNXJpY1FKWXJCMHZjTWFXb0dxejhraUVHNVhDS3h3emdZRTJ3dGROYzNyZ05rYmdBSEVOcE5NeGVNd044S21VMlg1TjBWYy1aZGRubmpsdw?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0JxaVRYQ2pSQ2lZUTFjZ1BKazFSekF3NDhnLUFYQ3hmWlZoQUNHbzc5TFNLNFUweS1GLWh0QTZ2QWlmNnNSZTMwd21sTHphQXNRNGE0TzU0a0xlLTNieFFWWlhUaU00bjYtWFkxb09oRWUwVVNRT09jTmE3LXRNV1B4ZHYxNTlURUhzcVQycTc0M2htek9qNWhDUlJyVS1CWXZVdXdIMUcxeVdaZjYxZDh6b0thWFNiM0xPTQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S17",
+      "stocks": [
+        {
+          "symbol": "ANGELONE",
+          "company": "Angel One Ltd."
+        }
+      ],
+      "headline": "Angel One Wealth Management Limited announced that it has received INR 1.77 billion in funding from Angel One Limited and another investors",
+      "summary": "",
+      "sources": [
+        "Indian Startup Times",
+        "Moneycontrol.com",
+        "Rediff MoneyWiz",
+        "Venture Intelligence News",
+        "YourStory.com",
+        "www.marketscreener.com"
+      ],
+      "published_ist": "2026-11-23 16:52 IST",
+      "last_seen_ist": "2026-11-23 21:15 IST",
+      "item_count": 6,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcVNWdFM5R1NIVllTenRqMEthd3drT3d2QWpNUklFOXp0U0lZNlNxYWN5cElKZ3hyWmtSOEdhZXhSV2dRT29HdEZRREI1eHh1T2Mwel80QkxEN042blYxVVBkU3RPcl9yRmV6MXRLVkpBZk5GLTAtczUxcTU5X1BaNjBQaGk2d0o0bkJKZTdScGlJalV2TXJoX2sya0tEdTAxa0lMblJCRksyMkxaSjF6YmNEbHN2eUFjMTN1a0FMYUtCTTJNMS1sWnU0WE5hcndQdm1NdDkyYWZaekxyZXRNV080Sk5oUTg?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcjFwSTRBRGpoSjNpLWdncm15YU5WQjV6TzFxWDlqUmRuc01KVk9pV2lsY0dBMUJiT216cURQS3U3b0NOYlV6WloyRDl4NkIzOGN0ZkxUS3RYMnJJU241T29hOEJ5ODNZUDh6VXNTdzFRUjB4V0F0TU4wRmJQOVFSZ2FrUWFCRWd2OWFsRFl2dkhIYnBzeF9tbFVaOUlXcDZEUk8wcGJWZml4MW9WUXhOMTV5ZW16Vjdja3EwWHhKRkx6Rnh60gHKAUFVX3lxTE1HTjJmdFVILXZQamdSUk56X096ZWcxZ2lfQnVsMFd1WDU5ZE91b21vby13YmtqTTB6Sjd2c05qZW9TaUFza25TclcwOVNqQzAzYlVqVnJ2bkNzM093RmNGUEktemZoM1NURllINmZLRHBodTd2TjNuNTVid2hXT3hzbnhyamREUE5KZ1FNc05XZTUzUk9nTS11NEpSS3d4d3puSEZaWG5Cd2h0YUJsLVZkNUdRUkZsZDBxSDRoVlJNQUItOV9UUmhteFE?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnVlYk15dXlaV1F6YjlKdF9MRWtrMkcxQ0JEWXFvX0NTTWZMenVaZ3dBT1d2T3Jsc2tiMmpKU1hURkJwNFFfVlJTcVlDRGZ0U2V3MVRhUlktbTRHTlBoR2xCUzhyd1c5bXZSQW5sQTRNVjAyYmhXbW1VR1d1alVXUHZYXzJZa2tPc1E?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXNNSHUwZW00RjB3TThpQ3RENUZTLWZ5WlpLY2N4LTFxaWwwbjk2cHlSQUxwMXB6TWF1enFwWm00VmNocnBMMUlWNzJ6THgwbnpDYUs0eWF1ZXctTXVHZDRiZTdpa2MtQXd4YzJlQlhteUpyZ01EYnI2aVk0d3c1czhHUUJ2MHE4SHVPN0I5X0hDMmlKbmZXaHlaanRvTVk1WExsYUFhZ0xJQWY0dHcwN1Jn?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcFgzcExLTWlLMDR0aldJbDIyNkJBcVZMMWpLUnQyQUVoUFBtYWdSQVZtMnlubHpIN0N5MEczU1I1aUxXTXRQRjAzMU1ZdGJUYWdrbGJmVjNKZFRFb1lTQVIzdExsdVJodEFFbU1Odllib0FlcHF3cWh2WS1tZmNFclJpSFZOczNBaTBqbUlwY1RWLUhMMVZycmx0RWdoeGtxbkYzTENiYTNXZ0XSAbABQVVfeXFMTXBpVkFKZXg4WE9NeFYxNjJfOE56M2pKaXpWZ2FhUV85UFF2NnJIXzEtdmFPOHlnVWFQUlo2RTRmbGJva0dfRkNpMGQ1Szh0OXlPYkp5azJ1dGNiZGMyUmJLR1AwZFZnTUtEMlpzS3BRQkFqVFlSZ0NVbndpN0x4Y3R0ZVJqWUk0LUtCRUhlNTZJUWFwWUZqc3poVGxkNlJIcUVUQkt0MkdWUUc4anZ1ZHk?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXRKQWQ3YndvSFZBQ24yZExRVUk3SlVnQ3JPVjZ1NkFibTUxczIzZmVpeDBvdUFnMllrVG0tMGc5dWVTY2NPTUE4RTJfV3BCYlVocUNJQTU0akhaQXA0NDVxcnY3eWkzOUZjQWZ2MFJwS1BzcFU2eU5ZcDB2Q1VXS1dHQmlKd1l4cjhDX2tzcWZjOUNDeHB2d29WWUtHdTdVWlhtMGZDTk9YUHFja0RmM2hyeFJDNnE5?oc=5"
+      ]
+    },
+    {
+      "story_id": "S18",
+      "stocks": [
+        {
+          "symbol": "360ONE",
+          "company": "360 ONE WAM Ltd."
+        },
+        {
+          "symbol": "ADANIENT",
+          "company": "Adani Enterprises Ltd."
+        }
+      ],
+      "headline": "Adani Enterprises' airport arm enters agreement with 360 ONE Asset to raise up to ₹2,790 crore",
+      "summary": "",
+      "sources": [
+        "Adani",
+        "Sahi",
+        "Upstox",
+        "et-markets",
+        "marketscreener.com",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 16:53 IST",
+      "last_seen_ist": "2026-11-24 08:00 IST",
+      "item_count": 8,
+      "links": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnI3TWFIQ01nc0tId0loUXFMLXQxOVo5ZXMyaExpZFFCM0FzbVFDRE9uekJiZjRac2hKYU9iTFY3OE93dmlpUUZ0SVdsV1ZCbjNKMlQtTVdkZTlvZjYwbzhvWlhpVzgteHFHZ3VtLXM0YzVPRTVfNVYwbFpna3VTb29TRzJxUFBYSS1JN0hUZjRLXzFzUFN2NlVhMWN6WXc1OFIxdXFUNA?oc=5",
+        "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSi1DaTJHaTJVVnR0c2tXWWhoUDloU2ZIaHJrZjgtYkNqRGJXTUVpTG13NHVqRkt6N1h4amc3R2kwN3ZyLW9DQ3NyMWJrYm5EeUwyNENYSHl6TVBLTE9KcUY4RjNEc3BxZGVBWTh6bXBiSWUxQng2Mkhzdmtid19YRFpNaWdlS1FrSm01cTBHcVdzSXRmSmppeUNJdUhwWXl2eTJkVUV1amRrbjJXRS1OS0lFRVo2aWU5X0ZXUnRDQ1NlWDBVNzc1R19CSHdqZFlWUGZuWm9qSXpac1JiLWdRcVZpQUl5dw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDFqN3VTNTU3WVBYR0dKRk9FTS1vRTdSemN5V1B3QTM0VjI4RTRQdVhIZmZaNW1QNnV4bmdpcnZtMWRlWmlrcGZ3X210eWRGNmFTTm9lN285YnFaMXZqb191ZUVhUV82aGVpWkh4T0pvN1hsYlpYZHpwYmx4Z2JQUkF2NV9QRUVSTFc5SDhMVncxdm9MZmFnbm9HeGNoWXMyUlUyS2FaYU9Kc2FpOEVkemhraXpaY0Vn?oc=5",
+        "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHhPZkljZEJnV3ppZFM4YzVQNTh0LU1Qd3hlVzAycnN6WHYzeDVQbkdnRmtOUXI4elpDSzMwdXJ1eFhVZmVZb0otcnVrLTh2cEkyOFM3OXdFYXNvUnBvR2Zxb0tvUjhHdjZBd0JsbUlSTG9wNGZiSE16X1RXYTl0clFtVXJDZDdTRDItWUJlT1BiZW0zak1UdC1aSjBlR256UU5oWldzNkFScy05N2paU1Z2NnVSR3F3YXc?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRk1kdnFOOWNVbkppeUk2eTNfZU0yX3ppNHVuRHhRenlCSlBVaEYwN2t6cTBTckNTNnVTNnF0VDlvYmhzeWs2VVVodVlDYVRXX2Q3OXRwS1dUb2dOZzdXRFBWTlUtakhjY2ZzUXNnUkpYYjFMT3JQYWZmby1NUWRLQi1iTTdiVlNsbFVVTVRReUhGNG5lNlA5d0pmRFNvUmlBb2x5eW1hMlZjM3laZU5ZbGFnTGczZjVLZmg3cVJuU3ZoSEdvY0wySkt1Tkc?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMlh1dkxSY1oxV01lSlV4WVVTLTh5TDQ2ZkRMZXZUUjJ0N0JyNTg3MmRTNVhKSkhheHV4dHVaY05EZ0haUnZCdEZpOU11cVhRUG1SVTQtT0Q3UjZJdy02OW00WUhqSkVxZWlyLTBhVXl0V0pzUUJzQndfWllNaElCTUM2VXVPcWVnUlpNbmk4MkhaaDRQQnpObFhDVFR6bThyQ01oRk5RbWtSbHRJZzdkRHJremk5Qmh6Ym0tUEJ0SGI?oc=5"
+      ]
+    },
+    {
+      "story_id": "S19",
+      "stocks": [
+        {
+          "symbol": "NBCC",
+          "company": "NBCC (India) Ltd."
+        }
+      ],
+      "headline": "Dilip Buildcon wins ₹901-cr NBCC housing order in Srinagar | Tap to know more",
+      "summary": "",
+      "sources": [
+        "Inshorts - Inshorts"
+      ],
+      "published_ist": "2026-11-23 16:55 IST",
+      "last_seen_ist": "2026-11-23 16:55 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHhUTFBnUzQ0emF6NlNWZ3RqQzlJV2hiSU9aVmpnTjNQRGtTZV9hRGt4TDc5QkVMUklGSVgyT3ZUcXNNQjJvaHBnSElPVWxRUkZMMC1KdWFYQ3A4cmM3NVN5bzNwcHFWNzBRT0hTLTVMN2VQXzc1R0QyTlZiSGY3UEdfRFoxcmhHZHpHT2tKY0NUSUdzaG01WFhDRTBBVlFpSWlR0gGoAUFVX3lxTE5lTkxfb1JrX29ORGM3RTlZZklnT0RtWEVDcmQ4MFFVRE8zYk5RT2lDZG9nSmFfeUtlUFRmc3JrN21FcmcwNkdoWE4xcDl1MjdRaW9CSHVjc1lqcUJ4SmtFVVFaTUJHZExBQ3M4NTExX0NPeU1UUVA4aFN0VkFWSjNtNWlpNWFCTHhOV3pfZmdhbjBkUHB6ZExfcjE3VndPcXE4RDcyMVV1TA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S20",
+      "stocks": [
+        {
+          "symbol": "COHANCE",
+          "company": "Cohance Lifesciences Ltd."
+        }
+      ],
+      "headline": "Cohance Lifesciences Gets USFDA VAI for Hyderabad Facilities",
+      "summary": "",
+      "sources": [
+        "Rediff MoneyWiz"
+      ],
+      "published_ist": "2026-11-23 16:56 IST",
+      "last_seen_ist": "2026-11-23 16:56 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9GTjFWdU1sblljbFBmRU9tQU1VSHlUNHY5Q1VOYzl4bWcwZG1xMHVuY2UxNGJ5QnBOUjdiM0ZGQUMyeHR2VTFpZ3JQc0xuNVdCQVhEcm5hUzNDWktBbFBROWgtdF9UQkxHRWJqQzBvTWtSRjRLTWJtRUQwUzkwZmxwYl9DaTFBVUlPNF8ydVNiZ0V5MXNjMExUZ0xNeHEwNnFYUFpjSWdXUVFIalphcDhn0gG3AUFVX3lxTE9jM05xSnF5anUwQUNqX0g0bGUyRDNaeWRxUXR5WWZNN3JJdFY0VFpzVmFLVnRZbGJOM3Vrc2x0c1RCWlo4UjhON0M5MDhnQWliaDdpQzJBNG96d2dyaFFJTjNnc0dWTlgtMm11cWdBcmJtSFlpRVg4bE1DRG5UcVRZalFZZl9iY2cyekRkRDRIbzFpQ3JYblJpMWFBUkNKR2w3RS1TenBPdWlxckpJRS0tZnNDU0haWQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S21",
+      "stocks": [
+        {
+          "symbol": "INDUSINDBK",
+          "company": "IndusInd Bank Ltd."
+        }
+      ],
+      "headline": "IndusInd Bank Share Price Falls 4% After Ex-CEO Terminated",
+      "summary": "",
+      "sources": [
+        "Univest"
+      ],
+      "published_ist": "2026-11-23 16:57 IST",
+      "last_seen_ist": "2026-11-23 16:57 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2NtN0g0bm5lSmxta3VRMXktTjVOSXkyZEtha3ZjM2tULXBqdnF1TEpzWG1DNkRZbUhLOU1Zd2lMdGJXcHB5YmxyR1FsNWZoVEg0NkZmRHhzVXJOTkZ6QmNsWTdTX1hoMVg3dmZOMWZQVk5pejA4V1Q2M3FWdWdVaURoREQxb0RWc3c?oc=5"
+      ]
+    },
+    {
+      "story_id": "S22",
+      "stocks": [
+        {
+          "symbol": "BHARTIARTL",
+          "company": "Bharti Airtel Ltd."
+        },
+        {
+          "symbol": "HDFCBANK",
+          "company": "HDFC Bank Ltd."
+        },
+        {
+          "symbol": "ICICIBANK",
+          "company": "ICICI Bank Ltd."
+        },
+        {
+          "symbol": "INDIANB",
+          "company": "Indian Bank"
+        },
+        {
+          "symbol": "SBIN",
+          "company": "State Bank of India"
+        }
+      ],
+      "headline": "South Indian Bank (NSE:SOUTHBANK): Did RBI Approve SBI Mutual Fund's Stake Acquisition?",
+      "summary": "",
+      "sources": [
+        "Business Standard",
+        "CNBC TV18",
+        "ET Now",
+        "Fortune India",
+        "Kalkine India",
+        "Moneycontrol.com",
+        "Rediff.com",
+        "The Economic Times",
+        "The Financial Express",
+        "The Hindu",
+        "Times Now",
+        "Traders Union",
+        "bfsi.economictimes.indiatimes.com",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 17:09 IST",
+      "last_seen_ist": "2026-11-24 08:07 IST",
+      "item_count": 33,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM2hpN25nUEpJd0Q5TE0zZDEzRGt2T2pTRUZxUFlkSnZyYzYxYldERmdDZklLUVpfcy1OYWtEekcyZFR1ZUIzX005T0d6TjI4djlrQk4xQkVJdlhaRThRNWVPOFhVVDh4MF9yRVR2bEIyWVV6MzI3MGJxWG1wWmZ6VmJKUDNORVhyMWgyUFZGQ1VMaElBWExXcmdGalhSd3cyd1hVNl9zV0tibzRGaUtnU3o3Q1VBMzFibkNwQ3ZHR0pWOEJtMm1uZVI2YVI2T3dubk12NEM5aDI3ZG1hWERZd1lPaUZabVnSAe4BQVVfeXFMTXphcEtYTGlrNGw5bFlzblpXemJWdzJZcDJQcHhWTkNMS0JZV2FCcWtNTV9rOXFIX2E0aTRLckoyLWtyUk9IaWpIZ2Iyb2dFTmVyUVNYRm5mOEF1WmJvNDR4eGlLZ1ducGFJMmNZRlVEUDhaaXB0SW92cEtDR0RSNHYtRGQ2WW1rbjlyVEQ5ZXB6cE02bFl4aFl1UjFDeHMydUVZRXFGUEtUNmU1SVA2ckxzeU54TGRJZzFRbTlLRl9HcThjZW9JRUExaV81cksyTWNIRmF2ZDJ2WldNbTFackJXRVFIZkhhanJiX3dDUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORWZLTWVsNlZyMGJ2UkR2ZlQxY09UMHR5bXZFYkNqcEp4UDlpZ2dKeU02RHltX1ZHTkVYRFNfOVo2MGZVZmR2Wlg4QWdENmVKTGtfWWtvWUNfMEZ2dF9famN1MFBVeW5mVFFPSWQ5aUFBanVlN016U3hpMjdIYUpuWGczNWJ2MDhkdG9meUJkUDVOMFlFS3J6Q2s2TWc2MEtlclF1Y003TUlGZnk0RWJ0dlZobHRTZzNVekVpRzNhNmFoME5HNnNqUUdyU2hWT1pYWThqNHh4RC1HVXF20gHiAUFVX3lxTFBWbGtTXzZtT2pPQWk2UnNDTXFzbm9ZT2txQ0VQQlQtbUQ2Rm5lWTM4QW10dnFMcFZvWS11TlV4U3RqSDQxYzNUSnpzTm1FWnpGMnlWTmh6S2Njb2lKZC1zeU9iRTRFaElCZDc5czBBVS1DaVlUcjBRbjZrTHVyZkV6RzhvcXN6VjUtRURDQTJpbzB2NzlXbDhzZFMwRFRYUkNFYXV5TE80ckg1bTlEcmdTTEo1cjZxSFphWWw2S1l4eV92MXR4RWdGZ0Y0WDI5VjNnd21aNVNyNnd1LTdqX2hKUlE?oc=5",
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSHZrSGlWVVI2bE9wM3oxZUJnNHpxTTBPUDB2YVp2VTdzY0VaOVQ5Vk4wTHYwam1kSm9nVEQ0d2lHLUpOcjR5d2JKUHA2QWRMN1h5NFVoR3p4UWpiZkdXcGVJckQ5VjlVbm5zbURIMExoNzVEZVBVQkVYYzQ1NWhWTElrRjBLQkJMVkFlQTRPeHBGV0lIWmxOd0xsM1JNcHZ3TDktekp2Tlpxelp6UU9MWEFlVjRKV3ZjR3hOYm1KZnl3M0V1a0tKU1d0T2tCQndlaGlybWIxRU1TQkVFQW8w?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRXBoLXpoRk9uMV9mZ0o0WmpFcDg1WEQyMFlOMHhZWUk0azg4SElSTVdIZzI2OWZVcmVCcGh5NFlJQmNlQW5VZ24tTVI5SEdkSXplLUZaVEVSLUJhUUFidWVobHRBbnVRaGlJWkF2RERYUk53NEktWlVUZ3NwVVdIZlVvQlgwU21taGpvZWNZMWRFNzc2UFZ1N2p3Ymg4eERSdmFXNlJZbHpjZ3NYd3NVNEJvZ2xibE5jNTRobGFOa3JSWkp0ODhzVVZzd0kycE020gHWAUFVX3lxTE5WM0l0UTJwTkUtb2ZicnZ3UnJSQ0pzc3JmaWg2c1VGai12Z1ZfY1NadUpwbVh2TVEwMXNfWnFLRElxR3YwOVZuYlZQQ0FLOUlaM3pRTDU5bW5BVENaLVR4SDlpeVFUZTlPdF9hV3dmNnBUUU9yUXB3ZG5UcTZONFZ0TWZhX3M3QWJFLUJFek90cm9BNzFpcWRhNi1JbHU5Z2QxcEhiVU8xMUQtUkpwbU8xdkdIQk5XOFlpeHMwRkEzejJDY3ZSVl9sTzF3X3FrbXJkcGtIcFE?oc=5",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ3VXYlBaQXpmZGxHWFZXOTU0LTBYb05BWFFIR1g5S3VYY1o4SF9KeVRDMmNfT1M4X19ob2VQblR0T2lfejdnUTZmSmd5YXN5X3l6TFdha0EzWDZsRGhzMFpZa3hYYnNhWUhuOW02bkhwMTNiUnNQcXVNVllHY1R2UmhzV2lUZjRodnNnbkRLdw?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT2lkaG93VFFvelh3a0JkSlFSNS1PVFltU0laZUtCYkxlaVVSamZMeWxNVDFPdmJEX0U1YWozcE4wQ2NoYnlyZGZaWnlqakR1aEw0cUs5UndVcDJqT01NWEZlNlBhY2pDSVc4Z1lCbG1VaHdoRGRUbzZCaVpvSHFPb3JIM3J3ekpzWGJnUkVleDFuT3BNQktBSEJtRG90a1JoN3d4ZC0tTUVhQjRYaGxwb0xjel9IT1IwZ3hCNkk3NjdyVlZhMzFadko0TzB4MjFzYVFUWXJuQdIB3AFBVV95cUxQdnJZSVlqNC1xS0xmRll2cjNOT1NqdUk5aENGdVBNMzF2MEdCZHV4ZUZBNklaa1FCbkVYSk11YTh5cThaWWNWdHhaVjNwa0V0VHBVTnUzVHlGNzY3NExJR1h6SjZTSTQ4UlI2ZWxIamFpek5Yb0N6US1INHVXZzUyc2pXVnBuLXBXbHowc3h6TFZBV0lJVzJCd3RMaW9uTFdERGtHTXRjN0RmY3hvRXl0ZWM0c0t6MmJHMVFCTnlNMWdLUEtYMDREdjV2SnZlek1laFo2aHNFV0sydkh5?oc=5",
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOejBfenFNcHZOd3I2UnFCNXJBLVJjMVJRMExlanRoUmJma1ZROHZ3QjRFZktSU3Q0MzRvUkVVREFiQS1nWWpoQ0txWXZ5TTlsdEFGMlZBWVR6RDJFaUQ4UnZwSUhiVHlOeGlaTU04OXZzWFVjamhQZHdMdlV6VWRBRXNFZVJtbFlrczA4REJBbzF6SFNSRVpaLTdpTTNjbThHS3RWSTFtSzFzOXg5V3NVRDdLQzdZVjM3N2FSWHdRUWt1eURMZlpiMDloT1k0ZndpZXNCUmh5RHZXWVJCZEI0?oc=5",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTdEbDlpRlRTUVpxand0RWhqN01UMDB0eE90ZWtOaDlxZlhBYlZvZXc2c0ZkRU9ReU9oRm1qMGxndjg4VnV4YkxHSjFicVppR1I2X3lCV2E0ZmNPd3ZXeVJwZjhjMWhuRFUzQk9wNVZVc0xXYzFhZVdmQXB5cnhmbldrZFU3cDdEVkVaMk1EdXlieG5WNWtONXdKOWNiRlY3MmxiOHVFTUNUc19hS2FuV1ZEWlZOWGIySjZhSFVEOU9NRUxvbHkyaFVNQ29Oei01cVJNMTQyU0PSAd8BQVVfeXFMUFQtVUd2c3hxRmJMMzBYdVlONElXcUh5Tml4NGozZUdJRlk3ZElqMWVuR25LbzYtXzEzb29CNVBSUXVVU2J2Nk5GeVluWEo0RXpRSVI0NFVRaWtFWERKRTRfYngwUnhoRTYxa2lSMm9hOHYwMC1CVUNxQVFGLS1yZ0dhWmI4dDhYUU5CV2xiZTFtVzFxMmFFbEFKWS1QR25hYWJrczRRem1iVWtEcXpsTHhoblNTQy1nNERLZmxtYXl6blh4cUdaQWF4eWRkOENUUkN6eXFuMVd6dDh1UXd6SQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaWhITUxmZzdGeXBOX3JMelMwcWxmRzhEMzNJZEQycVNJUmJ6WXlTbjhpS3FCdTFmNl9XVTU4SjRQMElvUExJVFlTWGkxMXc4QURvWjVlMnJGUXBOWUxqc1VHN2V0NDFCUzAxVFJHcUpRNGtiUFRRUXJGdl9MSXBvRHdNQkEtRnpoWjlRYnEwbTFMTF9IV3lISGtPc2wyNHdySDBFT1hfeHllbG1paDFfdHZUR1l1cGNDT1hMY1lsQUoyX2ROTU8wV1Z4emM1WHpTWnE2V2FvWHM2X2lLQ19mUWlaNW5NU3ZqUUEtWlNjVVBuWFhEMnpkNUZxQdIBgAJBVV95cUxOOFk5ZkRpR1JfMWVfbXlvdDRxWmlDenFtWi1DZGpoVEk0el9KZi0tSFZ6N3RPZENwN2RzSG9hN1F3VW1oRDVRSENIZXRZaWFFX0Z5SGdKQklZMk5sVWFnV2tkZEFPWlo3NzhwYm1KOG1mNGpma1pzNkxJX29kLXRIcFBEWmljR0FxZ2d1b3BNZ2I2anRNbnJlNVJfQzJhS2phNFhFVnEzYlQwMjVwTDZJd2NKcUlvU3BCNjI4ZjRTR21iTVJaQnJoUmJBTXFGSUk5VkZuYUdJRFdPQWE5WjZQbHgtT0RicDhVSDJEdEp5SzhqckNiVFMwWWhvRXM2T2tM?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYTF1MU56ZnM5UG41dEJNV3M2WGl5YVd2dGQzVmNISHNaaExhb2tpWjg3MEd0OXJiY0FhVHVWMExONGd3bmdaREE2MDBBbnIyblJ4eXRmWU50SEdyMjF4a1FpTWR2VDR2TDhqZVZTaHJjY3R0MHAyNEg1eE1iLXh1bmFzS3RnV1F0RU9taWFob01Mb21rdXpUOFlrRHhqOEk0eExGZUd3WmZIYTZRMDJydTE3OTFPY2pwTHdWOHlfSWhXZWtSeWhHMGJTTdIB0AFBVV95cUxQeEhURnJ3OVJWNjlFTF82YkZyRG1SaXFjNHJnZ1BXc0tlVW5rcnlJT1BERVpXQ2pCS1pqX3UzS3pJZTZFazZlcm1OejBJSHI0TmF5bkI4dWJJTGd1ZjVFT2owcWI5bFZLTi0zbEQxb0g5aFFmQ3N5ZzdudWVOWUlhSnBEc2FpeVp2VHZyZWxodXQ2bTg5bVMydk41Z3RXU2FTbVlaX29RRUVVVVRkNlBicnZBOHRTQW5PdG9SMkZ3WllnR0dMOHdESVd5dG1kbG5y?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcFdTZzBTQjY2aE9iTFVfUDVPVDk0UUNHd0dvWHhYNnhsdGNLRHpDMi1XbncwMFhCakwxV3NNdDRJYkF3cWx3QXJhNGZlOTR5NnZ1TkZxQ3VKeUoxV0FXSmF3WnlFRzF3VkVoXzkzM3BibU12c2pmNThpSjBoMXdpd2oyOU5lc3lBVUk5RERLd29Xb20xQWJVM3o3MlNVdzRSM3dnTnlWQ3hEMEdmWjUzTllPaWVEMVFlOVJjQi1KME7SAc4BQVVfeXFMT2kyVHlLTXN0Z2tqNzNpWFdNVG9uT2xzc3BDWWxJaC13dTlwTWdBUnBtRExZTHB1MlU5RXZrNmRRU2NFUFViVjlwQzkzcVZ5RkthWExpT0oyV3h2WTFrVHVlb2RTM2RzaGwzOXpnVV9LcEJxSmNEOHNDOEllNTZHNGNSWThmUHFGRXJ4d0RlRUR1ZXhQREs1RTY4Nk5KVXJfWWhLRngzR2tYck9Kc1VvaTh0Ynh1ZEZDd2FEUTR2RlEtQXhHTkozemVOMDl5VkE?oc=5",
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPOWwyWU04V2wwc25EOUlQMFVwT1JSSFQ5cGdlQWJrYjNjbWpDdlZzN1puY0ZiTHBLRFB3MTRYNDZocl9MVHhlQW1CaWI4NFhUd1RLTU9jdnJldUQySHJxZDg2Nk9DWFBsOXJkdFd0T2o4R0NmV3lYcTZpWURuTXRmZmtjT0FWVkhlSk9VdG5sbGFNYkVxeGxqSlplbGFycENUVEVnMWsxZHBlcEFvMjk2bDkwRDBkeDhUendPUVU4bVdaSTBwR2ZxelVhVU41elZSZmlNdFVpMmdrUW9HZ1FWWUd2Uk1Bdk5jLW15TzlRWlfSAfYBQVVfeXFMUEloZmFfbTRTRG53djNKN0ljMzVaai1VQW5mNVYyb0JYaFdSWFdlVHBWdkNUaUJOX1U0b2lscjUzcExQSGZYQVpYQ1FVS3dNLVZhSHhsRnZmY3NLUzVOR3RLQ2lyVExRa29jOUNhSk9XeVVvekh4STFKbndNNXBBczFXWHBlWnNkQnlDRTJXMTgzQWZSbUdTb1pDaHgxVnY5OE5OREVDZXZmTUNEd0NFRmFQSWNuSFZUYXNWTEVlYW5rSUtUenhHc3dVY0hpcU9Gc1p3d3N6Z0pUbmNScm9rSnJfaHQ1MjNtRGlDYzMyYl94Mjk5TWtB?oc=5",
+        "https://news.google.com/rss/articles/CBMigAJBVV95cUxOLWxjV2FrQ29JaUtaTVd0Ym56Vl94bUlvU0RidlB6Mks1ajU5VHpURnZMVkhpemVlb1lNWXh3SWhKeEowTkxyTWJYS3E1WEhQSmZvdkFFRWZyOTRDeGlUQUtqQjhGZkk5eGJ6NEcwYW9Ua3l0Zm9JRDl2dXJlcVgyVVExTTlvY3FrY3NrZy1KY3lYSl9ETWVMaWE5YkNoRXBVRVFteHkxeDFRbGY2XzliN2ZTZTltTlpqUGphRGtwSG1fZl9WYnBBYnJDb3p3YmVyUVduSHNGTU1acjM0azJsaGNUZzVaUnkteE9SZzFpNzZ2TEZScWc4M1FXVDUxSUhj0gGGAkFVX3lxTE9pSGhSR0x5SlBhdERzSnNFNlotZUcyVno1d3YwYkZEYl9lR1dyLXBzNUY2NWhqak10LWozclBrU3lKUm10Z3NzcE40YmxQWG5KSnFub29GVThhcTJGOGltRHdoV2I3TFhfTDFTb085bTc2cW5qcGZ1SWVYTEFWQkNrWEo4Skc4Q29OTmNSOGtvaHlaWTBIX21BMTJXekNZaVVjNUR2SHhaMDFYUlE1bmg4b2NOMnIwTnZlbUlNQ3p0RWNObzNjdmZFT1dROFNzVHh4ZjlxS204WXpxMWhiaDFLZmI2U1c2b2cweWV6UEw0SEt1Y01SQjcxeE5hd0FqVWlDclVENWc?oc=5",
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNllDaGJTWDV0ODRONXFvamRFMmlONm1BSkJSeFB0a3RXZVBkSFZkTThGbnp1Q2pUeXVyQjhKVGF6Y1huaklZWVJGdjdTYVRuUTdUYzFsZWlUdFhIQktRNkVIOWtyd3lZSkNEaWIzMDJWVkNzZ25yaHRmUncwdUIybEFPVGdfZjZ3aU5HcUVmamQtTy1GVjVVMDlVa3k4anBzQkxlU3pXcHVlYU5HQ0tKRFlEQ3FUR1djMm1ia3lBWVNpYXljS2hheDdHRkJ5Tzc2czIzUld30gHbAUFVX3lxTE55QUR6YUNXaDREc1ptZDA2YXp3d0NwLXJ5aE9sVHRNSFZpdkE4TU9sMU9PSUV0YkhaMnZzMHo4aXlVVDFFcm5KUjRuSXFZUWh4Q3NQTVpVbno0MUVZR1MySlZlcWxVZ0RDMWNhUUxlSzVpaGw3R1o2OFlicHJ0QmdJbFYxU2NqXzhERENtLUpPTHVvNEpDdUk5SUZic1dnM2ZuXzAtM1VZQ29IbkZTZTM0TEhtenB0d1hvLXp4WGJzLTZvU1VqTWYzTWdQYW1XbzRoMkpkS2t6dU5GZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRHRaQWFTS1ZHS1hRMFA1anRXSElKQ25ndTk0czE3d2tpRGQzajgtLUJLQzY4dGRhRTlnM2hsQmkxMUFGNGFGblVrRXhFRklBNTlJYWstLXoxTlotWS1fR1luUnJ2OWJwczEzTWt0QnQ3am11ME85NjRwd1I3Qnc4RTNHTW8yTFk0NzA5dnRlLXJfZjhzQkhnYjVSc1pYRG8tczVWYVNPbmdwM1QzdEl1aEpwdUczRG1reVhSZmk1UnZZcnhiVmowYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQODNyR185UXdwLUJiaVJjMDVCNmNpVThKdFpaQlBqNWl2TzNRU2VtMkJLQnMteDdHRTRWSmt3S2owaHRBMEZDV2I4QkNCLWtkV3pzaXJqYU9CZ1VwdFpVNElXLWFRS2I2cjUtMV9IcmpuMmYtaWpWR3ZLc3dncFlZRnFTZV9IWm41NDdzWVpCRU1FWm9lcFhITlAwaFZzbW13WDlSblJ2NVFkRFEzRHIwQndDSjlEZ2FaWXdseUcxdkw3MzA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S23",
+      "stocks": [
+        {
+          "symbol": "BBOX",
+          "company": "Black Box Ltd."
+        }
+      ],
+      "headline": "Black Box Ltd pays ₹1.26 crore RBI penalty for FEMA violations",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 17:10 IST",
+      "last_seen_ist": "2026-11-23 17:10 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcWd6YnpSbVY1d19MRWZYNTVKM3ZiNWsyV25XcUJBMG05UExVcEQ5U285YUgxeG5zM1RzbzdrQm40S19BdXdnUVQ1RUkwT0VlR0pRbFVFeUxyOGt0WnVUbFBnSGliWndiTVkwdkNEWGpwR0JVR1ByS1dvQ1MtQ2ZMTTF6TnV0NU5UX25tZ2Y4dURTZlhEVERaQWg2QTlBaHc0MlVzQ3ZaZGM4MXB1Z0MxbHphVnk?oc=5"
+      ]
+    },
+    {
+      "story_id": "S24",
+      "stocks": [
+        {
+          "symbol": "POWERGRID",
+          "company": "Power Grid Corporation of India Ltd."
+        },
+        {
+          "symbol": "SIEMENS",
+          "company": "Siemens Ltd."
+        }
+      ],
+      "headline": "Siemens Launches Eigen Engineering Agent in India to Accelerate Automation Engineering",
+      "summary": "",
+      "sources": [
+        "BW Businessworld",
+        "Interesting Engineering",
+        "Machine Maker",
+        "The EV Report",
+        "Trending Now Sustainable Construction",
+        "WebWire",
+        "electrive.com",
+        "https://megaproject.com/"
+      ],
+      "published_ist": "2026-11-23 17:17 IST",
+      "last_seen_ist": "2026-11-24 01:45 IST",
+      "item_count": 9,
+      "links": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWk5SSnRtUGRGMm9tcjBaUWRfTEpWWDhfMTZDNW5yUFE1VzBQQ3I0RmR5X0pNVHd2M3RRMFNwX21oNjNQTEhwclVNLU1PdjBSWFFmYWZzaldaNlVHVkNlMGt5QXJNLThBaGtzVGRZV010WFpLdHQwRDlSR2VQS1E?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTGpqZllxWS1WT0lCWGJTOVdTZERjcDF2ZldJVXltbTVLeG1WYVp4b2J6QTd4WHJ5Vk1tY1dXNDNlZGVQYnhpOU8zTV9yYmhyX2w1MFp2TVVoZkYzdUdiTTJXcUo3V25oTnQ2QXhlSnJzZWFUNVNZOGV2SjRESmU5RU12SVpSUWdVQ1VvR0pB?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWm9UbEZjMVdWXzdBMFprVHl0bGYwTlRseDI4dnlyWWdfV3lyNXZhTlFKeDhueVdoWTJEYTdSYUxsM3I4UFNIazBZQUgtM3dhRnJUeGZycHJYZWJGSWNST1FiNVZvQ09qY3hHdDlzajhlT3JQeVp5RzNfSFJrdnZFUXpyT01EOG4wX1NIRlVDQ1RrMjM5VU1EeC1EcHJKaUNnUTZ4NUJ4SXJsQ0dKaEJqczZTa0N0MW9tWXBWSA?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTklOQ21tX1N5aUtkcWlRMGt4eWt5Q2RpU1R1SUEzWXNPbk5uTkJxSDVZbC1aZ1BoZFY1VUVIUGp5ZENOUEdDOVpBMU5IdGhvZWl1RHlRMkhfM3A3MENoMXl6VDBRanlpRE5rcjNla0h4WlRPemhlLXduZVZ5UFNxRElUNFZPQ3FiNFlHSHpjVHVBV0NacTk3QUhMd2ZIalJRZGxldko2eTFLRmlsQk4xc2hldk5FWUlrTnI4RDFmektsS3FicS1r?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMXJUdkRmUlhKM0l3YS1hc0lSMzl4dVFsXy0wYUh3dGJXbDl2QURwd19aWmQ5eWcwOVlYM3pYNzdib1ZEY0h4SkdSaFpwUnBqeGpIdUZpdkNtMjJ6R01sNzdHT2dKYS1oT0pUeDc0UXJweGhFZDZVOUNhYUR3SGdsM3RoajlyNldqbEgyaDJOVkZRTUFQYnc?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM1JnNXA0YTN2WUFMcVN1ZGNJQ242TVJlOGl4M0JaOFhjX2xwWjM0bUxrSEZOQ0pHWmQ1N3Z5QmU5eW1GVEcweFk0MGFDQ1dvS2dsakVLbUNfdURTNFE5RDN0cVRrWmVLdUN6WjFnVVFZRmxUWUp2OFdOV0lDWmV5Rjd3?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdVZ4b3NXd25KWWZuTE05MHhjWnc1MVJNdDJEVzJweWRXcmFWNkRwNlVzR3kzRWZkcUFST0I5Y1laZGNkTDRvOHRYdi1zaERrdVdtZ3E4Z0k2MEZNUEJsZXF2YUYtU18xazJjODNraVA4aDBVNUpISTd6Z0JwLUZha0lsTFN1Y3VQY2xlUm8wM01JQkRYR2RuS2FKWDlyNjZ3aG12SHhTRnp6alJjTWFhNEhLRjQ4dGdCWFQw?oc=5",
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzTGpJYTk2Y2pLUHNZUHBLOUVNYVdMQ0paZE9ob2k0T0oyWE5MLWZRZmVCUm9CYXhzQmVNcTFYaGE5UXYzX2tzNEFXQVdkVHhsenFFMG43UUVpc0U5MzRZaw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S25",
+      "stocks": [
+        {
+          "symbol": "PINELABS",
+          "company": "Pine Labs Ltd."
+        }
+      ],
+      "headline": "Pine Labs launches research series to address accountability in agentic commerce",
+      "summary": "",
+      "sources": [
+        "DQ",
+        "varindia"
+      ],
+      "published_ist": "2026-11-23 17:25 IST",
+      "last_seen_ist": "2026-11-23 19:44 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUC1jSjBqZ0Rna3FsQjhITE8wS3U4bFhtQUJfZENoV0IyOV9LUy01QUtIdkJmSE1GU0pma25NR25PcHBkVElkQzlJV3dHVV9TRUFtSVRNMFMxbHZiRmFSYVZXcmY2NTVpX1dyZkREUTRUbzNZa09IZFlKM21fcWFpMVkzcGl1cHAzeW9VdTF6SzR2d9IBkgFBVV95cUxOUC1jSjBqZ0Rna3FsQjhITE8wS3U4bFhtQUJfZENoV0IyOV9LUy01QUtIdkJmSE1GU0pma25NR25PcHBkVElkQzlJV3dHVV9TRUFtSVRNMFMxbHZiRmFSYVZXcmY2NTVpX1dyZkREUTRUbzNZa09IZFlKM21fcWFpMVkzcGl1cHAzeW9VdTF6SzR2dw?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNjlPTXVfZnA1LWZMVGp2Uy1IN0ZGbXBqSy15dlE0dFZ2NFhVTGhfVzZuZmd3aGMyMGFfM01aSUtVOUhVQUlsZnpRQ3p5bEZod0lHMWRVS1lSQW1QWmFXdHdOYW41RjNxbVRIamJndmVFenJaY1pRa3EyQ0FsUDFrVEU3ZDA3NXA2X3ptVWlDQ0Vza1Y5ZUNJXw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S26",
+      "stocks": [
+        {
+          "symbol": "BANKBARODA",
+          "company": "Bank of Baroda"
+        }
+      ],
+      "headline": "Bank of Baroda Wins SVANidhi Samman Award 2026 for Securing First Rank in Loan Disbursement",
+      "summary": "",
+      "sources": [
+        "Indian Masterminds"
+      ],
+      "published_ist": "2026-11-23 17:25 IST",
+      "last_seen_ist": "2026-11-23 17:25 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTVKODNVaEZNdmUxRVZRdzZINDZKX29yQ0pmTUdjanFHaHlwTndLUTFXTzlXamZ1emFaNndZY2FJbGlFMnI1OUFPOVZteDBxWTBlWENQTTZWaGxadlBISWwzWkpDOVFkaDNOWVRLeWlJd3Rya0E3U0w0djlZMjZqanRQUEhoaUY5blo2Z0lVOExCR2k1UVJUeVZYcjNodkl0a0RCTW5kMXZrSUJSeHlkZHFQUmFuQkNua0E?oc=5"
+      ]
+    },
+    {
+      "story_id": "S27",
+      "stocks": [
+        {
+          "symbol": "NMDC",
+          "company": "NMDC Ltd."
+        }
+      ],
+      "headline": "NMDC Energy to Acquire Wasco’s Engineering Division for $190M",
+      "summary": "",
+      "sources": [
+        "Offshore Engineer Magazine",
+        "SaudiGulf Projects"
+      ],
+      "published_ist": "2026-11-23 17:30 IST",
+      "last_seen_ist": "2026-11-23 20:21 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlRiVXJPMlJhQTl5MF9qVXhFUlhDRm41UHZRRWZHTG52eXJ1NlMwWWR3dHVyakc4cDBoOERCaGsxakY3ZG5tNHEyZHN3UkxUa2MyUWE3MnBIX3lpaWJkOTd4a2VTNHBLSmlWc3lLLWM2VTFWNmtQWXQ2ekdWbmhpWEMwTDU3RlRDV1lyUU9OWmxPeGpzbEtuQmxtZ1VLbnM?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcGgyNUR3eFB6bEQyazVudlAwVk5YWnl0NDgwWlNKMUNUdUp2RXpkN2pQbjVkeXhmeUJJTVBEVlRDcWZnZDBwclluY3FrNTQ5aXNpREx1eU5ObS1McDg4TFcwWDRDM2FsbXJ4a0k3OHFZckNPaVVtVXJuT3pRd0JZdVh2cGYyNlVzd3k1WWFxV3F5RDl4SW1UWUJKZlZXS3pNRjVwQk5LaFk3Qmp1UnBCRjZNZw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S28",
+      "stocks": [
+        {
+          "symbol": "INDIANB",
+          "company": "Indian Bank"
+        }
+      ],
+      "headline": "Indian Bank Says Committee To Meet Nov 27 To Decide Debt Tranche Within Approved 50 Billion Rupees Limit",
+      "summary": "",
+      "sources": [
+        "Sahi",
+        "TradingView",
+        "Venture Intelligence News",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 18:00 IST",
+      "last_seen_ist": "2026-11-23 20:44 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjExeVpVMzFEN0dYTTloZTB3TGxpa0Y5OEhMR2twNU5XN2hzLU1xelVPSFlVcjFpVjhKVXBGMUt1dDU5LVAtaE84dExJX0kxOHVVUXcyYjlXaENsa2xJQnRYM2kwdk5PaERvUld6c3lyX1l1bmZDZmlOUkYyYkhMcW5PVXB5Ukg3VF9MUTBXaE4wU0JLTXNEUmZVMGZaRGg5?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS0JsN043ZE94NW5tT09XNTdiWTh3a2VDa2piRkRna2czeHU0NjRzVW4xdHhjaGp1THNlVkdORFoxQTZ4MFFZYWtOYVVEMFRmLV9VLWg1d1NxbXNxUVdoYmF3UnRKLWhEMldrVEwtVy1ZQmhlTXZOYVdXNjRhZFMwbThCdHFqd2dGX2FZcm45R3NKZw?oc=5",
+        "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWjYyUXVPT3BBazk2V1lFeHotYTRqTVVCTHZuaDhPdVpOWjBpaVV4NExZQXJmMlFnaVBpRlNQWExJN1JDczRWaks3aEtNLW1lcG1VZXZuU0N0OFBmdlVqYXRSeVJ2c3pWREZjRXJfY2lwOFFmby1MWEdVeUZ2N2tEQVg5bWtEaTZ3SUxXRzMzNzFjLVNlVjkxUGRxVGttZ2toVEJSNzNWY2dtSXZOWmYyTWpfY09oOEJQT3NXOG9BVm9ucXhSejZ0Zy1OdFduNk03VEFWdWxLdlNzZF9sSkdNbGJfNlplS01iRGozcnBwQjNBNl92alpqMFJGTUo2S3BNeVBmYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmFpbFI5d2VLSzBvWGFuUm1TdFZUd1pLSUtJeV9CVW9lSXhPYUJNN25pNnAxNTBGQTRqbUdrOWlXNGJwQWU1TDVJdGxMVGpaYkY1QnJYXzUtaHdiYTJoZks1bk01LWN3VThXNGo3RWdsQ0VCQ3Q3YUlNSWtfUXZpcE81Tm1XaVExYXpKMWgwRXJLVFgtTlVKaUFtbS11LVVMdEpNTloxeEI4V19wWFpnLWEyeWN0eWhrbTVDTFpmLVFVaW1K?oc=5"
+      ]
+    },
+    {
+      "story_id": "S29",
+      "stocks": [
+        {
+          "symbol": "CANFINHOME",
+          "company": "Can Fin Homes Ltd."
+        }
+      ],
+      "headline": "Can Fin Homes Q2FY27 PAT up 10% to ₹275 crore; loan book grows 10%",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 18:03 IST",
+      "last_seen_ist": "2026-11-23 18:03 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2RfcmxENUE5ZlJyMGhxNi1KV2tCUUt3dHp5elhfZkN0bTIyVGtpMGpMZVotb0lWM2ZNNWZuLTFyaDZWZmxTVDB4d2FUMTRIbzZyZFp3aUR2MG00dV8tLTl6c0VFMjJJX2RYU0xrYkUzQlFwT25sUnZKTGRCeHBMU252N0pNa2phNUxHbk1RY0FldDNsSGQwdnQyOTJ6QS1lbGkxZXNhaFlWaElnd2hhQkI4eDZNVjQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S30",
+      "stocks": [
+        {
+          "symbol": "BRIGADE",
+          "company": "Brigade Enterprises Ltd."
+        }
+      ],
+      "headline": "Brigade Enterprises Limited Acquires Land Parcel in Secunderabad for Premium Residential Development",
+      "summary": "",
+      "sources": [
+        "CNBC TV18",
+        "Rediff MoneyWiz",
+        "Sahi",
+        "scanx.trade",
+        "www.marketscreener.com"
+      ],
+      "published_ist": "2026-11-23 18:19 IST",
+      "last_seen_ist": "2026-11-24 01:07 IST",
+      "item_count": 5,
+      "links": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2loc0FYdzRwZ0Z3Mi1GeUtyWlFPNXJJUV9ORFAzaG1jdnJBZHlVb25QVkpEbUtneUZUdnJxY1N3VEFYTkFnZGFYQlNvd0laM2JkTmkxd2dhVnozdXB2SzBMaDU3WEFlODBvbklzUDItZFF4QWNncmlTcEtOYTRCeXU4dHl6RUI5RTBiemN1dlhoT0NrSnBfb2VaRnZtNlRESEg3VEpNU25iaXJKUGc?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRHYxVWt6TnRGaG5qblU3OHVjWjYtR2wzbG5YcVNyMmpYMndlMG9BQk9hZEg1ejJvQkFIUEs1WU9keW5aRW82bFMwSWk0dzZSVEQyZFpid014UUs3cGhpUW13cV81XzZEYmk2WjhscnFZeGhPUk1BVGFLdFpiUUFoODNkUnplX1lqTTA5VkpNdDUxazEwQXNZ?oc=5",
+        "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVDE5aDZCMXVTZWpTaWNmWEFBWDBHTGhwdXlmb0w2SWtSNGxPYU11ME9GMzdvaFdEOUNCeThsUFdvODVYbHA5dzlzMGtCSTdlS2FrMHVyQ2tkcWVYRUxnZkliYmozem1vZ2pLd0UwTDNZcnVZQVN1QVN6Z3VQTzZnSUZET1IxMjBPNlNFOEcwVlQ2QWZqZ0tCTmcxNkJlanRuSUdlLUhRSU5HcHAya0RtcjVJU2dDMFEwa3R6RFZwcllpbzVJNkl4TlBPRFByTkg4VFVZejVzd19Hdi1UNHFDNFRTMHBuRXB4cnRybG1aM0d5QdIB9wFBVV95cUxQVWdjUGlUUVVsamllNEJBNktJeGpUaE12Tnk1R2xWdmM2RU0tVDl6bW0taVdlaWVuamRLcWF5NnhEbXljY3IwNUdkUEd3d3ozLXVmY1N0ZVZia2RNRkZ6MkJSUDFKWVJqamFza2l4Y2h1UThzcUxJZ3l3RTBNTmRkXzNWeV9oM1dVNlpzR0VTeTVVMUJzdXBJNUVrV0FQVmJEcHdTT2ZSMkVzdWlyWDloMTctVTk2VEtVeUw4QzBGbW9yQS1fR3AxVkFaQTBXSlB4U2ZBUUloSFVzV25oNnBvTDI5eUQwTnBTZFVZR0Z5Vi1KSGtvVFRF?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdG9ucmgyQy1qQ0tyTHB6bk1STWNxZVNWRjdtZlNjMTVFUDFfZ3JtajAxSFVOTEtqdmJRM1dIZlU1bXlual9JcWtwZVpMa1cxWDBwMkNYNGhOWHpndkNGd0ZRWVJfc2lIZjF0MXE4UXBlZUM5a0JmSFUtNTl1T1RlNFczZGl1X1NFcW1xX3dkdTBHYlBTT3lJLWVrQU1xWGIya0xid0ZaNzNmdHN40gGyAUFVX3lxTE5rRGctY3JlYkR0RnpEZGlMU08talNEZ055ZmtyWnBjeVhUazBxZHV0bjRPRmNoci16akhLcGJqQnRuLV9JSWh3S1UyUVhMWWZLOTV2WGZ6OE05Si1YQ2dMSUJDU0QwU3pVYThmeGxQOEYya1IzLWdnbUcwVl9za0xvb2NlT2hrM0RHUk1qYXZaS1NVbVBoV05Sa3ItZ2NKN3hPb2w3OEQ4ZWR0Q3FxcTVsX2c?oc=5",
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMW9MZkdvMHRuZF93b0pBWFJfZEttWEVmX1J0ZExoM1NxeFZpaVJFNWtlVTZac0RmaEpvaWF0ZTR3S3lVcGU4UTlyVkpiZUZ6emsyZGY1OElXQkx0cTFlZFJocDZhQlZXVkdPTi1FUkRTb2M4MlRhaGxENFNTb0t4R19HbGVYZUYtZ25RQ2dYV2lKUHBOa1AtTmRabU1HX1FGMUhrNjRZYTRxQmZZeUplRXRSMVQtVTJ2LWZhbkNlZl92dHRHTEQwS0lFdklVVlZJNXpMSjZ5R21Rc0lKcmhZd2F1ckJPOXMt?oc=5"
+      ]
+    },
+    {
+      "story_id": "S31",
+      "stocks": [
+        {
+          "symbol": "SHRIRAMFIN",
+          "company": "Shriram Finance Ltd."
+        },
+        {
+          "symbol": "TRENT",
+          "company": "Trent Ltd."
+        }
+      ],
+      "headline": "Shriram Finance Share Price Rises as It Replaces Trent in Sensex",
+      "summary": "",
+      "sources": [
+        "Univest"
+      ],
+      "published_ist": "2026-11-23 18:19 IST",
+      "last_seen_ist": "2026-11-23 18:19 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeWEzcHR3WXU2LUplRFRiVHdGZGdiMklOQmw0YV9UNm5ERi1oQkdGU1hfTGhQRlJzT2xGX1Utb0NxZThMR1h2VFp5ZlA3WlFhSlhCVUJzWmFrWk00RGhCZ09hanFzSmdWWmZVNzJrLTVHT3FYTFRialZPMzdjY0lsYlFScUZPVFJCYWpTTA?oc=5"
+      ]
+    },
+    {
+      "story_id": "S32",
+      "stocks": [
+        {
+          "symbol": "AVANTIFEED",
+          "company": "Avanti Feeds Ltd."
+        }
+      ],
+      "headline": "Avanti Feeds Targets 5.8 Lakh MT Feed Sales Amid Rising Raw Material Costs",
+      "summary": "",
+      "sources": [
+        "Sahi"
+      ],
+      "published_ist": "2026-11-23 18:25 IST",
+      "last_seen_ist": "2026-11-23 18:25 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWDFXNGtOQmhqX3ZYazR5Z2VaMUNSOUluLV80LVU0NVZvR2V1VnZDRklNX1JkZHdoQzVzNS1tZHExc3VlRXBLcDFXbThPSlJyVEgwb1RNNzZQb1A5N05WcU5ybEVGaUg3OG13TnVYVkVWX0VjdklnakdJc2pEU3VpaTNYMmdkWmxXRFctRFF3bzFSQWtadTNNX3NhQUV4ZUxqeEE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S33",
+      "stocks": [
+        {
+          "symbol": "BANKINDIA",
+          "company": "Bank of India"
+        },
+        {
+          "symbol": "SBIN",
+          "company": "State Bank of India"
+        }
+      ],
+      "headline": "State Bank of India Q4 Results 2026: Date, Revenue, PAT and Analyst Outlook",
+      "summary": "",
+      "sources": [
+        "MarketsMojo",
+        "The Times of India",
+        "Univest"
+      ],
+      "published_ist": "2026-11-23 18:26 IST",
+      "last_seen_ist": "2026-11-24 05:12 IST",
+      "item_count": 6,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSVozVjhTR3phT1d4VnhVNXl1Z0dXZEVPOUQ3LS1jcnM2VXlESHMxUDFGNHNBYS1DckJvNklqLXJVZ2Z6RnZlOEFfNFp5RXl2ZTQ1OFdLbUdPcnlXVWdlNmxSUWxzajdubThGOFdnNDNraHNZbW94dGQwenJrdjM4ZnVKZHF3RWRRUzdHaDh4QUFRNFJsT2FQdWRVUGxOeGNKbjUyd3RvbVF6OGFzN3NUM184MWJEWFFVX2VMQm1XQ3FadnlFb190eXpR?oc=5",
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SRlZIZDJuNmpuNGhxNmFkS0VPV3ptcW5XYjludHAyUXFGSTBmNUtqcm1FOUJKd000X2R5S1BrYTc0OWM2eFh5VWhmZWhJUHlzRll0N3lsNDlLWV8weHRaS1pqQ1BFZ1JSVmI5ZEszU0pBRjdUZndJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTnBJbzNlZERwNWtYTnN0WmlaVnVlSFR1TDhwVnRUYmxaNzhWNnJHNzg4Yk1qWHhXbENWcTRiWFp3UzFwSmI0a3lhLTNKbk1iYy1KWGp0Z3NLQWVnMmVRV09SSmRzSUctOC1JYTNCdHF2NFRRS1NUZGswSkpiR0Q1TTBIUnRmYmZkNkE2SHlkUGkyUTJHR01sdmFaX01SQ0hvcWlmanU3by1oQ0xBNk8tTXN2cW5QcU13bWFHREFUcFNhdjJfejEzZ3lBZW9TREdRc1Y5VVVTaXJrVkl0amUxQ0U0d2FKTl9MVEpsNHJiM2RYWlRKWklmUzFhbjU5RDVnNjBHOVJ2M1hERFnSAZACQVVfeXFMT3hBalZvVl9hbFRaQWpBWTZ1OGhvSnBWakFSMlJ6UG05R1NqTlRGU2lXNUlNS3p4Z1RKR2ZNcnktMURJLVBySG10QW4tQ3pmOF9OVlhUazNIN3lUMWdzS29GM1Q3WVZhX29vT0FjT3JWLXNYVUR2SlpQUjRWRzB4bTdrc1ZITmFYTUhuWHZDTmtEWDJaWmFrRkZ4TjN3UWFfaERiU2daLVlUT1dGN3NhYmJHY3RLNDJyajl1REhpdHdsWFpsMTItOVFKNjlGMzBWdTFEQXdBVWJJR1loS1JyOWR2NWVJckZINUVOR1YwcFYtakl2QTlIdndxM2hQUTZVUEhBYl9odlh3alRvTDVNZWY?oc=5"
+      ]
+    },
+    {
+      "story_id": "S34",
+      "stocks": [
+        {
+          "symbol": "GMRAIRPORT",
+          "company": "GMR Airports Ltd."
+        }
+      ],
+      "headline": "GMR Airports seeks shareholder approval for Gupta's executive director role",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 18:36 IST",
+      "last_seen_ist": "2026-11-23 18:36 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN3F3d1JuMV9MUWdKZjg4amhsVTNTOElvbnhJZGNBMUdEMER6ZVZhSzNSU1k3a2dfSWFMQmRuWnVXTGlFOFgzWC1KYUJOQVV3N0M2RVJqYTJXeWtCNkNnazVIUEFxS3BlRWU3QVdmMUxXNVF3UkhzSFRsVEE4U2F6V2Y1cGJ6Wnlyc3FoRVc4NkFmU0dPYTVFeG12NWxybmczNmZtNXlpVzZYVmdCLXZDOHpZOVZXME5iajl6SzJCTXQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S35",
+      "stocks": [
+        {
+          "symbol": "DABUR",
+          "company": "Dabur India Ltd."
+        }
+      ],
+      "headline": "Dabur India Ltd. Downgraded to Sell Amid Valuation and Performance Concerns",
+      "summary": "",
+      "sources": [
+        "MarketsMojo"
+      ],
+      "published_ist": "2026-11-23 18:46 IST",
+      "last_seen_ist": "2026-11-23 18:49 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX3hubXBWcnZBTzcxcnRkMkFsaVlzWHJJbENmS2ZZZWYxR0c5UG5OREZQdWlBUWVUMXg2Rmg2V2k2VlQyUkV0d185VFFWODB5Q3hJa2tER0JoTzExRU1GVzBZdE9tcjhHUWQ4enJIRWN2ZlVBX1pIbWVfT3hncWZOTzQzVC1teDlWY25BWDJ4U2Z5cTNwckwtSHR4ZlhGeVlEemtYMFlpZkgwSHd4Q0ZtTWN6ZDRILUgzbXdkcnVsazBfWFFaeEVPc3ZsSkZvQWVUanc?oc=5",
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSVdQNC1wWkNiaTZndE00ZXpoUnNkZkdNbGRMcGo4YmZZc0tta0duOWlxUTNhOUpQNUtvWVViWUw2a2NGQk10d3NNYjRNd2hQWE8yRDJxODVEY1FNN1k0NVRHdjItU0Qxczl6UXZaSWlsSlpmeWJtWHVyWUVwcGxDM3FOME14YTZlWUV5Y3BDM3k0WDdRMnBGTC1QNG9IeW42cU9zaWFYejR3VmlKTFhySU1pY3NYYnBUUEFyVkM1UjU4MHp4M0RqZWNTWlFaa2thWmpJ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S36",
+      "stocks": [
+        {
+          "symbol": "FEDERALBNK",
+          "company": "Federal Bank Ltd."
+        }
+      ],
+      "headline": "Federal Bank joins PFRDA’s Tatkal NPS initiative; customers can open pension accounts instantly",
+      "summary": "",
+      "sources": [
+        "BusinessLine",
+        "Fortune India"
+      ],
+      "published_ist": "2026-11-23 19:11 IST",
+      "last_seen_ist": "2026-11-23 20:03 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOUlXcV9NX3E2U1o4bUpLVllGeFJRU29KcnN6d21pM3gtZjJ6Z0g5ZkpScThXM3VxMUU2ZUF0WTZVa2JReHFwWExTdkk2YVJuY1dJRE5ncmNhVm40aGZGc0xEUlhOZkZ5TjdMVUQwRWMxU3YwZzBIcHpfZkVfRkdLN01xaDh3a3lxSndWR19UTU0tY1JVanJWVmFFeUlpN1JRUXZTUG1IWk1XUzRvLTlGcms4VlZtWTA5UF8wclMySTdKOVBDNTJKdXF4bHhSRGdVVHV2eFo4all5STZQQkMyZ1NjZFl4b2FrTlHSAfcBQVVfeXFMUF91bm5zSk8tRExUVGZVRkFWcTlVX0pDby16c2V1OWtoLXZENHZVUDNReDg5MElnUzJSb2NUN1hvT1c3MXd6RjI4VERlN0p5YUpYNDNKOUZELXUwbU1ZS2pqUjZhT1o0eWp4Wm1ycllNUFBzRGdDLVdpMmJfYzZJRER5Z3pPay1TUmxNMFBTTFlkVUZZN1FiRm56azE0ODNBS0MxaHdnZEVjXzVKdzFJN0NCTzJHdWZKRm53bHFrbGd2aWlnU002U29LdkhTZlZscWplWDZDYzVaNkQ0OU92djF1WXJYcFhOSGRQUjNpQThhR3p3RVphYw?oc=5",
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTXpRTjAxVl9WVlZxRXJHZFZaMWVOcUVtMWJZTjJBY3BYYUJteXNNVmIyNVktYktrcmxiYkRKZVpONC0tNDNxRmx3SzlkZDBIeFQtUTV5UVYzNnVfRWVqY3ZibWhWbDdwd21Uc2tKSi1lMnF2ZnhWVlN4U2ltejdjMlFGbjFyVDZMZ0VIVU1IUmt4Y1J0UV9pX2VGdUVkazE2WUlISFUxQTJlemtqOUtEdE5CNHBLNzdaRmpPaVBOdkxmQ2c0eGRlMzJHZEFEYThMZjJMRnZnVGFrSXVPMTRnddIB5wFBVV95cUxPb2hxZGpvdWk1cmtnN3ZVbzFxQ0JIMjU1emR2NldfOFNOZnVtejFCdE1QMnJMUzlMLXh0RzVZZ2JoRE9MUFhGZzlRM0ZlVzVGS05rTXl5YllkdEo1MFJhRmI2dmhBd1YyOXdHa2MzVGtsclc0RDZVOVd4SV9PWjd0NlpHLXBmN0NxdUlKbXh5YmFDTjVKbUtoVXhYMFdJWHBCR0UwQ0pGX1RUMWRzUVlYU19VTzZxTTlOeDZUaTRwNG1RNy05ME9MaWQxVWo1VmhRci1sajhLWGRkVHo5R1gwenZJckdOVm8?oc=5"
+      ]
+    },
+    {
+      "story_id": "S37",
+      "stocks": [
+        {
+          "symbol": "YESBANK",
+          "company": "Yes Bank Ltd."
+        }
+      ],
+      "headline": "Yes Bank reappoints Rajat Chhalani as Chief Compliance Officer",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 19:14 IST",
+      "last_seen_ist": "2026-11-23 19:14 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWldfM3N0amZZYmo1bzBRd0dvT2dET3N5MVJSX3NYWmdCamtxMkxJakQ3ZzRzc200enpPYzJHU1lrRHgzUjB5cWswY2JINTNtVDRFcXhuS3B3WXBpR0s0MkxvanlIZGNFaHd3YkZkcnJXeER0dGVISUpneUF3VkphQWNsOXZJV2NKR0xqNDZSbWVqZnNuN0RKTF92eXA3dFZaRWxJN1VPU0ZsMHgyeFdreWVkSmZkWlE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S38",
+      "stocks": [
+        {
+          "symbol": "TBOTEK",
+          "company": "TBO Tek Ltd."
+        }
+      ],
+      "headline": "Tbo Tek Limited Announces Resignation of Vikas Jain as Key Managerial Personnel, Effective January 31, 2027",
+      "summary": "",
+      "sources": [
+        "Sahi",
+        "scanx.trade",
+        "www.marketscreener.com"
+      ],
+      "published_ist": "2026-11-23 19:30 IST",
+      "last_seen_ist": "2026-11-24 01:21 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdjdhTHVhRlRfU3BfdW8td05rTWZ3RmdPMXNfVFU0Umx3S1F0RXFfWERLcXFsSHpZQ2lKWGxtYlNLeERBVmg3Zm90T1JiZF9FbU1DeXg4a1V6MThYQk9TdFZiYVo3Vk9FTVF0a0RZVnFtOTVrUVhYOGFwOGxPODBaUE5yZ3NpNlV0NjFZQ1hpbTU2N29NNDdCWTB3R0lSR1phUURDZjVqbEFlZjdDdEc3a2pVamRMSE0?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQVhGdURkSXBiWFViU3JJWU9kT1VLZGd0c2FEQ0RCYm9tbFNEdHUzX0dCZmg2dFpXdFdxU2NfX1RGRnI5WnhaUFRtREZMTTgtLVhuQ2tmdHdHVnRMOUNlQ1h4eEZreVpGSnZqbFp0S0tSMzJseVpwcWNMaFh1M2RmWjNBTGYzNEdPMWRhZzZjWE83b0gyMUlPUVV0Sl8?oc=5",
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcEZZS09yV3QwZ21nZmw3emVJMWVIWHJfMUxCbVhlZ0p2Q3V1ZHlrbVBjb3NlQ3NmRFZBYjFZaDhoT0tiLVlYSTU3VTJkVjBYYTNQRGF3WXk0Ym5uRGprQlUtdVNpQkVGZFdfRWNZaGpqOTFhMk80NDItQW9BaGg3bzdDc0VBUFNxeENXQW5JVkNGVER4ZTNrUTFMMERMZHNKdnYyc0dZUU9rcU02djE0MlF4SGlDcXFGSjNaU0hWOGd5ZjNaa2cwZ0J5RGNpbWphN3pnT2Zxdjh6REtqbUFNeS1rQUZxNEU?oc=5",
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNUczbkNJUHFoQ0FmZXFtYjF1NFUyU21QM09heTFJR01rcEFuSi1MX0s5QkU1QmFWQzB2SHBaSmpMaDFYVnZ0V2tJUXd4b2hQdWdoQmVIbVR2WW9GY1IzeHZKSUdnamJjRHhzZDBJUGlfZlYwRUcwNTRSbTlQT004aTc4Z3hOWmtFd21QWkJfTDlUVExsc0NrOE5Ha29oVE5iYVY4blpYQWczMVdIRE9WOGpkNzZ3c2FLX0g2NEtaN3RiUE1LTkNqQjhqQm1JU1o2Vm00ZUkxWDFETHVRcE9ZNDIwcTUycEE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S39",
+      "stocks": [
+        {
+          "symbol": "NATCOPHARM",
+          "company": "NATCO Pharma Ltd."
+        }
+      ],
+      "headline": "Natco Pharma’s Visakhapatnam plant gets VAI status from USFDA after four observations",
+      "summary": "",
+      "sources": [
+        "Medical Dialogues",
+        "Prop News Time",
+        "The Hindu"
+      ],
+      "published_ist": "2026-11-23 20:06 IST",
+      "last_seen_ist": "2026-11-24 05:01 IST",
+      "item_count": 3,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ240MXBqSkpzZWJxUW85NURMeWNnV2JXZzNJWGRVUXJ5aU9URU93bmQ2VHJTU1NJMTJwcmt0c05LSm1XYW16MnR5SVN6Vlk3VGxJaWxieU4yR1pCUDFRLTRIQWxPNW9LcG1IUGJkN2k0cjdvOTdxY2htekFiT2t2aE5lQi12VDF1dTJNUlN3cFg3Yk04N1JzYzB2ZUs3WVZkajJiaFZBNzZMM2dweE1HZmZrdHlkX2dPRkNyUzdUSzE2RFnSAcgBQVVfeXFMUHdpbUl6aElPN2xqYVZqWGNiT3J3YndDcjN3NnFOLVpaVmFnSi0xb0daQlh2clJOOUNtR0dyVEc1a00wamZJc2J4bFkzbjFPM0NMV09GVmZkODVsa1VPSGtzaThHV1htckFNdjBaRGItck1DdGp5WmV2cmtRUW9FSnhlVW40SW9MTEpJTl9zU2xiRG56MG03bEZRcXNjSmdaNDJJWlllcGlUQndhdFllMTUxOUxCdzNpbG53akNmRlBNTDNnSHBhQ2c?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTlFBd3hBWTBIaF9JOTFNWkE1Y3lIbDhKV2RXQ0h4RHd5WHBNd0tFSm1LM2twb0xiOVdhMWpmMXFZd2U0RHlXcFJJS1Y2VkVDTExySWFBU01SZHFzdXZROHk4ei1IUjF2Z2pmWWV0R1BSQnVuMTY2cHEzNVgtVlhYOENNRmtvbTN4aVhsNXJKMzBuQUdYU203ZTdYbWRwcVVEakc0Qk1yTmtpWGlvMGwtQ09PY3NhZUdSRWg0MENlZXZaQdIByAFBVV95cUxPc3NHX0EyZDViNUhSd0toaU92SUExb3Y5SEdKNzR1WjF2dFR0a29ETUp2ZGg3UXR6b0pQSFdhM1Y5Rm9xalVyWGtReGxtYkVfTWdjVHFjZWdMdmxFdlBRNTVyUkxPWEkwQUZ0WDRyZXk5Z3dTZHhsU1dnWS14Z2oyQzRHbDgtb3dFUWJtc1RZSXpwaXpxTjNsRUhQZWMwV250S3gyV2NqQkRoQjYzLTdNVUxzMXVMNDdxLXVwbjhnU3BHa2tNOGpyWg?oc=5",
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNN3NhYm45eE44c0hCZFRleU9QNTd4WG5fRndMUmd0VG5xeHNaYlJDMU5sLWRMZkc4WHRFM1lFaG5ZQ0VjM1dTMFRPSnNFdTY5T1RGbDJGSXU5ZnZ5bEVlSExuTHNhblR1aDY4SDVoaUF1NkR6ejZNSWtoTEJka0ljMUJnRUN4ZjJKcHcxSFlCRE1mU0dzemZVUzNjdUM2N2RFUktUS0ZiV1Q3anh2M1ZoMnZUYlVhZUJQWmdpWjlsekFzaEhVN0dIWEhsY3pKNV8yazBv?oc=5"
+      ]
+    },
+    {
+      "story_id": "S40",
+      "stocks": [
+        {
+          "symbol": "FSL",
+          "company": "Firstsource Solutions Ltd."
+        }
+      ],
+      "headline": "Adani Energy Expands Transmission Network in Bihar | Firstsource Solutions Announces Strategic AI Partnership",
+      "summary": "",
+      "sources": [
+        "Top Buzzing Stocks Today - Equitymaster"
+      ],
+      "published_ist": "2026-11-23 20:13 IST",
+      "last_seen_ist": "2026-11-23 20:13 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMioAJBVV95cUxNdTdxYUhBdzhRN3l3NGJtWVJmN3JacEJiQXhKb2w5MHpGT2lUWDlIZGVFOTA4MDI0UEg5VGVHVGppY0VRbGVpQUk5X3U1UC02RzNEWmU0TnU1ZFVaTUVsczBpUWJrSUZhczlGTUtKM2JTNkUyQkZDUnRVMDNtS0hsc3lJbTNJMTM0dTBoYlVVMkZieWlMTkFXVU5CRTdDQ3VMbDdaRmNvQkZ1dFM0Z3hscHVKT3dNLUJqbUxETmtsRWg0bUVmc24zZ0FXNVRodERmM2s0ZldqU1pGZEp5NGV1c2hjVEZzMmhXZy0yQmUwbHUtQ0IzbTQ3OWgtZ1pveGxabE5acUVjQ0VZbzZSZVZKaC1CWE96U1RrLV84QmxBUHE?oc=5"
+      ]
+    },
+    {
+      "story_id": "S41",
+      "stocks": [
+        {
+          "symbol": "HYUNDAI",
+          "company": "Hyundai Motor India Ltd."
+        }
+      ],
+      "headline": "Hyundai Motor India Announces Nationwide ‘Hyundai Smart Care Clinic’ Service Camp Across 1,700+ Centres",
+      "summary": "",
+      "sources": [
+        "Telugu Times"
+      ],
+      "published_ist": "2026-11-23 20:14 IST",
+      "last_seen_ist": "2026-11-23 20:14 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPc3VtWDUxYXl5Y2tJYVV1cTg4UUUtNjhpQmVVUkF6X1VtMHJmckJiWWtveXNfVEdxeUhXbUFhMkE4VlhLcjVzbXpjdTlPU3pwb3VNVWlhek8zd1k0elE1VUFlSzVBZjg4MGhzV1dRQVNnMTNiVzNZbzN3ME0wb1F3cUw5MjJpeEdBT05mTzN5VkwtaWFBUXlJQXRpQ2o3bHdyRWVVZEM5ZVB0b2E3MmlLSEppSndiU2pMY2dyS2xOQlhadzR5eVVXeUxJOVUxMnJ2WTBYMkp2N29wWnZxbG1ISWFR?oc=5"
+      ]
+    },
+    {
+      "story_id": "S42",
+      "stocks": [
+        {
+          "symbol": "IIFL",
+          "company": "IIFL Finance Ltd."
+        }
+      ],
+      "headline": "IIFL Finance announces resignation of director Gopalakrishnan Soundarajan",
+      "summary": "",
+      "sources": [
+        "Business Upturn"
+      ],
+      "published_ist": "2026-11-23 20:21 IST",
+      "last_seen_ist": "2026-11-23 20:21 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxObnFFUHBwTWd6WXlFUEtTWmdndUROYWN5T1FJWWszOUJYeDNhV242RTFnNWhSdjE5dWZDeXFURFJ1dXZZNE5hOGRnRDhrV2N0ZENxQ0tYanRFRHhZcVNFaWNuVXVlX3hra0xRUWZUUnN1TnVSdzREZDJiQ1JDSnlUOUxRazREU0dLUl9kN09VUUh2VXpraDRvRjVSVWxxNVVweU9tLUp2ZlZ2QmktSV9N?oc=5"
+      ]
+    },
+    {
+      "story_id": "S43",
+      "stocks": [
+        {
+          "symbol": "SIGNATURE",
+          "company": "Signatureglobal (India) Ltd."
+        }
+      ],
+      "headline": "SignatureGlobal approves 35% stake dilution in subsidiary Maa Vaishno Net-Tech",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 20:25 IST",
+      "last_seen_ist": "2026-11-23 20:25 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbFNOeXBMbVJWNHZ4aFFWRHc2VUNJZEl5ZG5NLXNOYUt4eVZMSzhpemZjUlh2eWNxOEx2WGdMRjk4RVNVT0kwNFpTaWpEUlN4Skd2NUNjVGhJSnRHaVVEV1pxQWF3NGw0cWpGbGlFblBpeThIdWRzU0VvLV80UzlZaWJORER5Sk80MUpDbFB4WEJtaVpxSnI1YjVXRXFEV0xLRDEzcVhtYjdlYTN6a3FySzJiNmJxRzNCcnJKMW4wbHJCN2Yy?oc=5"
+      ]
+    },
+    {
+      "story_id": "S44",
+      "stocks": [
+        {
+          "symbol": "LENSKART",
+          "company": "Lenskart Solutions Ltd."
+        }
+      ],
+      "headline": "Steadview Capital offloads Rs 921-crore worth of Lenskart Solutions shares; Goldman Sachs, Societe...",
+      "summary": "",
+      "sources": [
+        "Moneycontrol.com"
+      ],
+      "published_ist": "2026-11-23 20:46 IST",
+      "last_seen_ist": "2026-11-23 20:46 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYWdZTjR5T2JWWWRwTl9yN0lkS2IwUWdfd2dpWDItQzNTRnZOcHlJazhUczFUcFlkLS1JODYtQ0VvWnFXSTVEZUZwamF1T3lvaFRHZUZwekNoN3pXa3NVV0p2Ujc4dlZ2UTEtQXZKb256dXgxNVhPM0R3ZUdzRUs1Z1V3c0ZVM2xqR1pDd0J6eFFrbGtqMlVqZktWa3B5TjV0R1hWSU5rQzVzbFlVWHhnbkVNb3FqYjcxZ0UzdnV2NVFxZklEdUhLenNrYXZTMy1FUkhyOWlYdVZJN0tjNTBXUlZmdV9DMHJSam1vaks2OFl0VHdEQ0dwLUF0ZW1GZWNaUXZzM9IBigJBVV95cUxQYmM4OGNGZ3Zsdk4tRHBYMG9CeXV6ZUVwZXpoRHlnX3dGWkVEV0RNdTlTUXhNdjJ3S1Z0ZGl3LWZyRmVpNEZsbjFRMEZ3V196ZURVMVRnbDlGelJVRURQbG1xWi1IOUUtazhlVmswajBIbmpsSGhQN00xUUh5TWVRRnFkdUtFRjMyREJQUDNkZ09ZQ05qUS1HYUhNSFdKOG9zNW52VGlWVFB2LXlaTWZ2d0FZa3dNZXRLbllEeGdyTS1mcHgzYkhmQ25NY0s4aXVmWHFMQ0dZOXR4ZTJrekdlc1BuMmhySUFXYV9XQndCajNGSl85YkdRUnVTSEVSMGZWcXRoa1ZJMjdWdw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S45",
+      "stocks": [
+        {
+          "symbol": "RELIANCE",
+          "company": "Reliance Industries Ltd."
+        }
+      ],
+      "headline": "Reliance Industries stock faces Macquarie downgrade and target cut",
+      "summary": "",
+      "sources": [
+        "ad-hoc-news.de"
+      ],
+      "published_ist": "2026-11-23 21:19 IST",
+      "last_seen_ist": "2026-11-23 21:19 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObHBGOFRta2RRb0kxYVVxbVlITTJwS2d4TmkyNTBrMUQ2T1VhT2t3a2R6MWU2WHhsTnc3R2NNb1ZpOWJoYlRIR2FiOENnblM3RzVXcUtpaXZsN050U0NCU0hWem5ERGxfQTZxT1dMUHkwaWpaaDJSVl9CMU5KczBRQ0RTTU5IRWoxMW10dUdXMU1DUWZMSzBidWlrck1sclZ6VlZZMjgtaUtURHRCdDNMZHZaSm1WWnNoZjNHNVhSWDRjcjQydzZmSg?oc=5"
+      ]
+    },
+    {
+      "story_id": "S46",
+      "stocks": [
+        {
+          "symbol": "LUPIN",
+          "company": "Lupin Ltd."
+        }
+      ],
+      "headline": "Lupin gets USFDA nod for generic drug to treat anaemia, high phosphorus in kidney patients",
+      "summary": "",
+      "sources": [
+        "CNBC TV18",
+        "PR Newswire",
+        "Securities.io",
+        "TaxGuru",
+        "TradingView",
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 21:29 IST",
+      "last_seen_ist": "2026-11-24 05:57 IST",
+      "item_count": 6,
+      "links": [
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGdnaUtFTW1DWTM5RXQzNlFZbDV2TjNsMXF5dGQzRW1rUkdwanR5bDRzRi1GMFpMcm82a2dqbjg5VWc1RHA5a1VzbGl5NC1QODhlV3ZTSVpxWVZmVWhtUU9Yckk3SkpEcXV4eHZBaHJNMTR5elVIVVFxeHY1a21ZRzJ3RndmYnVrNS1kSS1Pbnl5WGhFbnpOZEZUTVdpZw?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNemxPWFVUYkpDakVkdDZWTmkyemJwTTl0S3JOeVd0ekhnUHhRUndhUGkydjBycmlOVExueHR4dm5hSzdsRUZlVmUzOVhlM3V1UGkxNVNLTzR6Vzk0aGk1SkhVWld6c1gzdG5nU2NUMDNjT3lhUDhJb3dFUk1WeC1VMnNFN2djSTBhN3pBWng5Y3o3OWJCRE84b2VKeHN3ampDUWlrV0luTWt6QUVxTXc?oc=5",
+        "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaXVLMzlvLWdPRmN2YVRoaGRPajRGenlSa2hsSDMzWUQyaExrVERJVmFpZTdNTGhFandrVTAzdVdQMDNJUWJkUTJLcFIwc0JwYnl0Y1NqR0Zsc3g4THZOa3d1MGxuZF9hNmhuNWpKVTVHWk9oSFQxeWNOd3RQeHRDT3FMcFFTSzJWUTBLSEdjZ1RCRG5OOGxGbGtqdG9xNHNwU0xkb1dNbHowc2pPMnRZZF9tR21qeVk0aUZrNU9BQno2S1RKaHRMMUtURlFRdFhBVHNyVzJRYTRjSGJiRC1tRXVDcVNmSjJHY2NJanR30gHuAUFVX3lxTE9pdUszOW8tZ09GY3ZhVGhoZE9qNEZ6eVJraGxIMzNZRDJoTGtURElWYWllN01MaEVqd2tVMDN1V1AwM0lRYmRRMktwUjBzQnBieXRjU2pHRmxzeDhMdk5rd3UwbG5kX2E2aG41akpVNUdaT2hIVDF5Y053dFB4dENPcUxwUVNLMlZRMEtIR2NnVEJEbk44bEZsa2p0b3E0c3BTTGRvV01sejBzak8ydFlkX21HbWp5WTRpRms1T0FCejZLVEpodEwxS1RGUVF0WEFUc3JXMlFhNGNIYmJELW1FdUNxU2ZKMkdjY0lqdHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdFYkN2dHNKMGpKaXBIeVNHZG9DMUhIQ1VqN0NHTkFGSDVZc3BKN01KSmRlYjd1NlY5N01VbUFfWUtlSXR2ZVAzZnhuOHBYZ09ZV3VfVFFzZWVDTjNvc2Q0NEw5WUZLdFRoZEFzNGFqVGpKa3djQU15aHBEd1ZaRWJ1ZGxMY21vVGoyT3VKZVBEeG5ZQjVmOFVScW9UMndJMTRRemRDTk5DRHJWX2EwMHdqbE9lNGJtODhJU2Y1SXNKZ3J0YWludnVR?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxONzQyQl9XSUJ3NVh5Yl9qZDUzdGFVam15WDFjYVE1am5nRURwcWZPZm9Bc1FkMDdSdDhmNElBMWw0WEN2M0k3ZXlQNzdoSTh0MFlqcXhiT1hrYXJHWU95bWgwel9nN3RUM25MX3dUanFBX0dEZ1R5YWFvZXFZZFJIQkVzajhwNXNsQTcyTkdVTERRUjZZdDVoLXpGcFg2bkFIX0lvWUg1ZFpHU011MjZmTkMxMmJoZ3o1eXc?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZTdqRFkxZjBXQmlnQURBM0sxeVlRY0hjRnhVc1NLeGgyWmE0RVZQTkVOWXhKSmlrNFJ4Sm9pVHpNSGE0d2JQWHlPVUVLZ3RWcUpRMGZsVW5NV2l3TjFjaVJnQ1pWZXlablMxWlpqbV84a2hnaTB2akZVeWtxZnczOGE0dDNUeWJGbFp6MXJnNWhlUQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S47",
+      "stocks": [
+        {
+          "symbol": "INOXWIND",
+          "company": "Inox Wind Ltd."
+        }
+      ],
+      "headline": "Inox Wind Q2FY27 results: Net profit down 43% YoY to ₹69 crore",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 21:40 IST",
+      "last_seen_ist": "2026-11-23 21:40 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXNrSGtSaTJIUU96ZnlIY3NVMnpKYVNSYXpCdWp5M0lpREtmZmhNUWRQSHAyZXpNWWdjSmFfa0tVT29ybEl3SVZ3d19kbUZNWVppd2Y5eFVOMnlqX05uTWFNd1EtUklqeEVFV1VYUmhSVWZMbTllNy1xdFFIVE5aZi1SUU42N2xXLVR5V0lndmJmbmktQ183MFhpODVQaFBzRkxTTmYzZw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S48",
+      "stocks": [
+        {
+          "symbol": "MARICO",
+          "company": "Marico Ltd."
+        }
+      ],
+      "headline": "Marico fines independent director Bhaskar Bhat Rs 3 lakh over spouse's share purchase",
+      "summary": "",
+      "sources": [
+        "ET Retail"
+      ],
+      "published_ist": "2026-11-23 22:20 IST",
+      "last_seen_ist": "2026-11-23 22:20 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiogJBVV95cUxQb1RzeXRVYWFicUFURGhGd0tXLUpvdm5KZndQY1dYTWpfWER1bEFrTmZZNEpyb3VaM21UUDc5bXhjVy1PUjFsSFN4dWRxNjl3X3ZzQjQweTVpdHg2ZkpGdDdNN3FUdTJNRWFDVHB0SWxzZC1qYnpHZ2w2Vy01NjVjLXVsRzlaQ2JGb2dhREVJcWhOZjJYMU0ydDJaZjZDbDdsVzJfWGhvWUpkbGFFMUhSZUhycFRqZDNDV1hGY0dqYTFZQ3NiWElZMUNtYlRsVFUyaU90dVZJeUtOSVR4eEs1M1VLRkRNOUxVZzdFWFZsNTVnaUdBNndiSkFFZFhUQXY1dG5JemNvQ2djUFZidUtmODRoYU83Q1Z6S2I0ZUlvZ2xIZw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S49",
+      "stocks": [
+        {
+          "symbol": "SAMMAANCAP",
+          "company": "Sammaan Capital Ltd."
+        }
+      ],
+      "headline": "Sammaan Capital appoints A. Siddharth as interim non-executive chairman",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 22:37 IST",
+      "last_seen_ist": "2026-11-23 22:37 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWmU1WmVIQzFYdzZtVmxCMmtkQm1McUROS1k2WmVxMmJBZHFZdXhRUi14M3B4QnFxYWJ1SVJQYUtoXzRyOGtLb3FSNC14NTRvNGFpRU5fYWF1R09WT29NcF9nbzB0S2Q2WHRrNU00TFhoTTFyc3ZsLXVqMVk4aWF6MGo2eEJwbXpyZW55emZwcVVJSlplRFVDME9uS3BZdVJjc3VpN0h5NkFPZDlaVWU2REZyMXllb0hFX3Z0N1pxWQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S50",
+      "stocks": [
+        {
+          "symbol": "ABREL",
+          "company": "Aditya Birla Real Estate Ltd."
+        }
+      ],
+      "headline": "Aditya Birla Real Estate shareholders approve ESOP Scheme 2026",
+      "summary": "",
+      "sources": [
+        "scanx.trade"
+      ],
+      "published_ist": "2026-11-23 22:51 IST",
+      "last_seen_ist": "2026-11-23 22:51 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd19tVjRadUkzUGtBSTdIV0ktVHd6T3BWM2Ruc3NpMzU4bk9NYU1nRXNFSXhLcUw1RXd6VDQ5STlGalRJOUxIYV9OMC1IY2RZR0lkNTlvdFdMNmtKQWVvMm96aTVDUHhjM3g1MmFBUXRINnVEMGdCdm1oYzFqaEFzZ0NObnR0SU9HVm5aRHNWQW9nWUk0NkxJYmhXeVY3M3dhaGlvX0RzNldXLWJXUW54dkxCVDJRVlZLVWlv?oc=5"
+      ]
+    },
+    {
+      "story_id": "S51",
+      "stocks": [
+        {
+          "symbol": "NMDC",
+          "company": "NMDC Ltd."
+        },
+        {
+          "symbol": "RVNL",
+          "company": "Rail Vikas Nigam Ltd."
+        }
+      ],
+      "headline": "Rail Vikas Nigam secures contract from NMDC for hospital construction",
+      "summary": "",
+      "sources": [
+        "Business Upturn",
+        "CNBC TV18"
+      ],
+      "published_ist": "2026-11-23 23:21 IST",
+      "last_seen_ist": "2026-11-23 23:43 IST",
+      "item_count": 4,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU3FnQVlFaGREa2sxeGhRSEpWUjJvcndSUDQyOGZuX2dabmNQdHYyWUxYLUhPbHB0ZWJlSm9iUlBPRTJOY0FaTHNNb2ZUc3g4SHdZTXlhR0ZSXzNvRUs3VE15aE9ocGRINFpfUFU5RUFZeTBnSkE0ZUUwNzVXU3FfazNST3R0MVhNR1ZSSzhyU2ZZZG5SeGJvVnF5alFCV1dQcEhVMW9fZ3RIUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNkl1M0kxcy02UjhPUmhnc3NKQTJlTUdjUE5McXB0RUwxS2wzYUhIT3VvemhXRE1BY3NJcUtYMlR3T0NjWGh1Y1J5dWtBRFJDd2FvUHR0ZXZ0SHc3NmJwbUhOOTl1REJOUGp0WkNuLWxGdDJhTTJiM2R6N0ZIaG9ucjlFYl9obVhyUE5ZUTFBd3k0QUR1OEtxRGtJT1oyR0RISzZNUG81bWVIRFFIbDdIS3pVejVHLUx3NFFhQWduZTdXMGFybzByN1hVdUtNeGV5cjRUQkpxbE91MXdkVHNvazFzRVVuQnpvVEJR0gHwAUFVX3lxTE1HaWJfd3FiVVdndmZoWnZ4VnlQRlNVWEhoRzQ2eEszRHpqWmRSdlRscHVPS1o0RGlCTHk2ZmdCalZjQWUtQklHSkc5RTRiWkh6QnUtRlJiblZ3aEdKYlViNXZmcXZ5TnlvdTFGa0dMRFpJZWt6ZnI2UVZQMDBwMEdlbVB4ZlhsYURKbjNJSmJsdHFXaXhZdmdOSGdDcXZwQ3JlSkFoalBwWkZhMlhpUU1KYkxyeXdCdlZ0R0J5QUVNbW5UU1lfS3RhYUg2dUlzVG5VZmppdWh1SzRVMElBVVhSTHQ4RTZjcW9tZ3JjYVJMbg?oc=5"
+      ]
+    },
+    {
+      "story_id": "S52",
+      "stocks": [
+        {
+          "symbol": "SHREECEM",
+          "company": "Shree Cement Ltd."
+        }
+      ],
+      "headline": "Shree Cement targets 100-million-tonne capacity as expansion and rail investments advance",
+      "summary": "",
+      "sources": [
+        "BigMint",
+        "Maritime Gateway"
+      ],
+      "published_ist": "2026-11-24 01:21 IST",
+      "last_seen_ist": "2026-11-24 06:12 IST",
+      "item_count": 2,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNXzFKd2FUVEdEcUMxYkI0R1EzWE1oMDFQRS1ybmNqM0NmMTVLMFFlVThoaF9JRE10MWdxSUhYWi1mV0x1cnY0aEdiTkd5enRDWk9GTDM2cFBUb0dnN1Vza09FWkZrVmYyQmQ2WmFPaUtHWW5KWXBjeE4wREgxQjZ5UWdmUWZqWWExeEx6eUlOV2U2UWdzX095aDJlVlpuV0E2SnJHUklYLUNDbEk?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMVl2MzFCNFk4TFN3ZURuZ21ONTFzVzEwOTlFZ2xrdTI4cFJ3LVRHdVJ4SmpwZnhTWF9tNWd3Yk1JTkhZdWlJY0tpX0FEZUF4dmppcTJXbWtYS2tBU2NfVGdnTXVsaFhNcXcyTjRXVjFCNGpoQ1VnVG90bENqbFhYVzVvaUN3SUZKb2RUV2pBcWQxNUthUG5XYVk1V3M2YjdYMXNMa0pDbGNubmo2YVNBbjVGUFRabUUxU2F6U0hfVQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S53",
+      "stocks": [
+        {
+          "symbol": "ITI",
+          "company": "ITI Ltd."
+        }
+      ],
+      "headline": "NSE seeks clarification on unusual volume in ITI, Sigachi Industries and Windsor Machines",
+      "summary": "",
+      "sources": [
+        "Traders Union"
+      ],
+      "published_ist": "2026-11-24 05:55 IST",
+      "last_seen_ist": "2026-11-24 05:55 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVNhbnpoVGtyT2gxNWVSRlVORElOQzlkN2RtLU50Y3c2dEZQWlE0T2ZPTkNKMXlSMUdzYXJrTlR5NnEwNGpKVVNzaGpXTnRhLTBMU0NNYU5LVzZUZlRFLUxXWGFPWi1PaUo2dXplSUtZQnRqRUozWG5Xakx3SUdWWTJndDhhb3VIVVYtU0NNQndyeTFYNF9n?oc=5"
+      ]
+    },
+    {
+      "story_id": "S54",
+      "stocks": [
+        {
+          "symbol": "PIRAMALFIN",
+          "company": "Piramal Finance Ltd."
+        }
+      ],
+      "headline": "Piramal Finance expects 50% profit growth in FY27 as AI boosts productivity and lending",
+      "summary": "",
+      "sources": [
+        "bfsi.economictimes.indiatimes.com"
+      ],
+      "published_ist": "2026-11-24 06:00 IST",
+      "last_seen_ist": "2026-11-24 06:00 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV2d1N0FiamE4Tk4tMGZIXzRhaEtUYUpaZGkwZ0tBbkZxcUJiQzdWQzhoVHNEenk5cVEyRzhROGQ2WUstSS1xNTMwaE9pVjA2NlBUUGRjQTl1SWxvZXhMMXBBX2JWbjRkRTduaUl4QlNHRUNKLU9uelJWY1B6ZGtpY0l1S0dXODhYekt2WHo2V1NpY3VXbmFkZnEwNkZRcm8wNkp5bnVnRDhQVXpkeDFpNHUzUzNNRjBJRU5pbzhkOTJzSFR0U0tnU3dCek9Yc0pFLUJJdDZaVGVjVnlObEhPNNIB5gFBVV95cUxOSTZ5MnJUU3VWd0l0cUUycm1XMkFxSEJJeFYxWjdJb0NXQ1RXaXpzZGZCNzhfWXNkR1VMd1BiVUs4bkhQcjJ4LUFoQmpkN3Y1VnVVMVlaU05BY3ZkYWlRdGc0NVZqVlM3Qm5KWXVKV0dOU0pHbURLOS1BYUFweE5OS0FUR0lfYXpDeHZsR0Y4WE1lWTdkRTlmYVU1ZEpWOWlTbEJJRnBpZ3ZuRHVuYkdfZWttSGViUnlPdEJmenllNjV5YmxCWW92M1dwSFgzMjdjVlV0RGwwTzZXYUtXaXZSR3V4N2ZDZw?oc=5"
+      ]
+    },
+    {
+      "story_id": "S55",
+      "stocks": [
+        {
+          "symbol": "ASTRAL",
+          "company": "Astral Ltd."
+        }
+      ],
+      "headline": "Astral stock faces CHRO resignation effective November 18",
+      "summary": "",
+      "sources": [
+        "ad-hoc-news.de"
+      ],
+      "published_ist": "2026-11-24 07:31 IST",
+      "last_seen_ist": "2026-11-24 07:31 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZXZQbW16M1BQelMwS3FCNHpWeDIwX0FXV08wbHZET3pYOTdOa1NQeXVJVDl6SWhMZWVzTzVmV3NieHR2VklYUWhFTTZHcFBrcmtnYlVMWW5nUFNSRWpKMmlDQlBmQUVwdzkxWDJCakVRNURnSzNEX1FTUXF6TkN1b2NYazBkNXBCNm9pOVNtbG1TTFZ4YWlGaXJNU3ZhbzN0c1JGNVFrYTRPWU9ySkEzSU5qd2ZWU0U?oc=5"
+      ]
+    },
+    {
+      "story_id": "S56",
+      "stocks": [
+        {
+          "symbol": "VEDL",
+          "company": "Vedanta Ltd."
+        }
+      ],
+      "headline": "Vedanta launches JEMS innovation centre at OAV school to benefit over 500 students",
+      "summary": "",
+      "sources": [
+        "Odisha Diary"
+      ],
+      "published_ist": "2026-11-24 07:43 IST",
+      "last_seen_ist": "2026-11-24 07:43 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWUFkeUhBLU13MEFtOU9yVWp4cVlsZjN4RFotRktXS2k5bWFwWjVxY2toMHYxVlVDaXJFMHFiMDRJeEJDVkM5d1FTZWlYMDFTWnc5Y2xBOFlCclZNeEtZNW11bjlNWlk4Q1BHMnVZM3hGdXpOdU1wU3REVF9MLTNjZE91NFd3UzZrQWtaTU9tN3FuWEtzczRIQm82cUYxdTJrbjlMOW5jd0pKZ2M?oc=5"
+      ]
+    },
+    {
+      "story_id": "S57",
+      "stocks": [
+        {
+          "symbol": "PERSISTENT",
+          "company": "Persistent Systems Ltd."
+        }
+      ],
+      "headline": "Employee Visa and Immigration Records Suspected Stolen in Breach at Persistent Systems' US Firm",
+      "summary": "",
+      "sources": [
+        "The 420.in"
+      ],
+      "published_ist": "2026-11-24 08:02 IST",
+      "last_seen_ist": "2026-11-24 08:02 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxObkk3OEFsd2ttMVIyb3BhQ0IyRUdPUHo2Z0FSVWtEdHk2TXlXT21wTllxeHNkNmVsc0RZbjJjMk5KODBxSVgwLVhVZHpPekV2LTAtZkFfazNMdGFTMUc1Q18yQjNUbG1MdWVkQ25RVENVWnctUzVrU1RKOGNzdjlDeVBaT0tzcFFmT0FVcHRiMlRIdXM3OUlTZkVMVmNpMXdXNWVfd082QzJBbmVBb2xwWWoyRQ?oc=5"
+      ]
+    },
+    {
+      "story_id": "S58",
+      "stocks": [
+        {
+          "symbol": "AUBANK",
+          "company": "AU Small Finance Bank Ltd."
+        }
+      ],
+      "headline": "AU Small Finance Bank stock plans 5,000 crore rupee QIP",
+      "summary": "",
+      "sources": [
+        "ad-hoc-news.de"
+      ],
+      "published_ist": "2026-11-24 08:06 IST",
+      "last_seen_ist": "2026-11-24 08:06 IST",
+      "item_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS044Q21GcjZoaE5TWDZ6RzJNekhqeDlaUFNEcFJEaGJkM3YzX2xCVU5lZ0dxTkhEOGd1dTRieFg1YmVXWDZweVhGQ1BWcjEtX2tXU2FCTVloQ0NHUWtscHFfTHdqYjdrNkVnVTVWV1FfeTkzZHpSYlBlamdWdnpoTE04TEZzb29IRW9OejVOZUtHNGVwWlNIRVlXSHJRNFZmdGRnRGd2UEZtTjJQWnNhMFVfYjc?oc=5"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "symbol": "ACC",
+      "headline": "ACC Men's Asia Cup Rising Stars 2026 Points Table - Cricbuzz",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Men's Asia Cup Rising Stars 2026 match predictions: India A vs UAE and Pakistan A vs Nepal – November 24 - Cricket World",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC seeks travel ban on Nagad administrator Motasem Billah - The Daily Star",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Desiree Wooten Named ACC Player of the Week - NC State University Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Pitt’s Ndongo, Stanford’s Price Notch ACC Men’s Basketball Weekly Honors - Atlantic Coast Conference",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Pitt forward Baye Ndongo ACC Player of the Week - Audacy",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Tradie rejected by ACC feels it has broken its promise after decades of levies - RNZ",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Price Named ACC Rookie of the Week - Stanford Cardinal",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ANNOUNCEMENT || DISSEMINATION OF THE UPDATES AND AMENDMENTS TO THE ASEAN COSMETIC DIRECTIVE (ACD) AS ADOPTED DURING THE 43rd ASEAN COSMETIC COMMITTEE (ACC) MEETING AND ITS RELATED MEETINGS - https://www.fda.gov.ph/",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Ole Miss Delivers Statement Win in SEC vs. ACC Maui Invitational Showdown - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Hatcher Earns ACC Offensive Receiver of the Week Honors - Syracuse University Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Football Players of the Week for Week 12 - Atlantic Coast Conference",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Bo MacCormack Named ACC Running Back of the Week for Second Time This Year - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Bo MacCormack Named ACC Running Back of the Week - Boston College Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Ayanna Watson Named ACC Freshman Of The Week - PittsburghPanthers.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Baye Ndongo Named ACC Player Of The Week - PittsburghPanthers.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Wake Forest Trio Named ACC Players of the Week - Wake Forest University Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Does ACC Deserve More Respect? Joe Rose BLASTS SEC Bias in CFP | WQAM - Audacy",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Harpring Wins Second Straight ACC Freshman Of The Week Honor - University of North Carolina Athletics - University of North Carolina Athletics",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Davis Collects Third ACC Offensive Player of the Week Honor - SMU Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Syracuse’s Umari Hatcher wins ACC Receiver of the Week for 3rd time - The Daily Orange",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Taylor Wins ACC Defensive Player Of The Week For Second Time - University of North Carolina Athletics - University of North Carolina Athletics",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Wake Forest' Ty Clark Ruled Out Against Miami Hurricanes in ACC Championship - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC 2026 Spark Tank Winner Readies the Warfighter with Innovation - Department of the Air Force (.mil)",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Announces Volleyball Players of the Week - Atlantic Coast Conference",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "This Week in ACC Volleyball - Atlantic Coast Conference",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Scotty McCreery to Headline Free ACC Football Championship Game Fan Fest in Charlotte - Backstage Country",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Freedom-Woodbridge grad named ACC's top receiver for third t... - InsideNoVa",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC power rankings: Syracuse in bad company after Boston College loss - Syracuse.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "NC State's Wooten, North Carolina’s Harpring Named ACC Women’s Basketball Players of the Week - Atlantic Coast Conference",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC power rankings: Clemson rebounds, NC State stuns FSU as Miami and Wake Forest clinch - Canes Warning",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Pitt Basketball senior Baye Ndongo named ACC Player of the Week - WPXI",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Palmetto Sports Shorts: Dabo recalls the Tigers’ most recent ACC Title - FOX Carolina News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "N.C. College Football Roundup: Wake Forest Clinches ACC Title Game Spot; State Wins, While Duke, UNC Fall - V 101.9 Charlotte",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC title game is set: It's a Miami-Wake Forest rematch in Charlotte on Dec. 5 - High Point Enterprise",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Four ACC teams advance in NCAA men’s soccer, and two got there by beating top seeds - ACC Sports Journal",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Roundup - BC Moves To 6-0, But The Hokies Take A Beating - Duke Basketball Report",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Two UVA guys among this week’s ACC Football Players of the Week - Augusta Free Press",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Everything Mario Cristobal Said After Clinching an ACC Championship Berth Against Virginia Tech - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC men's basketball rolls on this week - Greensboro News and Record",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Championship Contender Loses Starting Athlete for Season Just Before Title Game - NewsBreak: Local News & Alerts",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC power rankings, Week 13: Clemson rose to the occasion after stunning Duke victory - Rubbing the Rock",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Week 12 Offensive Standouts: Top Performers From Every Game - ACC Sports Journal",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Louisville QB Lincoln Kienholz receives ACC Honor - 247Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "Pitt forward Baye Ndongo wins ACC Player of the Week after back-to-back 30-point games - TribLIVE.com",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Network Football Podcast - The ACC Championship matchup is official and Clemson rebounds against Duke - ESPN",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC athletics fundraising, ranked: Which school’s boosters raise the most? - ACC Sports Journal",
+      "reason": "exclusion list (ACC)"
+    },
+    {
+      "symbol": "ACC",
+      "headline": "ACC Power Rankings: Where is Virginia Tech heading into the Commonwealth Clash? - Fighting Gobbler",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NH",
+      "headline": "Adani Enterprises incorporates Nashik Phata Road Ltd for NH-60 flyover - scanx.trade",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ABSLAMC",
+      "headline": "Aditya Birla Sun Life AMC Ltd is Rated Sell - MarketsMojo",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "AEGISLOG",
+      "headline": "Aegis Logistics Ltd is Rated Hold by MarketsMOJO - MarketsMojo",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "headline": "5,724 Call Contracts on Apollo Hospitals Enterprise Ltd. Signal Near-Term Upside Ahead of Expiry - MarketsMojo",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "ASTRAL",
+      "headline": "Astral Foods FY26 HEPS surges 102% - CNBC Africa",
+      "reason": "exclusion list (ASTRAL)"
+    },
+    {
+      "symbol": "ASTRAL",
+      "headline": "Astral profit doubles on cheaper feed as squeezed consumers buy less chicken - Business Day",
+      "reason": "exclusion list (ASTRAL)"
+    },
+    {
+      "symbol": "ASTRAL",
+      "headline": "WATCH | Astral Foods’ profit soars as lower feed costs boost margins - Business Day",
+      "reason": "exclusion list (ASTRAL)"
+    },
+    {
+      "symbol": "ASTRAL",
+      "headline": "Astral Foods operating profit jumps 88% as earnings more than double - EWN",
+      "reason": "exclusion list (ASTRAL)"
+    },
+    {
+      "symbol": "ASTRAL",
+      "headline": "The RTX 5090’s 16-pin connector just got a free pin-by-pin watchdog — RTX Lens taps Asus Astral, WireView Pro II, and MSI PSU sensors to alert your phone or shut down your PC - Tom's Hardware",
+      "reason": "exclusion list (ASTRAL)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday today: BSE, NSE to remain closed for Guru Nanak Jayanti - Moneycontrol.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti - Business Standard",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "What are mutual funds buying? ITC, BSE, Max Healthcare among top stocks bought by fund managers in October 2026 - Livemint",
+      "reason": "exclusion list (BSE)"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "What are mutual funds buying? ITC, BSE, Max Healthcare among top stocks bought by fund managers in October 2026 - Livemint",
+      "reason": "exclusion list (ITC)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday November 24: NSE, BSE shut for Guru Nanak Jayanti; MCX evening trade open - CNBC TV18",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "MCX",
+      "headline": "Stock market holiday November 24: NSE, BSE shut for Guru Nanak Jayanti; MCX evening trade open - CNBC TV18",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "BSE Sensex top losers today - Rediff.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Zelio E-Mobility Gets BSE Approval to Raise $18M Capital for Future Expansion - Electronics For You BUSINESS",
+      "reason": "exclusion list (BSE)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Tech Mahindra marks 40 years with BSE bell-ringing ceremony | Tap to know more | Inshorts - Inshorts",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Wiscon Industries (BSE:545010) - Earnings & Revenue Performance - Simply Wall St",
+      "reason": "exclusion list (BSE)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Blur bassist Alex James bought a 200-acre Cotswolds farm on his 2003 honeymoon from a beef farmer hit by BSE and foot-and-mouth, and two decades later it makes cheese and hosts a festival every summer, just down the road from Clarkson’s Farm - British Heritage Travel",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock Market Holiday: Are BSE, NSE closed today for Guru Nanak Jayanti? - The Economic Times",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market open today or not? BSE, NSE closed on 24 Nov for Guru Nanak Jayanti? Check holiday calendar - Livemint",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday: NSE, BSE closed today for Guru Nanak Jayanti; check MCX timings - Business Today",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "MCX",
+      "headline": "Stock market holiday: NSE, BSE closed today for Guru Nanak Jayanti; check MCX timings - Business Today",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday tomorrow Tuesday, 24 Nov: BSE, NSE open or closed for Guru Nanak Jayanti? Check exchange calendar - Livemint",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Guru Nanak Jayanti: Is Stock Market Open Or Closed Today, November 24? Know BSE, NSE Holidays This Year - News18",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday November 24: Will NSE, BSE remain closed for Guru Nanak Jayanti? - ET Now",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market holiday on November 24: Are NSE, BSE closed for Guru Nanak Jayanti? - Business Today",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock market closed today after Sensex's 1,484-point crash; NSE, BSE to reopen Wednesday - NewsDrum",
+      "reason": "exclusion list (BSE)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock Market Holiday Today Or Not? Are BSE, NSE Closed On November 24 For Guru Nanak Jayanti? Check Calendar - Goodreturns",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock Market Holiday: Will NSE, BSE remain closed on November 24 for Guru Nanak Jayanti? - Zee Business",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "BSE Odisha Declares OSSTET 2026 Results with 79.15% Overall Pass Rate - Pragativadi",
+      "reason": "exclusion list (BSE)"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Bloodbath: Sensex clocks worst day in 5 months yet 5 BSE 500 stocks scale new 52-wk highs - The Financial Express",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "BSE Sensex Slides 1.77% as Banks Lead Monday Selloff - ad-hoc-news.de",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BSE",
+      "headline": "Stock Market Holiday Tomorrow, November 24: BSE, NSE & MCX Shut On Tuesday; How Settlement Holiday Will Impact - Goodreturns",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "MCX",
+      "headline": "Stock Market Holiday Tomorrow, November 24: BSE, NSE & MCX Shut On Tuesday; How Settlement Holiday Will Impact - Goodreturns",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BANKINDIA",
+      "headline": "Press Releases| Official Website of Reserve Bank of India - Reserve Bank of India",
+      "reason": "exclusion list (BANKINDIA)"
+    },
+    {
+      "symbol": "BANKINDIA",
+      "headline": "AI risks, Reserve Bank of India nudge spur a cybersecurity talent rush - Business Standard",
+      "reason": "exclusion list (BANKINDIA)"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, HDFC Bank, ICICI Bank as systemically important banks - Business Standard",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "headline": "Blue Star Foods 3Q 2026: Revenue $290.39K, EPS ($3.27) — 10-Q Summary - TradingView",
+      "reason": "exclusion list (BLUESTARCO)"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "headline": "BSFC: Blue Star Foods revenue falls 58.7% in nine months to $1.07M - Quantisnow",
+      "reason": "exclusion list (BLUESTARCO)"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "headline": "Blue Star Foods Posts Q3 2026 Balance Sheet With $51M Deficit - kalkine.com",
+      "reason": "exclusion list (BLUESTARCO)"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "headline": "With $2,848 in cash and equivalents at Sept. 30, Blue Star Foods (BSFC) flags doubt about staying in business. - Stock Titan",
+      "reason": "exclusion list (BLUESTARCO)"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "headline": "Blue Star Foods Q3 2026 Earnings Results and Report - MarketBeat",
+      "reason": "exclusion list (BLUESTARCO)"
+    },
+    {
+      "symbol": "CESC",
+      "headline": "CESC stock: subsidiary starts commercial operation at 147 MW - ad-hoc-news.de",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "CRISIL",
+      "headline": "NBFC AUM may reach ₹68 trillion by FY28; unsecured loans a risk: CRISIL - Business Standard",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "CRISIL",
+      "headline": "India to add up to 274 GW renewable capacity by FY31, storage capacity to touch 55 GW: CRISIL - ET EnergyWorld",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "CRISIL",
+      "headline": "NBFCs' AUM could hit ₹68 trillion by FY28, but unsecured loans pose risks: CRISIL - FlipItMoney",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "DLF",
+      "headline": "Shirish Wagh Named Executive Director – DLF 5 Operations at DLF Limited - https://hrtoday.in/",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande Teases ‘Eternal Sunshine Tour’ Movie at Peacock - Variety",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande Teases ‘Eternal Sunshine Tour’ Project At Peacock - Deadline",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande Teases Eternal Sunshine Tour Concert Film: ‘Coming Soon’ - Billboard",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande’s ‘Eternal Sunshine’ Tour Movie Is Headed to Peacock - TheWrap",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande teases ‘Eternal Sunshine’ tour film for Peacock - Mezha.net",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Eternal Makes Hydration the Season’s Hottest Accessory — LBB - LBB - Little Black Book",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande’s ‘Eternal Sunshine’ Tour Movie Is Headed to Peacock - IMDb",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande’s Eternal Sunshine Tour Film: What to Know - ELLE",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Springs, Eternal review - Tech-Gaming",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande Teases ‘Eternal Sunshine’ Tour Film Coming to Peacock - That Grape Juice.net",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande 'Eternal Sunshine' concert film coming soon to Peacock - The Palm Beach Post",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Corey Hart Releases First Novel 'The Eternal Return' - Rolling Stone Canada",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Eternal Rest - fox10tv.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Eternal Rest: Compassionate Care When It Matters Most - Fox 10 News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Eternal Fire completed roster for VCT EMEA 2027 - Sheep Esports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "HELLRIPPER announce European tour with DEVIL MASTER and ETERNAL EVIL - Lambgoat",
+      "reason": "exclusion list (ETERNAL)"
+    },
+    {
+      "symbol": "ETERNAL",
+      "headline": "Ariana Grande appears to tease Eternal Sunshine Tour film - attitude.co.uk",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "SBI, HDFC Bank, ICICI Bank retain D-SIB status; RBI maintains capital requirements - The Hindu",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, HDFC Bank, ICICI Bank as ‘domestic systematically important banks’ - Fortune India",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, HDFC Bank and ICICI Bank in 2026 list of systemically important banks - bfsi.economictimes.indiatimes.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, ICICI Bank, HDFC Bank as 'systemically important' - Rediff.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, HDFC Bank and ICICI Bank as systemically important banks in 2026 list - Moneycontrol.com",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI Retains SBI, HDFC Bank, and ICICI Bank as Domestic Systemically Important Banks - CNBC TV18",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI retains SBI, HDFC Bank and ICICI Bank in the 2026 D-SIB list - Traders Union",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "SBI, HDFC Bank and ICICI Bank retain systemically important tag in RBI's 2026 list - The Economic Times",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "PNB",
+      "headline": "Bank Holiday Today: Are SBI, HDFC Bank, ICICI Bank, PNB and other banks closed on Guru Nanak Jayanti? Check details - ET Now",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "Bank Holiday Today: Are SBI, HDFC Bank, ICICI Bank, PNB and other banks closed on Guru Nanak Jayanti? Check details - ET Now",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI D-SIB List 2026: Why SBI, HDFC Bank and ICICI Bank remain systemically important banks; explained - ET Now",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "Why ICICI Bank, SBI are beating HDFC, Axis on retail deposits — What it means for margins - The Financial Express",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "RBI Retains SBI, HDFC Bank, ICICI Bank As Systemically Important Banks - Times Now",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "Abu Dhabi ITC, Kezad Group Partner on Drone and Autonomous Vehicle Test Hub - News and Statistics - IndexBox",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "Golden Cross Confirmed: Do ITC Hotels Ltd's Other Technical Indicators Agree? - MarketsMojo",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "U.S. sheep industry counts ITC trade ruling as a win - The Rapid City Post",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "New Equity-ITC Agreement announced - Equity",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITI",
+      "headline": "ITI becomes first PNG Institute to receive CPA Australia Accreditation - Post Courier",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "Ingersoll Township orchard owner urges ITC to move proposed power line - Midland Daily News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "ITC",
+      "headline": "ITC Michigan Files Construction Plan for Oneida-Sabine Lake Project - WHMI",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "PESB invites applications for Director (Operations) post at NTPC Ltd - Legend Officers",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SBIN",
+      "headline": "Government jobs 2026: Over 5,000 Vacancies in BSF, Gujarat Police, SBI, Railways and IOCL; Check eligibility and last dates - Education Times",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "INFY",
+      "headline": "Ex-Infosys India sales head recalls quitting after 20-year stint with no new job: 'Walked into my... - Moneycontrol.com",
+      "reason": "exclusion list (INFY)"
+    },
+    {
+      "symbol": "INOXWIND",
+      "headline": "Inox Wind Ltd Sees Sharp Open Interest Surge Amid Continued Downtrend - MarketsMojo",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "LTM",
+      "headline": "Kanaan Sellers Group AB Acquires Wheeloo, With €1.8M LTM Sales - TradingView",
+      "reason": "exclusion list (LTM)"
+    },
+    {
+      "symbol": "LUPIN",
+      "headline": "‘Money Heist’ Meets ‘Lupin’ in Netflix’s New Global Crime Thriller Hit - Collider",
+      "reason": "exclusion list (LUPIN)"
+    },
+    {
+      "symbol": "NCC",
+      "headline": "Embraer, Plyable Join NCC as Tier 1 and Tier 2 Members - CompositesWorld",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NCC",
+      "headline": "BLOOD DONATION BY NCC CADETS - The Times of India",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NCC",
+      "headline": "NCC mounted rally promotes TB Mukt Bharat Abhiyaan - The Pioneer",
+      "reason": "exclusion list (NCC)"
+    },
+    {
+      "symbol": "NCC",
+      "headline": "13 Tripura Bn NCC & 35 A.R Jointly Organized Blood Donation Camp. - TRIPURA STAR NEWS",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NMDC",
+      "headline": "India: Over 75,000 t of iron ore booked in NMDC's Chhattisgarh auctions - BigMint",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NCC",
+      "headline": "NCC plans nationwide restaurant inspections over service charges - Moonstone Information Refinery",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "Post of Dir (OP) in NTPC Ltd Advertised: - Whispers in the Corridors",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "India: SCCL proposes Naini coal supplies to NTPC's Kaniha plant as Odisha mine ramps up - BigMint",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "Sikkim CM attends NTPC archery tournament - ThePrint",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "PyroGenesis (TSX:PYR): What Do Plasma Torch And NTPC Updates Signal? - Kalkine Media",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "NTPC",
+      "headline": "NTPC November 1 examination cancelled over ‘administrative reasons’ - The Statesman",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "headline": "Hillhouse-backed Logicap appoints former Phoenix Mills’ exec as CEO - VCCircle",
+      "reason": "exclusion list (PHOENIXLTD)"
+    },
+    {
+      "symbol": "RECLTD",
+      "headline": "Ecovera launches in Egypt to focus on I-REC market - Renewables Now",
+      "reason": "exclusion list (RECLTD)"
+    },
+    {
+      "symbol": "RECLTD",
+      "headline": "Hanbit Offshore Wind Project Secures 20-Year REC Agreements for Full 340 MW Capacity - Offshore Wind",
+      "reason": "exclusion list (RECLTD)"
+    },
+    {
+      "symbol": "RECLTD",
+      "headline": "Dever to retire as Pee Dee REC director; Reay-Jones to serve as interim - Clemson News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "RECLTD",
+      "headline": "REC warns hiring has stalled as early Christmas recruitment boost fails to appear - www.labourhome.co.uk",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "RECLTD",
+      "headline": "Unfilled vacancies and bad hires cost UK firms £99bn a year, REC research finds - People Management",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN Commences Commercial Operations of 45 MW Sonitpur Solar Project in Assam - PSU Watch",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN commissions 45 MW solar in Assam - pv magazine India",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "PM Modi and Nepal PM lay foundation stone of SJVN’s 669 MW Lower Arun Hydro Project in Nepal - Achievements of Atal Medical and Research University",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN Limited: Foundation Laid for 669 MW Lower Arun Project - Multibagg AI",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "PM Modi, Nepal PM Balendra Shah lay foundation stone for SJVN's ₹5,792 crore hydropower project - CNBC TV18",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "Modi, Nepal PM jointly lay foundation stone of SJVN’s 669 MW Lower Arun hydro project - PSU Watch",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN starts construction on 669 MW Lower Arun project - Multibagg AI",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN Dedicates 660 MW Buxar Unit II And Lays Foundation For 669 MW Hydro Project In Nepal - Sahi",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN Green Energy Commissions 45 MW of 50 MW Solar Project in Assam's Sonitpur District - Indian Masterminds",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SJVN",
+      "headline": "SJVN breaks ground on ₹5,792 crore Lower Arun Hydro Electric Project - Business Upturn",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Germany’s DAX 40 Climbs 2.15% to 25,337 as Siemens Energy and Infineon Lead AI Rebound - BBN Times",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens Healthineers AG: Release of a capital market information - TradingView",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Strike brings Siemens Gamesa offshore wind turbine factory to 'complete standstill' - Recharge News",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "InterContinental Energy’s world-first digital twin - Siemens Newsroom",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Green Volt reserves 28 Siemens Gamesa turbines - reNEWS",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Green Volt reserves turbine capacity with Siemens Gamesa - Energy Voice",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens and First Bus sign five-year service agreement for UK-wide electric bus charging infrastructure - Siemens",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Former Siemens UK chief appointed to lead UK’s northern reindustrialisation drive - The Manufacturer",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test - GenomeWeb",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "MS Blood Test Wins FDA Authorization, Siemens Says, but Moves Risk Just 5 Percentage Points - Tech Times",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "FDA Grants First Marketing Authorization for Neurofilament Light Chain Blood Test to Siemens Healthineers for Use in Multiple Sclerosis - www.marketscreener.com",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens and First Bus sign deal on chargepoints - Transport + Energy",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens Energy proves 100% hydrogen-powered cogeneration at French paper mill - Energies Media",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "headline": "Siemens and First sign five-year agreement - Bus & Coach Buyer",
+      "reason": "exclusion list (SIEMENS)"
+    },
+    {
+      "symbol": "NIACL",
+      "headline": "NIACL Share Price News: Latest Drop, Valuation and Peers - Univest",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Bayern Munich rule out move for Trent Alexander-Arnold - BeSoccer Livescore",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "49ers OT Trent Williams Left Off List of Potential Hall of Famers - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "VARSITY BLUES FINISH FALL SEMESTER WITH TRENT INVITATIONAL - University of Toronto Athletics",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Rolls-Royce secures Trent 1000 XE order from Royal Brunei Airlines - Machinery Market",
+      "reason": "exclusion list (TRENT)"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Chad Morris Saved His Job Friday Night While Trent Pearman Saved The Entire Clemson Program - WCNC",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Colton McKivitz’s injury was so gruesome 49ers’ Trent Williams slammed his helmet in despair - Yahoo Sports",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Sophomore QB Trent Taylor Powers Choteau Back To Its First State Title Game Since 1989 - KSEN AM 1150",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Trent Williams breaks down in helmet-throwing rage after Colton McKivitz’s gruesome injury - New York Post",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Six men charged with drug supply offences in Stoke-on-Trent - Stoke Nub News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "Trent Merrin leaves Wollongong local court - The Daily Telegraph",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "TRENT",
+      "headline": "17-year-old boy denies murder of man in Stoke-on-Trent - Stoke Nub News",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "UPL",
+      "headline": "UPL Option Chain: Live NSE Option Chain Data, OI & Price - Kotak Neo",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "UPL",
+      "headline": "UPL-2. Dynamo – Obolon – 4:0. Match report - Динамо» Київ. Офіційний сайт",
+      "reason": "ticker/caps/common-word match, no finance context"
+    },
+    {
+      "symbol": "VEDL",
+      "headline": "Vedanta Share News Today 2026: Metal Price Crash, Systematix Warning, Aluminium Duty Relief Demand and Vedanta Group Updates – Telangana NavaNirmana Sena - Telangana NavaNirmana Sena",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "VEDL",
+      "headline": "Vedanta Share News Today 2026: Why Vedanta Shares Are Falling, Systematix Warning, Aluminium Duty Relief and Latest Business Updates – Telangana NavaNirmana Sena - Telangana NavaNirmana Sena",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "AVANTIFEED",
+      "headline": "Avanti Feeds Files Q2 FY27 Call Transcript Showing ₹96 Crore PBT - Multibagg AI",
+      "reason": "auto-generated/roundup, no event"
+    },
+    {
+      "symbol": "BBOX",
+      "headline": "Johnson Releases FDA Records on Vaccine Deaths and a Deferred Black Box Warning - Howl.Link",
+      "reason": "exclusion list (BBOX)"
+    },
+    {
+      "symbol": "CUPID",
+      "headline": "Milana Vayntrub joins Cupid - The New Indian Express",
+      "reason": "exclusion list (CUPID)"
+    },
+    {
+      "symbol": "CUPID",
+      "headline": "Milana Vayntrub joins Daisy Ridley, Catherine Zeta-Jones in Tate Taylor thriller 'Cupid' Read more below. - Facebook",
+      "reason": "exclusion list (CUPID)"
+    },
+    {
+      "symbol": "HFCL",
+      "headline": "HFCL vs Sterlite Technologies: Lower Circuit Data and Levels - Univest",
+      "reason": "ticker/caps/common-word match, no finance context"
+    }
+  ]
+}

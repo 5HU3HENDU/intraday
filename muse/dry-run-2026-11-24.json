@@ -1,0 +1,726 @@
+{
+  "window": {
+    "start_ist": "2026-11-23 16:00 IST",
+    "end_ist": "2026-11-24 08:30 IST"
+  },
+  "universe": "NIFTY500",
+  "universe_size": 500,
+  "per_source": {
+    "google-news": {
+      "fetched": 1211,
+      "failed": 0
+    },
+    "et-markets": {
+      "fetched": 50,
+      "failed": 0
+    }
+  },
+  "raw_items": 1261,
+  "in_window": 75,
+  "after_dedupe": 74,
+  "matched_rows": 41,
+  "distinct_stocks": 13,
+  "dropped_macro": 5,
+  "unmatched_non_macro": 7,
+  "items": [
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel to buy promoter stake in APL Apollo Tubes - The Times of India",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYVVRdVNLUVRuc0dQSExXM0M0eGhzTS1BUnFwYTRLNl9NTms5WXZFOHBadlM5TUtKY0h2N1Yzd29XVGdLTTN5ZjFhVEhXQmVVWV9VLThaODFCVTRhTHJUYkgtODlUY2gxbEJIOVV0ckpsNWRiNTVkdlpveXlFbHFLZzdwakYtM18xYk9jZzFXbk0zQklWZzFqdlpzb1hHMHUxWmJJYVNXOTRNZFlVcWlEQzRabU82QjNqRjFhZEpZZGpRRFFQT2FWSl9laTNyT3o4TklEUdIB2gFBVV95cUxNR2dhbFlMbEZFeldvcU9yQnBWRElCUVJaSkVybTFXRmtYYTJDUlBuWmxwWDc4c1ZSWnhFQTdHQjhKaXBZMGN2STJ0UEdKWlF1WFk1V1dzdkZtNTRJZ3VGT0VmWkF6aV9ZWUw4TnJkMDFER1NWN1lxZUk1TThDUjdjRFA1WlV1TDFGR1lSTFROQ0F3dklHeEVBSFhOWkZ3T0RMT1pVa29tOXFpYmVnRFRxTDAwbTFmSXBSMDZ3MEVtenRaNXkzbS1hcEctQldPYWdOcmVMQ2dJeVNmZw?oc=5",
+      "published_ist": "2026-11-24 07:49:00 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel to buy promoter stake in APL Apollo Tubes - The Times of India",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYVVRdVNLUVRuc0dQSExXM0M0eGhzTS1BUnFwYTRLNl9NTms5WXZFOHBadlM5TUtKY0h2N1Yzd29XVGdLTTN5ZjFhVEhXQmVVWV9VLThaODFCVTRhTHJUYkgtODlUY2gxbEJIOVV0ckpsNWRiNTVkdlpveXlFbHFLZzdwakYtM18xYk9jZzFXbk0zQklWZzFqdlpzb1hHMHUxWmJJYVNXOTRNZFlVcWlEQzRabU82QjNqRjFhZEpZZGpRRFFQT2FWSl9laTNyT3o4TklEUdIB2gFBVV95cUxNR2dhbFlMbEZFeldvcU9yQnBWRElCUVJaSkVybTFXRmtYYTJDUlBuWmxwWDc4c1ZSWnhFQTdHQjhKaXBZMGN2STJ0UEdKWlF1WFk1V1dzdkZtNTRJZ3VGT0VmWkF6aV9ZWUw4TnJkMDFER1NWN1lxZUk1TThDUjdjRFA1WlV1TDFGR1lSTFROQ0F3dklHeEVBSFhOWkZ3T0RMT1pVa29tOXFpYmVnRFRxTDAwbTFmSXBSMDZ3MEVtenRaNXkzbS1hcEctQldPYWdOcmVMQ2dJeVNmZw?oc=5",
+      "published_ist": "2026-11-24 07:49:00 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion - Bloomberg.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1o5dE5nQnJOTHp3OWVXVzlmRUZPNDJZc1RkYjl5QVdWSkRLdC11bVMtcm9NVC0wclNnVDgyMlRmdXlvd01xYnFwRFJHaG4zcGlIUk9kdlFpMjZqa0MxWEs1dFM5S1RuRG4tTTY1VUdLclByZkFrRktnRzcyeTNmbFFwVDNJOEtzQnM4TVN4MlhkMjlEUEttX3BtR1FfSWRvNXpKSFp0bkliUzF6d0EtY00xTQ?oc=5",
+      "published_ist": "2026-11-23 20:46:06 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion - Bloomberg.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1o5dE5nQnJOTHp3OWVXVzlmRUZPNDJZc1RkYjl5QVdWSkRLdC11bVMtcm9NVC0wclNnVDgyMlRmdXlvd01xYnFwRFJHaG4zcGlIUk9kdlFpMjZqa0MxWEs1dFM5S1RuRG4tTTY1VUdLclByZkFrRktnRzcyeTNmbFFwVDNJOEtzQnM4TVN4MlhkMjlEUEttX3BtR1FfSWRvNXpKSFp0bkliUzF6d0EtY00xTQ?oc=5",
+      "published_ist": "2026-11-23 20:46:06 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Block Deals: Tata Steel acquires 9.99% stake in APL Apollo Tubes from promoter entity in first tranche - Moneycontrol.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZWdWckNlYUpfWEx0VGhsNXVuMHc0blFpeE5JbDdBU01tSm8wS0NEaFlTOUZDMjJna2hFQTJjU3E0Zm1yX1ZzdzRiaEc3NUtaN1BxbTlDcE1RWng4Wi16RW9OdERQWkVrRkhpM1FXRGF5UGRaNm5GUGVWS0tyWkpGdnc1MC1DamgzSmFVWjlpbXVWSFFLOG1hb3NUcHVLX3BmcTc2LWVtcm1EejJUcURiTndoVzIwanVyNlF3SE1LOXR6Yy0wMEFkdHdRZXpORFZOQU9uSlJtMFA4T3hfdExmbHBxdGJ6T2xIUUJuMk1iNklXUFJrYXkyaNIB_gFBVV95cUxQR29wQVk3Zko5ZEhXWmNaMzdDb0w5VUpOZ0xpREs2QmJESnltd0xNRWdJbUZEREhTRGJVN1hfVEhBVjNIaDB6cF9WZktmUU1aMlV0Y2F3aEdRNndZMmhXQnE2cEYzN2RYQWhnQ01fMi1ReWtVVEh1NHVKc3ZkdFJULUExTWwySVJjU0RHQV85V3lpYWJLaFpjSVBBZkdtRjZDX2FuSTNaQVNWQjhDQWZCUXM0cnRFa2hZMkVZdHRVRHI3Qmw0UkJyb2NndkIzejJRUmRReWJkcU5EM2Y3ZmRfOXlla2tvMzAxYzVFXzBfSjJRVUY5MUxaU01aMUxDQQ?oc=5",
+      "published_ist": "2026-11-23 21:19:34 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Block Deals: Tata Steel acquires 9.99% stake in APL Apollo Tubes from promoter entity in first tranche - Moneycontrol.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZWdWckNlYUpfWEx0VGhsNXVuMHc0blFpeE5JbDdBU01tSm8wS0NEaFlTOUZDMjJna2hFQTJjU3E0Zm1yX1ZzdzRiaEc3NUtaN1BxbTlDcE1RWng4Wi16RW9OdERQWkVrRkhpM1FXRGF5UGRaNm5GUGVWS0tyWkpGdnc1MC1DamgzSmFVWjlpbXVWSFFLOG1hb3NUcHVLX3BmcTc2LWVtcm1EejJUcURiTndoVzIwanVyNlF3SE1LOXR6Yy0wMEFkdHdRZXpORFZOQU9uSlJtMFA4T3hfdExmbHBxdGJ6T2xIUUJuMk1iNklXUFJrYXkyaNIB_gFBVV95cUxQR29wQVk3Zko5ZEhXWmNaMzdDb0w5VUpOZ0xpREs2QmJESnltd0xNRWdJbUZEREhTRGJVN1hfVEhBVjNIaDB6cF9WZktmUU1aMlV0Y2F3aEdRNndZMmhXQnE2cEYzN2RYQWhnQ01fMi1ReWtVVEh1NHVKc3ZkdFJULUExTWwySVJjU0RHQV85V3lpYWJLaFpjSVBBZkdtRjZDX2FuSTNaQVNWQjhDQWZCUXM0cnRFa2hZMkVZdHRVRHI3Qmw0UkJyb2NndkIzejJRUmRReWJkcU5EM2Y3ZmRfOXlla2tvMzAxYzVFXzBfSjJRVUY5MUxaU01aMUxDQQ?oc=5",
+      "published_ist": "2026-11-23 21:19:34 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel Acquires Stake in APL Apollo Tubes for \u20b915,511 Crore - India News Network",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOWF2bmpvcnZUcVJWS0dXTkFuVU1IWFZYSU5aZkpwdmtzTWRVUHFFbUNaYUZyM2xRSF9Zc3VpZjRvSWhDTmdUOWdlQUotQ0pZallBSGJvdVIySHowTlV6SXhvblc2ZW5kNlV1eVdSOWo1Uy1zRkNBejlHVFA5aDRxMlNMNDFCM0NLLUR6QkFqZFVmd0RGWjhlOHNwdjlzNzZyWWc?oc=5",
+      "published_ist": "2026-11-23 16:35:30 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel Acquires Stake in APL Apollo Tubes for \u20b915,511 Crore - India News Network",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOWF2bmpvcnZUcVJWS0dXTkFuVU1IWFZYSU5aZkpwdmtzTWRVUHFFbUNaYUZyM2xRSF9Zc3VpZjRvSWhDTmdUOWdlQUotQ0pZallBSGJvdVIySHowTlV6SXhvblc2ZW5kNlV1eVdSOWo1Uy1zRkNBejlHVFA5aDRxMlNMNDFCM0NLLUR6QkFqZFVmd0RGWjhlOHNwdjlzNzZyWWc?oc=5",
+      "published_ist": "2026-11-23 16:35:30 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel Acquires 10% Stake in APL Apollo Tubes for \u20b95,825 Cr - Rediff MoneyWiz",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVmZvTFJ0ZS1oQ1NFNDVYSFVUZ3gzZ1NBbHFfM2RXSEx3emxoXzR1bkxScTJhcE03NWp1NE1ES21XQndwS3NLRjVmWk1Wb0RKb0lQeEs4VXcxYmtyeXBLUlRScWpveUZrUVdKSGpfTGQ5RmRpeTdvUXJRRDlVdTZKMV9INHRCU1hYNU51S3FkUW4zUXg5NGwyTlFVYW13dkdrUVUyaTBZREthRVNETVZMSDdHTdIBuAFBVV95cUxPS0xqMW44QXB4UVhOcVgybERtcXZVdUtXWU9SUWNEek1PV1RncnlrOW10VjNQZmhKbnN3cHFBbGVTMWZsbnpIUzJvOHdtcXc3U2hDS0pqR1VuazdkaXc2bDZDS3FrdnhLNUNDMGFNaFdTd2FCcjJRRDZYWWxnTmE2OVdNdlNXNXdxOWszbXVEOHpwVWFWVVdJMnZyNS1pMWh0OE5OWTAzYXJQXy1POUhIVFhndDJBcTlv?oc=5",
+      "published_ist": "2026-11-23 20:14:56 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel Acquires 10% Stake in APL Apollo Tubes for \u20b95,825 Cr - Rediff MoneyWiz",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVmZvTFJ0ZS1oQ1NFNDVYSFVUZ3gzZ1NBbHFfM2RXSEx3emxoXzR1bkxScTJhcE03NWp1NE1ES21XQndwS3NLRjVmWk1Wb0RKb0lQeEs4VXcxYmtyeXBLUlRScWpveUZrUVdKSGpfTGQ5RmRpeTdvUXJRRDlVdTZKMV9INHRCU1hYNU51S3FkUW4zUXg5NGwyTlFVYW13dkdrUVUyaTBZREthRVNETVZMSDdHTdIBuAFBVV95cUxPS0xqMW44QXB4UVhOcVgybERtcXZVdUtXWU9SUWNEek1PV1RncnlrOW10VjNQZmhKbnN3cHFBbGVTMWZsbnpIUzJvOHdtcXc3U2hDS0pqR1VuazdkaXc2bDZDS3FrdnhLNUNDMGFNaFdTd2FCcjJRRDZYWWxnTmE2OVdNdlNXNXdxOWszbXVEOHpwVWFWVVdJMnZyNS1pMWh0OE5OWTAzYXJQXy1POUhIVFhndDJBcTlv?oc=5",
+      "published_ist": "2026-11-23 20:14:56 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel Completes Acquisition Of 27.7 Mln Shares Of APL Apollo Tubes - TradingView",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOE5mVDhROGZJNDRobjVCQnl0VkluNnFOcjdWWFRRSTlMZ19Nc21HVXNqLVBTSWdOcG5VUkpZdmVhWGdCVkdlVjViU0FNZDF6YTNWNDVtM0taUlFPYjVJMG5UTGFXWTkwTTh6QzNQZW1hUkc0S21QT0RpSnRFUDV5MkpITlB0WHdncDlKd0kyd0hscU9uVmRFd29ydFpOR3V1VUMwVW0zYmltZzZHRmM2N1pVTmozWXpkSnRqN2ptRWJ5TXFFN3NoaEZ5NnQ5ZmU3ZUdLWW5PY0I?oc=5",
+      "published_ist": "2026-11-23 20:06:07 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel Completes Acquisition Of 27.7 Mln Shares Of APL Apollo Tubes - TradingView",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOE5mVDhROGZJNDRobjVCQnl0VkluNnFOcjdWWFRRSTlMZ19Nc21HVXNqLVBTSWdOcG5VUkpZdmVhWGdCVkdlVjViU0FNZDF6YTNWNDVtM0taUlFPYjVJMG5UTGFXWTkwTTh6QzNQZW1hUkc0S21QT0RpSnRFUDV5MkpITlB0WHdncDlKd0kyd0hscU9uVmRFd29ydFpOR3V1VUMwVW0zYmltZzZHRmM2N1pVTmozWXpkSnRqN2ptRWJ5TXFFN3NoaEZ5NnQ5ZmU3ZUdLWW5PY0I?oc=5",
+      "published_ist": "2026-11-23 20:06:07 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "APL Apollo Tubes releases audio recording of Nov 23 investor conference call - scanx.trade",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGpEdS1xN05leUtnV2xQMUJJR2dSVnl0clJZdE9HaDFCZzVCLWFpai1nZVpIcFkzYlNCTnNsRUNFZ09USEdNdUhyRkFNRWpPZ0xCX19yb2pWd0FZTk9mTW50M0FHclZnZTJxcEdhbWJTX0V2aXR3bk1oWm51cG9jSW1QeGZ0aFJFYTBFUk9ObHQtY1JVRWtFblJKS2cxYU9vek5LZk1PWXBEcHYteGZjZVY5Yk5CaHI0UTFNRg?oc=5",
+      "published_ist": "2026-11-23 18:36:07 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Transcript : Tata Steel Limited, APL Apollo Tubes Limited - M&A Call - www.marketscreener.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHAxV2lUVHNqZUs1UzdLbWVWZW1aOEJiX2IxNGt0M1Q1b2xkMTNMZU95SVdLQUMtc04zQ3Z3MVNHS2RiSWNkTlc4M1RxdTZaeXNoWEdvU29OUHBqQ0RMYkZHSldEWTNJc19DUXZ0NUR4NTd4VE5NTEpyaUhFTFdOaDJjd3ZkcVU3ckg5aFMzYzc3TzVpbTkzTmRNZzUyai1IVmktSTlTYzRHMEllSzBXRzhvVU5zMG8?oc=5",
+      "published_ist": "2026-11-23 19:25:50 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Transcript : Tata Steel Limited, APL Apollo Tubes Limited - M&A Call - www.marketscreener.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHAxV2lUVHNqZUs1UzdLbWVWZW1aOEJiX2IxNGt0M1Q1b2xkMTNMZU95SVdLQUMtc04zQ3Z3MVNHS2RiSWNkTlc4M1RxdTZaeXNoWEdvU29OUHBqQ0RMYkZHSldEWTNJc19DUXZ0NUR4NTd4VE5NTEpyaUhFTFdOaDJjd3ZkcVU3ckg5aFMzYzc3TzVpbTkzTmRNZzUyai1IVmktSTlTYzRHMEllSzBXRzhvVU5zMG8?oc=5",
+      "published_ist": "2026-11-23 19:25:50 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "What Does Tata Steel's USD 1.67 Billion APL Apollo Tubes Stake Mean for iShares MSCI India ETF (CBOE:INDA)? - Kalkine",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVllLUGdJVFRVSlZtVzFULXJhd2xDRTVfcE01WEVhXzZQeFdPbkpweERwU0k5cGxJXzBScE9OOEZUWTg3c1dwZTdnZmtNSDBlV3lFSVNadFNCVTc4LXhnRGpUNHIzb1RNM2h1dTRMMjBoa2tPemkzQkhiWlNkRHVuS05SLUlBMkIxOTctcEdBY1R2T1dRaXFEQXpCMUExY3JPSUpRQlA5MUhDeVN6TFotbFVSaG91QzZZTG9tbDl1NVlyRXVtaF80YW04QW1TNXFwUjRZbFIyc20wZlE?oc=5",
+      "published_ist": "2026-11-23 20:04:00 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "What Does Tata Steel's USD 1.67 Billion APL Apollo Tubes Stake Mean for iShares MSCI India ETF (CBOE:INDA)? - Kalkine",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVllLUGdJVFRVSlZtVzFULXJhd2xDRTVfcE01WEVhXzZQeFdPbkpweERwU0k5cGxJXzBScE9OOEZUWTg3c1dwZTdnZmtNSDBlV3lFSVNadFNCVTc4LXhnRGpUNHIzb1RNM2h1dTRMMjBoa2tPemkzQkhiWlNkRHVuS05SLUlBMkIxOTctcEdBY1R2T1dRaXFEQXpCMUExY3JPSUpRQlA5MUhDeVN6TFotbFVSaG91QzZZTG9tbDl1NVlyRXVtaF80YW04QW1TNXFwUjRZbFIyc20wZlE?oc=5",
+      "published_ist": "2026-11-23 20:04:00 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "Tata Steel buys 9.99% stake in APL Apollo Tubes from promoter in first tranche - FlipItMoney",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnI1TUxsMm13NWlRZ182TFY4MVUxdlJzRl91ckF4S01FdXo2MjB3YUZzZHRTTTd2MlVKN3BweUEwTkJkZHBTOVZ4UUdWeUZfUWczZngwUGNxZ01TU1hRSmxsTzR2UzVYUzZKRFl2b0E4czN4dHJ0YzJSX1ZmSVBmSWR5N3BvN0FFaTVFa3JwZC1BODVna1VQQ1BEUVJFU2NHdzBEUE1R?oc=5",
+      "published_ist": "2026-11-23 21:48:37 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel buys 9.99% stake in APL Apollo Tubes from promoter in first tranche - FlipItMoney",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnI1TUxsMm13NWlRZ182TFY4MVUxdlJzRl91ckF4S01FdXo2MjB3YUZzZHRTTTd2MlVKN3BweUEwTkJkZHBTOVZ4UUdWeUZfUWczZngwUGNxZ01TU1hRSmxsTzR2UzVYUzZKRFl2b0E4czN4dHJ0YzJSX1ZmSVBmSWR5N3BvN0FFaTVFa3JwZC1BODVna1VQQ1BEUVJFU2NHdzBEUE1R?oc=5",
+      "published_ist": "2026-11-23 21:48:37 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company": "APL Apollo Tubes Ltd.",
+      "headline": "APL Apollo Tubes shares crash over 21 pc after Tata Steel agreement - The Week",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1Rrc2UzTmQtcmtTd2NYMDM0NjJ3VVYxX1poanltMzFtNmc2a0pxdGhMUTJFWkdCTFUwRUh3Vk50M1RZTXhzYkdzT0dTcVJrbmZTdm5mRWNHN3VseFpickZVTnhXQWpmYWU2TVNyVm45Z3BVeHk5YUhwbXdmWXdIUTl1czFsSnEzZjh5MTVSSXNWUlVlT1J1YkV1UGVTWTl6cnNOMi1vWmRKNjVnZlByeTdTXzJUU2VBdWhTUTM5bnhnUFJkbDVr0gHMAUFVX3lxTE1GcnAyNnMzVWNLbXViWTIzVjNidDJaYl9WYk55ZV93MENrX1VwVXg3RUxGTXhfYkRWZWtaMFVQWEwtZG5nVnNqYnlELXdJeHVTZzVLQ1lObWZDOVpQMXZqOTA3UEI0ZVpTck5ycHVfSGk2RmJaaVZQNTdBeUlkYk44UXBWSEYyTGVkQjZsRWlVbkpuaThLMHFQY1ItUHJNREFnTFQtSHpVS3lvVGpyWGF6Ni1ScGd4bEtDTGM2dms3MGNsMW5JeHowTERUcA?oc=5",
+      "published_ist": "2026-11-23 17:11:16 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake for ~Rs 15,511 cr + open offer at Rs 2,301.40; stock crashed 21% Mon"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "APL Apollo Tubes shares crash over 21 pc after Tata Steel agreement - The Week",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1Rrc2UzTmQtcmtTd2NYMDM0NjJ3VVYxX1poanltMzFtNmc2a0pxdGhMUTJFWkdCTFUwRUh3Vk50M1RZTXhzYkdzT0dTcVJrbmZTdm5mRWNHN3VseFpickZVTnhXQWpmYWU2TVNyVm45Z3BVeHk5YUhwbXdmWXdIUTl1czFsSnEzZjh5MTVSSXNWUlVlT1J1YkV1UGVTWTl6cnNOMi1vWmRKNjVnZlByeTdTXzJUU2VBdWhTUTM5bnhnUFJkbDVr0gHMAUFVX3lxTE1GcnAyNnMzVWNLbXViWTIzVjNidDJaYl9WYk55ZV93MENrX1VwVXg3RUxGTXhfYkRWZWtaMFVQWEwtZG5nVnNqYnlELXdJeHVTZzVLQ1lObWZDOVpQMXZqOTA3UEI0ZVpTck5ycHVfSGk2RmJaaVZQNTdBeUlkYk44UXBWSEYyTGVkQjZsRWlVbkpuaThLMHFQY1ItUHJNREFnTFQtSHpVS3lvVGpyWGF6Ni1ScGd4bEtDTGM2dms3MGNsMW5JeHowTERUcA?oc=5",
+      "published_ist": "2026-11-23 17:11:16 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "ABREL",
+      "company": "Aditya Birla Real Estate Ltd.",
+      "headline": "Aditya Birla Real Estate shareholders approve ESOP Scheme 2026 - scanx.trade",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd19tVjRadUkzUGtBSTdIV0ktVHd6T3BWM2Ruc3NpMzU4bk9NYU1nRXNFSXhLcUw1RXd6VDQ5STlGalRJOUxIYV9OMC1IY2RZR0lkNTlvdFdMNmtKQWVvMm96aTVDUHhjM3g1MmFBUXRINnVEMGdCdm1oYzFqaEFzZ0NObnR0SU9HVm5aRHNWQW9nWUk0NkxJYmhXeVY3M3dhaGlvX0RzNldXLWJXUW54dkxCVDJRVlZLVWlv?oc=5",
+      "published_ist": "2026-11-23 22:51:58 IST",
+      "why_it_matters": "Shareholders approved ESOP Scheme 2026 - routine governance item"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "company": "ICICI Bank Ltd.",
+      "headline": "Why ICICI Bank, SBI are beating HDFC, Axis on retail deposits \u2014 What it means for margins - The Financial Express",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM2hpN25nUEpJd0Q5TE0zZDEzRGt2T2pTRUZxUFlkSnZyYzYxYldERmdDZklLUVpfcy1OYWtEekcyZFR1ZUIzX005T0d6TjI4djlrQk4xQkVJdlhaRThRNWVPOFhVVDh4MF9yRVR2bEIyWVV6MzI3MGJxWG1wWmZ6VmJKUDNORVhyMWgyUFZGQ1VMaElBWExXcmdGalhSd3cyd1hVNl9zV0tibzRGaUtnU3o3Q1VBMzFibkNwQ3ZHR0pWOEJtMm1uZVI2YVI2T3dubk12NEM5aDI3ZG1hWERZd1lPaUZabVnSAe4BQVVfeXFMTXphcEtYTGlrNGw5bFlzblpXemJWdzJZcDJQcHhWTkNMS0JZV2FCcWtNTV9rOXFIX2E0aTRLckoyLWtyUk9IaWpIZ2Iyb2dFTmVyUVNYRm5mOEF1WmJvNDR4eGlLZ1ducGFJMmNZRlVEUDhaaXB0SW92cEtDR0RSNHYtRGQ2WW1rbjlyVEQ5ZXB6cE02bFl4aFl1UjFDeHMydUVZRXFGUEtUNmU1SVA2ckxzeU54TGRJZzFRbTlLRl9HcThjZW9JRUExaV81cksyTWNIRmF2ZDJ2WldNbTFackJXRVFIZkhhanJiX3dDUQ?oc=5",
+      "published_ist": "2026-11-23 17:09:23 IST",
+      "why_it_matters": "ICICI Bank and SBI beating HDFC/Axis on retail deposits - margin tailwind for large private banks"
+    },
+    {
+      "symbol": "SBIN",
+      "company": "State Bank of India",
+      "headline": "Why ICICI Bank, SBI are beating HDFC, Axis on retail deposits \u2014 What it means for margins - The Financial Express",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM2hpN25nUEpJd0Q5TE0zZDEzRGt2T2pTRUZxUFlkSnZyYzYxYldERmdDZklLUVpfcy1OYWtEekcyZFR1ZUIzX005T0d6TjI4djlrQk4xQkVJdlhaRThRNWVPOFhVVDh4MF9yRVR2bEIyWVV6MzI3MGJxWG1wWmZ6VmJKUDNORVhyMWgyUFZGQ1VMaElBWExXcmdGalhSd3cyd1hVNl9zV0tibzRGaUtnU3o3Q1VBMzFibkNwQ3ZHR0pWOEJtMm1uZVI2YVI2T3dubk12NEM5aDI3ZG1hWERZd1lPaUZabVnSAe4BQVVfeXFMTXphcEtYTGlrNGw5bFlzblpXemJWdzJZcDJQcHhWTkNMS0JZV2FCcWtNTV9rOXFIX2E0aTRLckoyLWtyUk9IaWpIZ2Iyb2dFTmVyUVNYRm5mOEF1WmJvNDR4eGlLZ1ducGFJMmNZRlVEUDhaaXB0SW92cEtDR0RSNHYtRGQ2WW1rbjlyVEQ5ZXB6cE02bFl4aFl1UjFDeHMydUVZRXFGUEtUNmU1SVA2ckxzeU54TGRJZzFRbTlLRl9HcThjZW9JRUExaV81cksyTWNIRmF2ZDJ2WldNbTFackJXRVFIZkhhanJiX3dDUQ?oc=5",
+      "published_ist": "2026-11-23 17:09:23 IST",
+      "why_it_matters": "SBI and ICICI beating HDFC/Axis on retail deposits - margin tailwind for large banks"
+    },
+    {
+      "symbol": "LENSKART",
+      "company": "Lenskart Solutions Ltd.",
+      "headline": "Steadview Capital offloads Rs 921-crore worth of Lenskart Solutions shares; Goldman Sachs, Societe... - Moneycontrol.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYWdZTjR5T2JWWWRwTl9yN0lkS2IwUWdfd2dpWDItQzNTRnZOcHlJazhUczFUcFlkLS1JODYtQ0VvWnFXSTVEZUZwamF1T3lvaFRHZUZwekNoN3pXa3NVV0p2Ujc4dlZ2UTEtQXZKb256dXgxNVhPM0R3ZUdzRUs1Z1V3c0ZVM2xqR1pDd0J6eFFrbGtqMlVqZktWa3B5TjV0R1hWSU5rQzVzbFlVWHhnbkVNb3FqYjcxZ0UzdnV2NVFxZklEdUhLenNrYXZTMy1FUkhyOWlYdVZJN0tjNTBXUlZmdV9DMHJSam1vaks2OFl0VHdEQ0dwLUF0ZW1GZWNaUXZzM9IBigJBVV95cUxQYmM4OGNGZ3Zsdk4tRHBYMG9CeXV6ZUVwZXpoRHlnX3dGWkVEV0RNdTlTUXhNdjJ3S1Z0ZGl3LWZyRmVpNEZsbjFRMEZ3V196ZURVMVRnbDlGelJVRURQbG1xWi1IOUUtazhlVmswajBIbmpsSGhQN00xUUh5TWVRRnFkdUtFRjMyREJQUDNkZ09ZQ05qUS1HYUhNSFdKOG9zNW52VGlWVFB2LXlaTWZ2d0FZa3dNZXRLbllEeGdyTS1mcHgzYkhmQ25NY0s4aXVmWHFMQ0dZOXR4ZTJrekdlc1BuMmhySUFXYV9XQndCajNGSl85YkdRUnVTSEVSMGZWcXRoa1ZJMjdWdw?oc=5",
+      "published_ist": "2026-11-23 20:46:01 IST",
+      "why_it_matters": "Steadview Capital sold Rs 921 cr of shares in block deal; Goldman Sachs and Societe Generale bought"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin Limited (LUPIN) Receives FDA Approval for Ferric Citrate Tablets - TradingView",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdFYkN2dHNKMGpKaXBIeVNHZG9DMUhIQ1VqN0NHTkFGSDVZc3BKN01KSmRlYjd1NlY5N01VbUFfWUtlSXR2ZVAzZnhuOHBYZ09ZV3VfVFFzZWVDTjNvc2Q0NEw5WUZLdFRoZEFzNGFqVGpKa3djQU15aHBEd1ZaRWJ1ZGxMY21vVGoyT3VKZVBEeG5ZQjVmOFVScW9UMndJMTRRemRDTk5DRHJWX2EwMHdqbE9lNGJtODhJU2Y1SXNKZ3J0YWludnVR?oc=5",
+      "published_ist": "2026-11-24 01:59:00 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin secures US FDA approval for Ferric Citrate tablets - scanx.trade",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNemxPWFVUYkpDakVkdDZWTmkyemJwTTl0S3JOeVd0ekhnUHhRUndhUGkydjBycmlOVExueHR4dm5hSzdsRUZlVmUzOVhlM3V1UGkxNVNLTzR6Vzk0aGk1SkhVWld6c1gzdG5nU2NUMDNjT3lhUDhJb3dFUk1WeC1VMnNFN2djSTBhN3pBWng5Y3o3OWJCRE84b2VKeHN3ampDUWlrV0luTWt6QUVxTXc?oc=5",
+      "published_ist": "2026-11-23 21:54:54 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin Receives Approval from U.S. FDA for Ferric Citrate Tablets - PR Newswire",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONzQyQl9XSUJ3NVh5Yl9qZDUzdGFVam15WDFjYVE1am5nRURwcWZPZm9Bc1FkMDdSdDhmNElBMWw0WEN2M0k3ZXlQNzdoSTh0MFlqcXhiT1hrYXJHWU95bWgwel9nN3RUM25MX3dUanFBX0dEZ1R5YWFvZXFZZFJIQkVzajhwNXNsQTcyTkdVTERRUjZZdDVoLXpGcFg2bkFIX0lvWUg1ZFpHU011MjZmTkMxMmJoZ3o1eXc?oc=5",
+      "published_ist": "2026-11-24 01:59:00 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin gets USFDA nod for generic drug to treat anaemia, high phosphorus in kidney patients - CNBC TV18",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaXVLMzlvLWdPRmN2YVRoaGRPajRGenlSa2hsSDMzWUQyaExrVERJVmFpZTdNTGhFandrVTAzdVdQMDNJUWJkUTJLcFIwc0JwYnl0Y1NqR0Zsc3g4THZOa3d1MGxuZF9hNmhuNWpKVTVHWk9oSFQxeWNOd3RQeHRDT3FMcFFTSzJWUTBLSEdjZ1RCRG5OOGxGbGtqdG9xNHNwU0xkb1dNbHowc2pPMnRZZF9tR21qeVk0aUZrNU9BQno2S1RKaHRMMUtURlFRdFhBVHNyVzJRYTRjSGJiRC1tRXVDcVNmSjJHY2NJanR30gHuAUFVX3lxTE9pdUszOW8tZ09GY3ZhVGhoZE9qNEZ6eVJraGxIMzNZRDJoTGtURElWYWllN01MaEVqd2tVMDN1V1AwM0lRYmRRMktwUjBzQnBieXRjU2pHRmxzeDhMdk5rd3UwbG5kX2E2aG41akpVNUdaT2hIVDF5Y053dFB4dENPcUxwUVNLMlZRMEtIR2NnVEJEbk44bEZsa2p0b3E0c3BTTGRvV01sejBzak8ydFlkX21HbWp5WTRpRms1T0FCejZLVEpodEwxS1RGUVF0WEFUc3JXMlFhNGNIYmJELW1FdUNxU2ZKMkdjY0lqdHc?oc=5",
+      "published_ist": "2026-11-23 22:51:42 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin Wins FDA Approval for Generic Auryxia in Kidney Disease - Securities.io",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZTdqRFkxZjBXQmlnQURBM0sxeVlRY0hjRnhVc1NLeGgyWmE0RVZQTkVOWXhKSmlrNFJ4Sm9pVHpNSGE0d2JQWHlPVUVLZ3RWcUpRMGZsVW5NV2l3TjFjaVJnQ1pWZXlablMxWlpqbV84a2hnaTB2akZVeWtxZnczOGE0dDNUeWJGbFp6MXJnNWhlUQ?oc=5",
+      "published_ist": "2026-11-24 05:57:02 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LT",
+      "company": "Larsen & Toubro Ltd.",
+      "headline": "Larsen & Toubro Limited Awards Multi-Year Engagement to Inference Infrastructure Provider for Deployment of Additional Nvidia B300 Gpus At Vyoma.Ai Chennai Data Center - marketscreener.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQalVURlZFSkYwc0FrMlVFTUFCX2dRQjhBNlNDMGxYT3hwTkRuQWV2SlV6ZXJWemo1cGdmYktob29NM21vSFFtZjNzRng3YjJNQ3U1eTVDQXBtSTl1OXpTY3AzNnIwWFBhd3FuWi04S0NrNjhxUkxhQlpOS3JmRjhnUlU1Y2lDbDNuZkl1QVhOOUZLd05lWHN4eU4tVHV6RXgwcUNFZnFUWk9fYUg0UDBHb1I0dnp4SHdidE54dFZjUTRocTQ4N0RDQ2tGTmEwVEh4WFk5ZGlwcDFTcjZxR1dMNlctV3RMQQ?oc=5",
+      "published_ist": "2026-11-23 16:07:12 IST",
+      "why_it_matters": "L&T won multi-year engagement from an inference-infrastructure provider"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin secures US FDA approval for ferric citrate tablets - TaxGuru",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGdnaUtFTW1DWTM5RXQzNlFZbDV2TjNsMXF5dGQzRW1rUkdwanR5bDRzRi1GMFpMcm82a2dqbjg5VWc1RHA5a1VzbGl5NC1QODhlV3ZTSVpxWVZmVWhtUU9Yckk3SkpEcXV4eHZBaHJNMTR5elVIVVFxeHY1a21ZRzJ3RndmYnVrNS1kSS1Pbnl5WGhFbnpOZEZUTVdpZw?oc=5",
+      "published_ist": "2026-11-23 21:29:50 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "Lupin secures U.S. FDA approval for Ferric Citrate Tablets - Business Upturn",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVdCRjZaYjBobGhaR0FiOGkySHcyZ0JtaUJfRTBQOFctNDdWLWs2X1FTQndHeXhjRW1WWlI1c2Q2OE9sRDBpOVJmWFlld0VWenAySnBlcm5OaUlNYlItbTFCT0UzcXpaOU4zWFI5bTZCVEs4dkhUR2lUbndzRUdOcDFxRHM4b1JHNkNIXy1IOXRfODFVR1h3VzJR?oc=5",
+      "published_ist": "2026-11-23 21:46:26 IST",
+      "why_it_matters": "US FDA approval for generic Ferric Citrate tablets (Auryxia) - new US revenue line"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "company": "Persistent Systems Ltd.",
+      "headline": "Employee Visa and Immigration Records Suspected Stolen in Breach at Persistent Systems' US Firm - The 420.in",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObkk3OEFsd2ttMVIyb3BhQ0IyRUdPUHo2Z0FSVWtEdHk2TXlXT21wTllxeHNkNmVsc0RZbjJjMk5KODBxSVgwLVhVZHpPekV2LTAtZkFfazNMdGFTMUc1Q18yQjNUbG1MdWVkQ25RVENVWnctUzVrU1RKOGNzdjlDeVBaT0tzcFFmT0FVcHRiMlRIdXM3OUlTZkVMVmNpMXdXNWVfd082QzJBbmVBb2xwWWoyRQ?oc=5",
+      "published_ist": "2026-11-24 08:02:52 IST",
+      "why_it_matters": "Data breach at a US law-firm vendor; Persistent and LTTS assessing leak claims - sentiment hit, impact unclear"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "company": "Persistent Systems Ltd.",
+      "headline": "Persistent Systems, LTTS assessing cybercrime group\u2019s data leak claims - The Economic Times",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMUp3a0EwT05IQ2gybTY3bldCYnRGQW9MRGlsSXRSZEI2ZXN3anFBM3JpM3VsZnRhRlZWRXBYYlF0YWNVaWg0N0ZZM0xNbmJMQlhESzA0UGFSYkZzbl9sVEZBeEpybnhYU0xZSHMwd3Awc0FRclRrWGRBY3RSak5BTWQ1cE0yZWdjMm1TbUtJYmplV0J0bS03TzNJQS1XWGEyUy10VXhrRGRJT0dtZTNlclpzdVJDbEpLcEoyd2ZRNGNaQkRfQldrYjFROVFfMG52clFBN01pdDhaX2tu0gHiAUFVX3lxTE55bWFYMm9nNVEwemgyOGswTTh1WHkzS3p6REE1VUVrR2tpWWdXNnFnenNacDF2U0dya1Z4b3pMRUhCY3dkMTBZcnRQc2t2MGNyZlhOU3ByUzg0OWpWODNRWjBNZmZJa2FseXBib3pwVUZpQ1RzU3JkeFdSNGtMREMxRjFabXBMR2ZmbmZrMk9OX3hXbmJHWlJGUFFWZERtUmp5eFlqM2JxZWlmbG91cUR2NTVTSTF6SlNhQVQ2WWpFSzZmUFNvREV2aVB0NUk2WFlOb2ZJSEZ6X1gtZmFSYmJvNHc?oc=5",
+      "published_ist": "2026-11-24 06:00:00 IST",
+      "why_it_matters": "Data breach at a US law-firm vendor; Persistent and LTTS assessing leak claims - sentiment hit, impact unclear"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "company": "Persistent Systems Ltd.",
+      "headline": "Persistent Systems, LTTS flag cybersecurity alerts - The Financial Express",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYXM0SF9xOUJrX0NEcThKZW9BckRqZk9wbUtjamZoS2VDVjlBOFptYXNqQ0c3X3hMUGlXRkVyRDBWcnh1VnpfSFFHSEVoX2dPai1IdWRTQ05pbjZ6OHFJNHVWWHE4UDlmODFJX0JMZjFoMG5jT05JZkVuTGRuYmlnN0E2ZDdSRHFwd2p3YVY4TGpheWVWcjd4UWZPMWhhdzJlNjZpM2R0YjRwVVhtclHSAbQBQVVfeXFMT0R2amJYZEs0M3R0djRKOU9QdXlsQkpBZGQwUEJWSkoxdGdUdHVvRmY0RTBQSHpkX2tYQ2NXY1pPdF9EWTByLWtUYmdtNmw3SG9uSzRiT3NUNzhSUXZSQm1DTkJuMUZLSmRLQWVzY2hwTXotZFQ2RW5uYnJHSnZZR1pkVFdBZlhtUDUxRmhMZDRvNTNneC1ZeWt6dVBETFMweW95UkpWSlBQNVRqX1RkLWtSajg3?oc=5",
+      "published_ist": "2026-11-23 20:46:47 IST",
+      "why_it_matters": "Data breach at a US law-firm vendor; Persistent and LTTS assessing leak claims - sentiment hit, impact unclear"
+    },
+    {
+      "symbol": "PTCIL",
+      "company": "PTC Industries Ltd.",
+      "headline": "PTC Industries wins 12-month defence contract to supply 400 tonnes of titanium products - The Financial Express",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeU1paGVIakxSdE8zMDVqdGcxQXptUFpGMlV4R21mRjljcWhMSE1LWWVIMWdLQXlyWXpVQ01vUHA4c0htcHhUdGdMQmhEd0IxNHVHby1WMmNrT1I0RWNDUTNBajJ2c1NTQ1otLXVSUWFoZTQ3Rk5iSElZZXVFaDAtUmloaFBwOGZoOU80TDVVU1BUQV9LVDFXbHk3QUo4NTYxNnprNGxMNXJXamNwSDY1VUFxTnladW83djBrbFBRZExzdmFYeFkwT2lwbUQxMmFTSVpFcEdZWUhJdDJsWTlhVNIB5wFBVV95cUxPUjFWTTdHYnZhYm5pdEtSaGdsbHRuMjdoTS1BN3REZzVRSjU0WXJPMHljY083Sk1jUWVtMkoxS0s3SVNSclB1c3paWHZhMTZla0lrMHJrVW93cUJ0YnNOM2V4bFFfR2lsZTFTMnlPVEZKYkpPekl2Wl82R2VBWFhuY05EVHZSTlVQZFhvdGVKY0RDWXBLck9vd0syX3lEVVVCNEQyQzdBQ3JfRG5iX0NSeUlDNy1sN3BkWFdvWUxzeWx3aVRLejVMYUg5TGdQejltMC1FSjg3dkt3VGxxd2ZuVVVGdWZQTFE?oc=5",
+      "published_ist": "2026-11-23 18:07:32 IST",
+      "why_it_matters": "Won 12-month defence contract to supply 400 tonnes of titanium products"
+    },
+    {
+      "symbol": "SUZLON",
+      "company": "Suzlon Energy Ltd.",
+      "headline": "Suzlon Energy reports cyber incident, says no impact on business-critical applications - BusinessLine",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNTM4WlVveE1aQ2VkNDl6LTZwYjBONGVyc2ZhcHFObnNtRFEyN0E3OEhuZkV2ZWh2di1CS3Y5RTJ1M3ZNd0xBYnlxX3B4MTRuMGhHa0dTZWJXU0pMcFRWSUFZdWhwaFBUaGgxOEY3dmNTU1BEZE1wOXc5Z21vc0wwd0RvOTdHYnd1b25lblRXZ2lfcjJxN2tucXZEZWktbXRxdThmU3ZodEliVUZ6b09EYkJRT3pjeWgzZWUycFBvMmdSUTFyZmNsbTJsZUVuNUJwcThVSVUyS3hidko3a3NxSXlmVGF3VU3SAe4BQVVfeXFMT2tuTVlFTmFpRGtabXZxaVdQMHB1alpmempiMW9SQ3prUHctUHZlNTQ5NW9NWWF1cTg5VlR4UFRNZkc1bmprdjkyaDhzc1NPQVVXVlRfY2JibkVsakpDUWF6RG01WUFFR054WExBckhXUFBJMC1oY0txR05JUllJWjZyY3BjenlvLW1VVzdKRXhCcS0wVDNTMXZyTzJpNUVPRkNYWXRXaGQyem9sSEpUd0JCeTd0QXlBWHlHNWU5YVFTU1VTYlRpbFRhZmQ3Tm1LQmVoUWZUYl9SMzJWaHhUNlVGTW5ZNTBJM1czcTlpUQ?oc=5",
+      "published_ist": "2026-11-23 19:35:53 IST",
+      "why_it_matters": "Reported cyber incident; company says no impact on business-critical applications"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "headline": "Tata Steel completes \u20b95,825 crore purchase for 9.91% stake in APL Apollo - scanx.trade",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT0RkMUszak1YeWVEdmt1cl9vMHZYWmpEY0ZOVjJzNHhtYUlVa3o2MlIyU3lIUEQxZURjSXZTT3ZGZzUzV1dvbzNsbk95dnRDTjFVQWkyeFpqM1laUFpPcEJyYTZ1eG00eFZxMGdCazMtQU16STh5aldKWWlBMDJnMU0xWmJCU3ZWQ2F2bWYzV0VBVU5LQWJDVVFYNldBWVFFeGx6RkhBdkw2dmtsYk9USXNMRGozLUNQ?oc=5",
+      "published_ist": "2026-11-23 20:20:10 IST",
+      "why_it_matters": "Tata Steel buying 26.4% promoter stake in APL Apollo for ~Rs 15,511 cr + open offer; deal terms firming up after Mon fall"
+    },
+    {
+      "symbol": "TECHM",
+      "company": "Tech Mahindra Ltd.",
+      "headline": "Tech Mahindra bonus issue record date out! Get 1 extra share for every share held- Check eligibility, ratio, returns - Livemint",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNV3FEUFVILXVDYlJ2MG4tdm5sQlQxU1M1MHNLeG5pVlFwWl9USEF1ZVpkQmV6SWU0NkpsOEtyN0NhcEFvdC1wa3VsdE5kajZnYmF1d0g4bEh5aExVU3NBcS1xRFEtM0p4YVZIN1BxOWs0dGs3clc3SnYtc2ZQQjVPT3FNSi1tWHNHVkZRT3hnbTNfSFN6b2kxZGhmMG1BVHY5aktpNXphME5iSHhKU3BBQkMtNVBfQUNXcF9GaURLMDRiak5CQWV5dVpOM1oxU3lVZVRWTUZ3S2l3UUZ3Y3ZucXplanc5ZGozN1hiektFVURMX3BjMGdUaWFIVV94dTBwTEJ5TUdMSkhEWTJna29N0gGUAkFVX3lxTFA5UE00VFpSM295bUVnVjNTbFR1Sl9zMi1QeGlkSDBXNG5MWUEyVmZVYVE1TVlaOEt3Q0U3SThBVnlvRzFQLXVRMEQ2NTFiSjZlUU1mUVZPQ2p5dDdKWVlnMXpkY211cE5tbjB5Sno0dlZwUE1FR1hUWjRxdDF1M3lHejctNlVaeXRWWGphQTlDTGg2T1VCSlpZUk94Q20xLVhQZ2Z6czQzVnlWdnNmbUxJeDk4bnNYTFhOSzYwMGprb2laUDNNQ0JpRFltWGtDTUhGSEJTNm9tT1JkM2RqZVVJd2RSU2JFNHBvZmJKWDBOVklRWDRnNGRySmpLR1ZESzU2Rll5dm5FdFZOQmxZc3FXSF8yaA?oc=5",
+      "published_ist": "2026-11-23 18:01:40 IST",
+      "why_it_matters": "Bonus issue 1:1 - record date announced"
+    },
+    {
+      "symbol": "360ONE",
+      "company": "360 ONE WAM Ltd.",
+      "headline": "Adani Airport raises $300 mn from 360 ONE Asset, taking total equity infusion to $1.35 bn",
+      "source": "et-markets",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms",
+      "published_ist": "2026-11-24 00:11:12 IST",
+      "why_it_matters": "360 ONE Asset part of $300 mn equity infusion into Adani Airport (total $1.35 bn)"
+    }
+  ],
+  "dropped_false_positive_or_noise": 32,
+  "dropped_items": [
+    {
+      "symbol": "ACC",
+      "company": "ACC Ltd.",
+      "headline": "ACC Men's Asia Cup Rising Stars 2026 Points Table - Cricbuzz",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3VLU3BRY3k0Q1hhV0tRdVQ5VFBKTThkMTRCb0FKVVhHVVZ0Rlc4WnRhN3loT0hLNGlsbzAzZmhNZjNNNDVKVE02S0VOTTR3YVZneFF6OFVxUUZhd1ZvU2VNYkhFb3c1MGtPcE5adUV5bEZsaktESjZ6b3N1eVVPbkdTNzV6bDNyY3NIbGxuSk1rXzZ5aGd6RE9n?oc=5",
+      "published_ist": "2026-11-24 01:29:02 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: ACC = Asian Cricket Council / Atlantic Coast Conference, not ACC Ltd cement"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to buy Ziehl-Abegg for $2.22B in data-center cooling push - Dealroom",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNHJxaWlXOWttSnF1enhpcmVzajJidUdRYmJCTUZTX1NMMTV4WGxoOUc5WnhsZUdlWGExVk9QZFYwS1NoZnlpeGtfOTE4TkprUTRVRFoybHdpd21BUmdacmNfYTkxNFVzTmZPMF9LcUlPakdBTGRfaElTREUtMVo1T0d3SGp5TTVkMGVidC1wem5HaXoza2cxdHF3?oc=5",
+      "published_ist": "2026-11-24 01:14:03 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to Acquire Ziehl-Abegg to Expand HVAC and Industrial Cooling Portfolio - Machine Maker",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmJXaEUzVHdLRk12UDc0LW80UEJybWFUZjNBaVVRQlVCaXRxTmF3SVU2UE93WHBaSTllV0xueXhWSXpVOVlGUElNZXJoOGxCWVdMXzl6Ull5Tkxjaml0YnpPWWE0UFpRZkhjY2pGOUlnMFBXOVpPMy1HVzZ2bmZqUFFkcDdrWnZQTU1zbzJ0eG5kYTRSdm42b3ozYVZ6ejRST3lBUDVfRzhxQjFF?oc=5",
+      "published_ist": "2026-11-23 16:46:17 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "From lower metal losses to higher yields: How ABB is advancing sustainable aluminium production - AL Circle",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdERRUnpQOHM5U2JLeUxLd3UwVVcyTlI5Sl9VWXpPZWpfMVlIS0ZxUE1tbVI3bUE4RWlaa0I4OTRxRHh2SDhGREt6Yk10OE81NWFRTU9qbUtKVGc0RXJtSy1TRHp1Z3dEQmtFMTNpdmRkaXdINC1SSldIbXd1akJvbDJLbS1uRVVKallvbFVPcDJlX3o0QXpNNzhsWXFFaFV4R3RYMDlIaHROVlB1UzBQSm1CVkpHMi0tYjFwMGdlZHZBM195WHVjZE10SQ?oc=5",
+      "published_ist": "2026-11-23 18:05:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB strikes $2.65 billion deal for German fan maker Ziehl-Abegg amid rising cooling demand - CNBC TV18",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZGVTS0JrMFdoVU1BdEdUZDhqcDNVWWZKX2pVNFlQQTVfX183SWpvZENVdUVnaG1jelVNdW5OOU96NThSSEdncE8yX2N4bkRUTTVzNVdRQUdKR2M2MlFzTzFYNUQtTGp5RjQ4SV9lQTRLeFFrdFc3dTY1a2MxeUZvaEFCSmszby0yRUxNZzJkd0FWN050c1ZzbkVBaGVSMkJ1TUZxM05MMklKNzNfcHU2V3U2aTlXeVU4NWY3TEdxUVpsWFhCYWw3QzIzTFd6MTZJNHhUMG42U3g1ZFhuNFlz0gHkAUFVX3lxTE9EbnRCQUtIOVloMkNlS2N3eS1YVTFQSGdwT3M2Mm1KdVBfTDZWM0J5TzdMQTMzaHVvdFZoYTIzaXJLQjFvOXVvRXR3Y3RFWHVwTWRvdWVydXJ3NnFETTRiWGxaMll4WFowa0d5dmQ5dlYyUnQ5dE1LTXg2cFFqMGlHZ3RCQTl6VDlqQURtZmR3NzZXZy1QOG8wcEV1UktrenQyWWsyWWdKdmVndkhDWWlqSDFCMGRBQi1lb1I2d0hBQms4VjNpTFdaUU1rZUVOYm5jOTFxYmlwcFlxcDZuRUhZT0NvVw?oc=5",
+      "published_ist": "2026-11-23 18:50:39 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to Acquire Ziehl-Abegg in US$2.65bn Cooling Deal - Data Centre Magazine",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdlZFU0t5X2tYV1NkT29zV3JsTG5ZLWMtMnRNNVNpSkd5a1VMbHBIanFBMElyY2JpdEZnYTBMbUdodWluVjlRUG1GeGdPSmM0dlhJRE14ZzhoUXhnN285WkNtSTFka0U3THdWS2haUmIwMlk3eUNJSFQ3VWdrd1AwRE9seXJreldpaGJHM2JHNlpQUQ?oc=5",
+      "published_ist": "2026-11-23 18:23:34 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to acquire Germany\u2019s Ziehl-Abegg for $2.65 billion By Reuters - Investing.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYmRERGdnRWs2UFE1S2dRWjgyWk5EbndjZXZ4ODc3eUNfUExTdzJUZWY1UE91MmJILUJoVll3Vkx5RzdsWFZSNFRERzNMdGVFMnJ6UVRqaWRhNG9KRndraGtBM2pIR0RlZHh0VzRFUmFJNENOLUVDVF9NZU1XVWJubFpzNS1RR2dEOS05dXhla1JWd0pHcEFNVzl4aUpQa2x2UUtucl9LbkJ6YjA?oc=5",
+      "published_ist": "2026-11-23 18:29:58 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ACC",
+      "company": "ACC Ltd.",
+      "headline": "ACC Men's Asia Cup Rising Stars 2026 match predictions: India A vs UAE and Pakistan A vs Nepal \u2013 November 24 - Cricket World",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRDFiTlQyakJJV2NPLXVrdHZRU2RaYnpwaWV2Nk12VzFIQTJUcVo0YWNQVHJWbm9pSnRoRmRxN1czM2JoVVE3cW1WNHFZTk1sMVVQWDlTRGM0c1pGTktPb3lWMGhjWkY0WGZ1THVPbVhSd0pnV0JUR0Y4Z0oxODRCV01Ld0ZuQnoySDBZT0JCaUZKaU5XOVdFZkpjVWg4aERCUUt6RUNSdHRrS3JUN2RxMEFjMzByci1pS0ZmSlUxX2k2SVhIQzB6RDQ3Vng3UlNVdm80WFRVdEgzZ3VkVXlhUnZubVhEdmJIcmQtWEZqNA?oc=5",
+      "published_ist": "2026-11-23 17:20:40 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: ACC = Asian Cricket Council / Atlantic Coast Conference, not ACC Ltd cement"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "Swiss Blue-chip Index Starts Week on Positive Note; ABB Shares Gain - www.marketscreener.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQnoyc0VmQlZBalkzOElOZnV0dGVrcGx5N25ROUJ0ekJmRFJNQ0hoNUtLd2VDb0hWQ3lUZUswNDc5SDNldDl5djBLSWRIbUNrWlYxdmFWNjlWR2NYMjk5U1FkMW9JbnMxTEh6ajhDNWNPVVJxUTY3aUtZVEl3d2liMmU5MUF1QlE2TGpwdTFodHZFcU1sN3pyd3U3cEdFc2NuQmtuUDJwMmgyelh3NVFNb0ZlMnFocjNMWE9F?oc=5",
+      "published_ist": "2026-11-23 22:30:26 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to Acquire German Fan Maker Ziehl-Abegg for $2.65 Billion, Doubling Down on Data Center Cooling - BigGo Finance",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXQTU1VmdxU29sX1JBN2Nta2NzWERlV1JEVUJvc3prSGVzU01BZjVLdmxwZ0RhT3JBblVGME9nZ1hwNFFaYWVud0hzeUtYV1FSOHFrcUo1cjZlVjBQckpCQkd1TUJOVVZNNXRsTEs3ZE1jS1c4Q1E?oc=5",
+      "published_ist": "2026-11-23 20:05:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB Ltd signed an agreement to acquire ZIEHL-ABEGG SE from family for $2.2 billion. - marketscreener.com",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3V1Z2FtVnIxQWpBNFhHWExwb2RBMk9HZ1lWd2FaczZpTjh5YVZjR3hfMjRCb1FRSkp5aTJqYnBISENlR1JOd0dmSi16MXFQbGg5bzNRNzcyVHZESThOb2d1QzM4QVBmdlc1WUtubXM2N3pqYzBHcHVXTGVib1YzTDdVUWpUUDljUV9QdEtlWVZhQjFIM2FmQUw4b0xYTGZnSnI1bUNaVFZmMjJLSW9NUWVMRUlrRHkweFd5UWxTRUN6Y1RSdmxEUnZXUXhmdUE?oc=5",
+      "published_ist": "2026-11-23 19:56:59 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB E-mobility and Oreve open high-power electric truck charging sites in France - Charged EVs",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUEFvSl9vR3ZEV1N6ekpWa1I0T0pqSzd5WEJMU0hoNmE1Slk1UzIyZ1FBSEJmRHFBNmRPX1BCUWJBb3k1emViekZMQ2hHTVF3NWhsVmpwVVc3RDRIYWUtZ1VnRV9SMWhpUTNQbm11UVlCR3JoX1lFcmVyaEdsdjYyZUhFLUx2elZsT1N5V21rM2dUSVl5MmtWSGtYOWJtbHpaTTdTS3BoeGlnc3ZNWHlJcTZyOA?oc=5",
+      "published_ist": "2026-11-23 20:48:55 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB And CrowdStrike Headline A Busy M&A Day - Finimize",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OUjhJR0M3MHgxQ2Rvb3FKUkJlZEwzZlNNSlRPVFZFMExGbm9vSFpDVmFvTzZXRVo5a2lwUVF0cDUyRjlJWjFYZEtsalBmNW5ja0xxazk5cVdTTDluSW1mcjg4bzlyUlpJckZJR09SeFRjVG9Ed0xSMXNUUQ?oc=5",
+      "published_ist": "2026-11-23 16:59:49 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to acquire Ziehl-Abegg for $2.65 billion - Evertiq",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3pmNEpVUjBoZzM0NlZwVmVHTUx3OXZOMFVsc0lEcFVrRXFnN1YtOU5SLVpSdTBGVXVFV0tFYndTVVZ6M2g5ZW83M1BvZ1doR2pVekhtNWtKV3k2V0FlSWZobzVKdmREcWxrMFpCZWozdjduTmRSbGtRdWxGcHVyZmc0MFU?oc=5",
+      "published_ist": "2026-11-23 19:13:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB\u2019s $2.65 Billion Deal Put Data Center Cooling In Focus - Finimize",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLUZRNHZJSkxoOHB1T0xOZkxjSmF0cEFOdUJWVkVaNjRZbE02RkxWb1JvMjJWMFl3a3VFOEJNcWVIeTIyN1hVcVJwZkp6d09HTmFadldJUHpBVTJXRy14bFFXSHNkeFkzbm0tUzFuNWRrZEZ4NlB0Q3FEeko1UE1kOWJ5Z0FjS0h4OGgw?oc=5",
+      "published_ist": "2026-11-23 22:34:01 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ACC",
+      "company": "ACC Ltd.",
+      "headline": "ACC seeks travel ban on Nagad administrator Motasem Billah - The Daily Star",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbExlYkllQ3RwaGJCSnFIbGFsQWJXcUJaRWRCMzFrOU5nR2dOWGFHZHlQcmVYUEdqdnR2Q0IwYV9HcjVqdVFncnItbkRlZEJHeVpydHlLQVFrdzhCSXZSOWt1SzFRV3R4dEgybnNHc1gxU09UTk5ucHhDU3VoeVFnWTMyRUR5Z05yc3pRYzJaQnY5RWFjWENpbjV2SmdQRjhSNU9PaVpfUnFqR1YyQnZoeWNjOFJOVDZDTmw3VzQydmJfbkZteVE?oc=5",
+      "published_ist": "2026-11-24 01:13:03 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: ACC = Asian Cricket Council / Atlantic Coast Conference, not ACC Ltd cement"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB to Acquire Ziehl-Abegg for $2.65bn, Expands HVAC and Fan Technology Portfolio - METissue",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeF93ZkVFbDlqOG5KLV9OaTZpRWNWOVdZNHZMR3l4U082MFBzQ3lvTnZwYlp1aFhKYmR1WmQzb0NKX010SENiUHhpZ2JkRWo2dGxidFFUeDhPcGQxbklNUlFlV0swQ3hrX0Vua0REMnZSb2NtYUhYdGdRbU84NC00bDBLWEtUTmliZmQweFdfWVJZMms4?oc=5",
+      "published_ist": "2026-11-24 02:10:48 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "Q-Interline strengthens its position in France through expanded ABB partnership - Via Ritzau",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HVXkzU3VlMnZrRDBOSDQyNUVYZTJFYUotLW5sTGpaRllIMVJJNnZMMkM4QnNTblVNeW11N2ZPcWI5RXp2VnpXV0MwM1FsejY4NEgybExsRFpGOGN4c254ekdYUE9WWEpGUkVRUUhxaVNNRk40cHBKM3RlNHM?oc=5",
+      "published_ist": "2026-11-23 20:00:46 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "Ziehl-Abegg joins ABB - ACR Journal",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WODRFZmZYbTRRRE9oRVNfOUJoSldic0ZQVFJjMnNnVWJRSmpNMWUxaUt5RHpDY1NoOGRId0xzc0JxS3JJZmIwcloyNVVjSjd0ZEk1MU5kM2xsOVFUUVNrbGR6ODRnR0Z2NjlzelJrWQ?oc=5",
+      "published_ist": "2026-11-23 18:54:56 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "Swiss giant ABB to acquire Winston-Salem manufacturer in $2.22B deal driven by data center demand - The Business Journals",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzR2V01zdDdTQXpSSUN6ekRfQXBBazE0aHBzVTR3WGN2OEVqUEdHa1ZyYkZGVWY1NThNUDlnMDM1MG5oX1NwY1BJbGN0RGtJcGt5NkNGRnJwYzlpSzZYcW9lSFRUOUcyRk9mRkx4WHlzcUNCNTdNSUNYaUx6UG9OSlY1RkthYnVoQzZzSDNqS2gyLUo0VEwwZXlWZDAzOWhLQ1U5NQ?oc=5",
+      "published_ist": "2026-11-24 00:18:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ACC",
+      "company": "ACC Ltd.",
+      "headline": "Pitt\u2019s Ndongo, Stanford\u2019s Price Notch ACC Men\u2019s Basketball Weekly Honors - Atlantic Coast Conference",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnBkX3pNTmZ5ekRFNUotY2otQWM5Ql9KcnNCOUVHZjBBcXFFU1lnMWxCTUFUNFNPNDlfZXB3NTVTMTZPVk1ublpRc21JbGY5bWluVmxqclRSbEFjOUhKWVVsMDdZLUVtbnBhdjdVY2xIUzA3WGItV05mNGc4TW51eW4yVFJ0dTd6LUZMeW43TGRucFdJOGpZSTB0LUk3N3pPa3FBaHFud2xHT1NV?oc=5",
+      "published_ist": "2026-11-24 01:31:42 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: ACC = Asian Cricket Council / Atlantic Coast Conference, not ACC Ltd cement"
+    },
+    {
+      "symbol": "ABB",
+      "company": "ABB India Ltd.",
+      "headline": "ABB Buys Germany's Ziehl-Abegg for $2.2 Billion to Scale Data Center Cooling - Briefs Finance",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUUdzVk5vUWZJelpVYTFmTDkyTlRpVUx4WlpYS0Vjd2VRbDNDZllOZzZVcmtTYjNWNEFwYzlvY1dCazlReUtueHhPVWFmTzZNOF9GSVRqc1k2QUhpbExEbTBibVNpbnVEdVJqem4xV3Z4SEpwZEs4a0x2dE5rbTlVMUNDQkszeDg0U0lzeEFsSmFqUQ?oc=5",
+      "published_ist": "2026-11-23 19:15:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "wrong entity: ABB Ltd (Swiss parent) deal/news, not ABB India Ltd"
+    },
+    {
+      "symbol": "ACC",
+      "company": "ACC Ltd.",
+      "headline": "Pitt forward Baye Ndongo ACC Player of the Week - Audacy",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVnp2bWhFUE90VkhTM1EteDk2eWNqU0Z3cVY1c015SW1KejdqMnNyQzNuQXdHUlh1aUlKbXlaNzlQUWdCZHRNaWdjVXU1eGhBR3FLSEZfbDFDcmpJeTR0UkNRLWlLZFJ5dE1GM2IxSkNCb3ozRVp6emhwd3dzTE8tV2JKcU1taEs0ZE0tTjZ3ZnBzT1pzWTVmSEtsaHZXZ3JHbkN3?oc=5",
+      "published_ist": "2026-11-24 02:35:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: ACC = Asian Cricket Council / Atlantic Coast Conference, not ACC Ltd cement"
+    },
+    {
+      "symbol": "ASTRAL",
+      "company": "Astral Ltd.",
+      "headline": "The RTX 5090\u2019s 16-pin connector just got a free pin-by-pin watchdog \u2014 RTX Lens taps Asus Astral, WireView Pro II, and MSI PSU sensors to alert your phone or shut down your PC - Tom's Hardware",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQSXc1ZkNvWUdKMUFsZE5YRmRmZmdrbFJKUWZoTzhyLWM3Ymg4UnFUaFZJeE5sRnhkT080SVRqRkpuU3FtaVh4eWtUam9DOHFsU1JHNzk0YW5qelhSZGZuVVF6Mnh2MzZOM0FsYjNkcjhTOHItRkx1SmNmM1BndGVXMlE4MG5lSjdLTkFBazdlNVFVMUxxdk9FMTVWR0stdmwzRzJyVlFMbU5JSXE2YjVyeDVYQ0U2MTZfc0t6Q2dRRkFLWHBTcENmNF9ha0lxcGN4bXd6MExiU1BQOW1iem5YdWUyTlVPWVFDYjBtWnNzdDZhaHJTRU10dDllS0lVcEgxMWI1ZVo0cFdzY1VIQmg5eVYzRjB2d3EzS09LZl83UXFCUUJhZXd6RWZUQ3k1Nm1zaGY0Z1BiZnk5dHM4a1E?oc=5",
+      "published_ist": "2026-11-23 19:00:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Asus Astral graphics card, not Astral Ltd"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "company": "Linde India Ltd.",
+      "headline": "Linde Launches Scalable Warehouse Storage Systems - Logistics Business",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWXZBb0JKbDBYMy1XN1hMX2Fyd3JTcU43OWxlUElJeG5WdUFqNHhnVzJsSGdDZlV5SGZqU1pVaVVGRjhPWUY3anJ2M25YV3VZOXBSTmNJNS1mMnotblNENC1UZ0lhSWN3TW8zUjNUYzNsUzNHaXM2b21OU1pVZVRENG9ESXZvbDQtdmlmZ0g4ZEdNdk9VUXpuQjlVRjBFVGV5S0JLV0hVTmltRnhqRW1nMEtSQlg0Yk1vNW1UREdrRzg1dlhSY3c?oc=5",
+      "published_ist": "2026-11-23 18:21:44 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Linde plc / racing driver van der Linde, not Linde India Ltd"
+    },
+    {
+      "symbol": "LUPIN",
+      "company": "Lupin Ltd.",
+      "headline": "\u2018Money Heist\u2019 Meets \u2018Lupin\u2019 in Netflix\u2019s New Global Crime Thriller Hit - Collider",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUptX1k2Y2dZTkRQTmdQMWVkMnlvWUd4cWdRZzQ2cXNzcUhsZ1NsdTM3eGVxaElIYXNReXkzcFhxQmgxSHVVeGtMaXBYUUo3NVNmUmlXN05UZnRNZG9aZXhYYkZwUFRKeXJvZW1lWGotYTI3M1k2ZzBmcE9LQ3hBVE9DLXp2SnRzRmZiVGdXUHBCZw?oc=5",
+      "published_ist": "2026-11-24 07:15:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Netflix show Lupin, not Lupin Ltd"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "company": "Linde India Ltd.",
+      "headline": "South Africa\u2019s Kelvin van der Linde wins 2026 FIA GT World Cup in Macau - www.carmag.co.za",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjhfQXFGeXRHdHd1dzR4MGlTYXZNaUJBaE9XcTNWVjlEc3J4cU5hVFQ5UjhlQnhuZHI2aFpPT2tCLXIzLXlHM2xONHFTQWFQZ1pYblFsdmdlWnFiNF9fMVFtSDRjWXhxS2ZRZzhXRkpGZUpKSG1zUVUybWVpOE16OXBVUkJzcWcyT3JVVGZsbGtOV3l1dS00YjluMWg?oc=5",
+      "published_ist": "2026-11-23 20:37:31 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Linde plc / racing driver van der Linde, not Linde India Ltd"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "company": "Linde India Ltd.",
+      "headline": "Kelvin van der Linde wins chaotic Macau FIA GT World Cup - thenational.co.za",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb2c1YmxvOXlldTJMVWozSHNUVFp6U1QweEszT280ckw4NmtSTGtIVmtGRDl2WjZDN2toWC1GRWNfRUwwLXhMOEpUbTlUbXZ3M2lCSnJGNjF4dm0xckl4R2pFdmN5b3Y4ZlZ6QWlmVVRfQ0ZRUDYyZVl6aHdFYktnUFJZVy1nLWNVcHpCSXR5djI3NC1tNXVCcHo1Z3N1aG92MF9zOVFLdw?oc=5",
+      "published_ist": "2026-11-23 17:30:00 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Linde plc / racing driver van der Linde, not Linde India Ltd"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "company": "Linde India Ltd.",
+      "headline": "Linde stock: Erste trims 2027 EPS forecast - ad-hoc-news.de",
+      "source": "google-news",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUXZ0M2hxMFYzUklvbG96QktxR2dpcVh3MVIyUkp4TURvOWlFSUJPM2VwckFDR1V3SldSbGQ2UUdOYlBqZkJkMFVQNTY3bXg4TEFxcmkxeG40MXFwb2NUODRIOEpZb0ZQWGFUMGt6dGtya2ZDeUdzdWVSSXJhV1BGd1pJUl8taC15bS1OTHRZN3AtUGIydUdmdWVaQjJQX2lkRUFiQlVtOA?oc=5",
+      "published_ist": "2026-11-23 22:08:11 IST",
+      "why_it_matters": "",
+      "drop_reason": "false positive: Linde plc / racing driver van der Linde, not Linde India Ltd"
+    },
+    {
+      "symbol": "CIPLA",
+      "company": "Cipla Ltd.",
+      "headline": "Cipla Share Price Live Updates: Cipla Stock Price History",
+      "source": "et-markets",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-live-updates-23-nov-2026/liveblog/136092588.cms",
+      "published_ist": "2026-11-23 17:50:09 IST",
+      "why_it_matters": "",
+      "drop_reason": "noise: ET auto-generated live-price page, no news event"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "company": "JSW Steel Ltd.",
+      "headline": "JSW Steel Share Price Live Updates: JSW Steel Stock Price History",
+      "source": "et-markets",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-today-live-23-nov-2026/liveblog/136092567.cms",
+      "published_ist": "2026-11-23 17:49:43 IST",
+      "why_it_matters": "",
+      "drop_reason": "noise: ET auto-generated live-price page, no news event"
+    },
+    {
+      "symbol": "JIOFIN",
+      "company": "Jio Financial Services Ltd.",
+      "headline": "Jio Financial Services Share Price Live Updates: Jio Financial Services Stock Price History",
+      "source": "et-markets",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-today-live-updates-23-nov-2026/liveblog/136092528.cms",
+      "published_ist": "2026-11-23 17:48:52 IST",
+      "why_it_matters": "",
+      "drop_reason": "noise: ET auto-generated live-price page, no news event"
+    }
+  ],
+  "quality_notes": {
+    "abb_note": "All 18 ABB rows were about ABB Ltd (Swiss parent) acquiring Ziehl-Abegg, not ABB India Ltd - name collision with the parent.",
+    "symbol_match_gap": "Headlines using only a ticker (e.g. \"LTTS\" in the Persistent breach story) were MISSED - matcher used company names only, not symbols. LTTS should have matched the Persistent story.",
+    "et_live_pages": "ET Markets RSS carries auto-generated \"Share Price Live Updates\" pages with no event - noise to filter in the daily run.",
+    "dedup_note": "Same story repeated across outlets with different headlines (Tata Steel/APL Apollo = 11 headlines, 1 story; Lupin FDA = 7 headlines, 1 story) - headline dedupe does not collapse these; story-level grouping needed before scoring."
+  },
+  "distinct_real_stories": 11
+}
