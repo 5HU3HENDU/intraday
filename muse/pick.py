@@ -11,11 +11,21 @@ News window: 16:00 IST on the LAST TRADING DAY -> 08:30 IST on the
 next trading day (spans weekends/holidays; e.g. Wed 25 Nov window is
 Mon 23 Nov 16:00 -> Wed 25 Nov 08:30).
 
-Sources: Google News RSS (primary; chunked name queries + chunked
-ticker queries), ET Markets RSS (thin supplement). BSE announcements
-are 403-blocked from this VM - do not hammer them. Moneycontrol is
-unusable as a primary source (no timestamps). NEVER touch nseindia.in
-(Shiva: don't ping NSE).
+Sources: Google News RSS (primary; chunked name queries), ET Markets
+RSS (thin supplement), exchange filings:
+- NSE corporate-announcements JSON, fetched fresh by the morning agent
+  via browser.open and passed as --filings. Only the latest ~20 rows
+  (~last 2h), but with precise times + NSE's own AI summary. Shiva
+  lifted "don't ping nse" for announcements ONLY (25 Nov 2026); no
+  other NSE endpoint is touched.
+- Screener.in was tried as the in-process mirror and DROPPED (25 Nov
+  2026): it republishes filings with a ~5-day lag, so it found 0 rows
+  in the overnight window. The code is kept in pick.py for reference.
+BSE: API is 403 from the VM and redirects to a form page in the
+browser; the announcements web page loads (723 rows for the window)
+but needs 15 pages of reading per morning — not wired in. NSE already
+covers the same filings for N500 (dual-listed). Moneycontrol is
+unusable as a primary source (no timestamps).
 
 Usage:
   python3 pick.py                        # today's run (trading day check applies)
@@ -23,6 +33,9 @@ Usage:
   python3 pick.py --start "2026-11-23 16:00" --end "2026-11-24 08:30"
                                          # explicit window (testing; skips trading-day check)
   python3 pick.py --out shortlist-test.json
+  python3 pick.py --filings filings-nse-2026-11-25.json
+                                         # merge extra filings (NSE via browser.open):
+                                         # JSON list of {symbol, headline, dt, source, link}
 
 Output: shortlist-<trading-date>.json (in this folder, muse/)
 """
@@ -491,12 +504,142 @@ def jaccard(a, b):
     return len(a & b) / len(a | b)
 
 
+# ---------------------------------------------------------------------------
+# Exchange filings (added 25 Nov 2026, Shiva: track NSE + BSE filings for
+# the paper test — all 3 routes). Two routes feed the picker:
+#   1. Screener.in per-company announcements (in-process). Screener
+#      republishes the exchange filings with exact ISO timestamps and a
+#      link to the BSE PDF. Full window, all 500 symbols. The symbol->id
+#      map lives in screener_ids.json (built once via Screener's search
+#      API; rebuild if a symbol is missing).
+#   2. NSE corporate-announcements JSON, fetched fresh by the morning
+#      agent via browser.open and passed as --filings (JSON list of
+#      {symbol, headline, dt, source, link}). Only the latest ~20 rows.
+# BSE is NOT wired in: its API is 403 from the VM and redirects to a
+# form page in the browser; the web table loads but needs 15 pages per
+# morning. NSE + Screener already cover the same filings for N500.
+# ---------------------------------------------------------------------------
+FILING_NOISE_RE = re.compile(
+    r"schedule of (analyst|investor|institutional).*meet|"
+    r"(analyst|investor|institutional).*meet.*schedule|"
+    r"\btranscript\b|newspaper publication|"
+    r"schedule of (conference|call)|intimation of schedule",
+    re.I)
+
+
+def _parse_screener_announcements(html):
+    """Parse one /announcements/recent/<id>/ fragment -> list of
+    (datetime, title, summary, link). Each <li> carries a <time
+    datetime="ISO"> and a summary line after it."""
+    import html as htmlmod
+    rows = []
+    for li in re.findall(r'<li class="overflow-wrap-anywhere">(.*?)</li>', html, re.S):
+        m_time = re.search(r'<time datetime="([^"]+)">', li)
+        m_link = re.search(r'<a href="([^"]+)"', li)
+        if not m_time:
+            continue
+        try:
+            dt = datetime.datetime.fromisoformat(m_time.group(1))
+        except Exception:
+            continue
+        text = re.sub(r"<[^>]+>", " ", li)
+        text = htmlmod.unescape(re.sub(r"\s+", " ", text)).strip()
+        m = re.match(r"^(.*?)\s+\d{1,2} [A-Z][a-z]{2}\s*-\s*(.*)$", text)
+        if m:
+            title, summary = m.group(1).strip(), m.group(2).strip()
+        else:
+            title, summary = text, ""
+        rows.append({"dt": dt, "title": title, "summary": summary,
+                     "link": m_link.group(1) if m_link else ""})
+    return rows
+
+
+def fetch_screener_filings(win_start, win_end, n500, names):
+    """Fetch Screener announcements for all 500 symbols in parallel,
+    keep the ones inside the window. Returns (rows, stats)."""
+    try:
+        ids = json.load(open(os.path.join(OUT_DIR, "screener_ids.json")))["ids"]
+    except Exception as e:
+        print(f"WARN: screener_ids.json unreadable ({e}) - no Screener filings", file=sys.stderr)
+        return [], {"fetched": 0, "in_window": 0, "failed": len(n500),
+                    "companies_with_filings": 0}
+
+    def fetch_one(sym):
+        sid = ids.get(sym)
+        if sid is None:
+            return sym, None
+        raw = fetch(f"https://www.screener.in/announcements/recent/{sid}/")
+        if raw is None:
+            raw = fetch(f"https://www.screener.in/announcements/recent/{sid}/")
+        return sym, raw
+
+    rows, stats = [], {"fetched": 0, "in_window": 0, "failed": 0,
+                       "companies_with_filings": 0}
+    with ThreadPoolExecutor(max_workers=16) as ex:
+        for sym, raw in ex.map(fetch_one, n500):
+            if raw is None:
+                stats["failed"] += 1
+                continue
+            try:
+                items = _parse_screener_announcements(raw.decode("utf-8", "ignore"))
+            except Exception:
+                stats["failed"] += 1
+                continue
+            stats["fetched"] += len(items)
+            kept = 0
+            for it in items:
+                if not (win_start <= it["dt"] <= win_end):
+                    continue
+                kept += 1
+                head = f"{short_name(names.get(sym, sym))}: {it['title']}"
+                if it["summary"]:
+                    head += f" — {it['summary']}"
+                rows.append({
+                    "symbol": sym, "company": names.get(sym, sym),
+                    "headline": head, "source": "screener-filings",
+                    "link": it["link"] or f"https://www.screener.in/company/{sym}/",
+                    "dt": it["dt"], "outlet": "Exchange filing (via Screener)",
+                    "via_ticker": False, "filing": True,
+                })
+            if kept:
+                stats["companies_with_filings"] += 1
+            stats["in_window"] += kept
+    return rows, stats
+
+
+def load_extra_filings(path):
+    """Load an extra filings JSON (NSE via browser.open): a list of
+    {symbol, headline, dt (ISO), source, link}. Returns rows (or [])."""
+    try:
+        data = json.load(open(path))
+    except Exception as e:
+        print(f"WARN: --filings {path} unreadable ({e}) - skipping", file=sys.stderr)
+        return []
+    rows = []
+    for f in (data if isinstance(data, list) else []):
+        try:
+            dt = datetime.datetime.fromisoformat(f["dt"])
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=IST)
+        except Exception:
+            continue
+        rows.append({
+            "symbol": f["symbol"], "company": f.get("company", f["symbol"]),
+            "headline": f["headline"], "source": f.get("source", "nse-filings"),
+            "link": f.get("link", ""), "dt": dt,
+            "outlet": f.get("outlet", "Exchange filing (NSE)"),
+            "via_ticker": False, "filing": True,
+        })
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="run date YYYY-MM-DD (default: today IST)")
     ap.add_argument("--start", help='window start "YYYY-MM-DD HH:MM" IST (testing)')
     ap.add_argument("--end", help='window end "YYYY-MM-DD HH:MM" IST (testing)')
     ap.add_argument("--out", help="output JSON path (default: shortlist-<trading-date>.json)")
+    ap.add_argument("--filings", help="extra filings JSON (NSE via browser.open) to merge in")
     args = ap.parse_args()
 
     today = datetime.datetime.now(IST).date()
@@ -723,6 +866,29 @@ def main():
     print(f"Matched rows: {len(matched_rows)} | distinct stocks: {len(set(r['symbol'] for r in matched_rows))}")
     print(f"Excluded by rules: {len(excluded)} | dropped macro: {dropped_macro} | unmatched non-macro: {len(unmatched)}")
 
+    # --- exchange filings (NSE via --filings only) ---
+    # Screener.in was tried as the in-process mirror (25 Nov 2026) and
+    # DROPPED: it republishes filings with a ~5-day lag (latest per-company
+    # announcement was 18-20 Nov while NSE showed the same companies filing
+    # on 24 Nov), so it found 0 rows in the overnight window. The code
+    # (fetch_screener_filings) is kept for reference but NOT called.
+    # The live filings source is NSE via browser.open (--filings).
+    filing_rows, filing_stats = [], {"fetched": 0, "in_window": 0, "failed": 0,
+                                     "companies_with_filings": 0,
+                                     "note": "screener dropped 25 Nov: ~5d lag"}
+    if args.filings:
+        extra = load_extra_filings(args.filings)
+        seen_f = {(r["symbol"], norm_title(r["headline"])) for r in filing_rows}
+        new_extra = [r for r in extra if (r["symbol"], norm_title(r["headline"])) not in seen_f]
+        print(f"NSE filings file: {len(extra)} rows, {len(new_extra)} new after dedupe vs Screener")
+        filing_rows.extend(new_extra)
+        filing_stats["nse_file_rows"] = len(extra)
+        filing_stats["nse_new"] = len(new_extra)
+    matched_rows.extend(filing_rows)
+    print(f"Filings rows: {len(filing_rows)} (Screener in-window {filing_stats['in_window']}, "
+          f"companies {filing_stats['companies_with_filings']}, failed fetches {filing_stats['failed']})")
+    print(f"Matched rows total (news + filings): {len(matched_rows)} | distinct stocks: {len(set(r['symbol'] for r in matched_rows))}")
+
     # Company-name tokens per symbol (stemmed, same as content_tokens),
     # so the merge rule can tell "same event" from "same company, different
     # event": two headlines about one company always share the name tokens
@@ -835,8 +1001,16 @@ def main():
 
         rep = max(rows, key=_rep_key)
         cl["rep"] = rep
-        frac = sum(1 for r in rows
-                   if has_hard_event(strip_outlet(r["headline"])[0])) / len(rows)
+        def _row_is_event(r):
+            head = strip_outlet(r["headline"])[0]
+            if has_hard_event(head):
+                return True
+            # A filing is an event unless it is a routine notice (meet
+            # schedules, transcripts, newspaper publications). A filing
+            # with no news coverage is exactly the signal this test wants.
+            return bool(r.get("filing")) and not FILING_NOISE_RE.search(head)
+
+        frac = sum(1 for r in rows if _row_is_event(r)) / len(rows)
         if frac >= 0.10:
             kept.append(cl)
         else:
@@ -895,7 +1069,9 @@ def main():
             "unmatched_non_macro": len(unmatched),
             "dropped_soft_stories": dropped_soft,
             "stories": len(stories),
+            "filing_rows": len(filing_rows),
         },
+        "filings": filing_stats,
         "stories": stories,
         "excluded": excluded,
     }

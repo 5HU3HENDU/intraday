@@ -25,39 +25,55 @@ small-drug one; a breach is scored on how bad it really is.
 
 ## Morning run (cron ~08:30 IST, before 09:00)
 
-1. Run: `python3 pick.py` (from inside this `muse/` folder — shortlists land
-   here too)
+1. Fetch NSE filings first (the freshest, precise times): open
+   `https://www.nseindia.com/api/corporate-announcements?index=equities`
+   via browser.open (fresh copy, max_age_minutes 30). Take the rows whose
+   `symbol` is in the N500 universe and whose `an_dt` is inside the window
+   (last trading day 16:00 → today 08:30). Save them as
+   `filings-nse-<today>.json` — a JSON list of
+   `{symbol, headline, dt, source, link}` where headline is
+   `"<Company>: <desc> — <voiceSummary first sentence>"` (or attchmntText
+   if there is no voiceSummary), dt is the `an_dt` in ISO form, source is
+   `"nse-filings"`, link is the `attchmntFile` URL. If the fetch fails or
+   yields nothing usable, skip it — Screener filings (step 2) still apply.
+2. Run: `python3 pick.py --filings filings-nse-<today>.json` (from inside
+   this `muse/` folder — shortlists land here too; omit `--filings` if
+   step 1 produced no file)
    - The script computes the window itself (last trading day 16:00 → today
      08:30) and sanity-checks the last trading day against Yahoo `^NSEI`
      daily bars. NSE 2026 holidays are hardcoded in the script.
+   - Filings in the shortlist come only from step 1 (NSE via `--filings`).
+     Screener.in was tried as an in-process mirror and dropped on 25 Nov
+     2026 — it republishes filings ~5 days late, so it found nothing in
+     the overnight window.
    - **If today is not a trading day** (weekend/holiday) the script writes a
      shortlist with `is_trading_day: false` and exits — **stay silent, send
      nothing to Shiva.**
-2. Read `shortlist-<today>.json`. If the stories list is empty, send Shiva one
+3. Read `shortlist-<today>.json`. If the stories list is empty, send Shiva one
    line ("no clear overnight signal today") and log nothing.
-3. Score each story subjectively, −2 to +2, with a one-line reason:
+4. Score each story subjectively, −2 to +2, with a one-line reason:
    - **+2 / −2** — very strong, specific, likely to move the stock clearly
      (big order, results big beat/miss, major deal, FDA approval for a big
      drug, serious breach).
    - **+1 / −1** — clear direction but modest size or mixed detail.
    - **0** — neutral / routine / already priced in / unclear.
    - Judge size, context, and what is already priced in. Do not use a formula.
-4. Pick the **top 2–3 by absolute score** (|score|), up or down. If the best
+5. Pick the **top 2–3 by absolute score** (|score|), up or down. If the best
    story scores 0, pick nothing and send the one-line "no clear signal" note.
    Ties: prefer the story with the bigger/more specific news. **Do not pick
    the same stock twice** — if two shortlisted stories are the same event
    (same stocks, e.g. several Tata Steel/APL Apollo angles), score them once
    and count them as one pick.
-5. Send Shiva the report in WhatsApp chat `0faa91ee-6edc-4317-85b1-6645c47a55a7`
+6. Send Shiva the report in WhatsApp chat `0faa91ee-6edc-4317-85b1-6645c47a55a7`
    **before 09:00**, in simple words, chat text only, no file:
    - each pick: stock, predicted direction (up/down), score + reason, the news
      behind it (one line), and the Google Finance link **inline in a sentence**:
      `https://www.google.com/finance/quote/SYM:NSE`
    - one line on how many stories were in the shortlist.
-6. Append the picks to `paper-test-log.json` under `days` (one entry per pick;
+7. Append the picks to `paper-test-log.json` under `days` (one entry per pick;
    see the `pick_fields` schema in that file). Leave the price fields blank
    for the evening run. If no picks, append nothing.
-7. Push the morning's files to the intraday repo (`MUSE/` folder only, one
+8. Push the morning's files to the intraday repo (`MUSE/` folder only, one
    batched commit — never push `instinct/` or the root `index.html`):
    `shortlist-<today>.json` and `paper-test-log.json` (plus `index.html`
    only if it changed). Paths file must live under `~/workspace`, not `/tmp`:
@@ -102,15 +118,26 @@ small-drug one; a breach is scored on how bad it really is.
 
 ## Known limits (do not re-discover)
 
-- **BSE announcements are 403-blocked from this VM.** Exchange filings
-  (results, orders, deals) are the highest-signal source and unreachable.
-  Filings surface indirectly via newswires in Google News. Do not hammer BSE.
+- **Exchange filings are now a source (added 25 Nov 2026, Shiva: all 3
+  routes).** NSE's corporate-announcements JSON is fetched fresh by the
+  morning agent via browser.open and passed as `--filings` (latest ~20
+  rows only, precise times + NSE's AI summary). A filing counts as an
+  event for the story filter unless it is a routine notice (meet
+  schedules, transcripts, newspaper publications). Screener.in was tried
+  as the in-process mirror and DROPPED the same day — it republishes
+  filings ~5 days late (latest per-company item was 18–20 Nov while NSE
+  showed the same companies filing on 24 Nov), so it found 0 rows in
+  the window. BSE is NOT wired in: its API is 403 from the VM and
+  redirects to a form page in the browser; the web table loads (723 rows
+  for the 23–25 Nov window) but needs 15 pages per morning. NSE already
+  covers the same filings for N500 (dual-listed).
+- **NSE: announcements ONLY.** Shiva lifted "don't ping nse" for the
+  announcements feed on 25 Nov 2026. No other NSE endpoint is touched.
 - **Moneycontrol is unusable as a primary source** (no publication timestamps).
 - **Google News RSS is relevance-sorted and capped (~100/query).** Overnight
   items can get crowded out by morning news — the morning run must fire at
   08:30 sharp, and fetches have one retry each.
 - **ET Markets RSS is a thin supplement** (rolling 50 items only).
-- **NEVER touch any nseindia.in endpoint** — Shiva said don't ping NSE.
 - **Picker fixes (24 Nov 2026, tested on the Mon 23 Nov 16:00 → Tue 24 Nov
   08:30 window):** Google News chunks are 5 names each — 20-name chunks
   crowd overnight items out of the relevance-ranked results. Company short
