@@ -58,21 +58,29 @@ small-drug one; a breach is scored on how bad it really is.
    - **+1 / −1** — clear direction but modest size or mixed detail.
    - **0** — neutral / routine / already priced in / unclear.
    - Judge size, context, and what is already priced in. Do not use a formula.
-5. Pick the **top 2–3 by absolute score** (|score|), up or down. If the best
+5. Pick the **top 5 by absolute score** (|score|), up or down. If the best
    story scores 0, pick nothing and send the one-line "no clear signal" note.
    Ties: prefer the story with the bigger/more specific news. **Do not pick
    the same stock twice** — if two shortlisted stories are the same event
    (same stocks, e.g. several Tata Steel/APL Apollo angles), score them once
-   and count them as one pick.
+   and count them as one pick. For each pick, also write the expected price
+   move for entry/exit — how you think the price will move (e.g. "gap up
+   3-5% at the open on the open-offer anchor, then hold above the open;
+   enter at the open, exit near the close" or "open flat, drift down
+   through the day as index funds sell; enter at the open, exit by
+   mid-afternoon"). This is a forecast the evening run will judge, so make
+   it specific (direction + rough size + timing/pattern), not just "up".
 6. Send Shiva the report in WhatsApp chat `0faa91ee-6edc-4317-85b1-6645c47a55a7`
    **before 09:00**, in simple words, chat text only, no file:
    - each pick: stock, predicted direction (up/down), score + reason, the news
-     behind it (one line), and the Google Finance link **inline in a sentence**:
+     behind it (one line), the expected price move for entry/exit (one line),
+     and the Google Finance link **inline in a sentence**:
      `https://www.google.com/finance/quote/SYM:NSE`
    - one line on how many stories were in the shortlist.
 7. Append the picks to `paper-test-log.json` under `days` (one entry per pick;
-   see the `pick_fields` schema in that file). Leave the price fields blank
-   for the evening run. If no picks, append nothing.
+   see the `pick_fields` schema in that file). Include `expected_move` for
+   each pick. Leave the price fields blank for the evening run. If no picks,
+   append nothing.
 8. Push the morning's files to the intraday repo (`MUSE/` folder only, one
    batched commit — never push `instinct/` or the root `index.html`):
    `shortlist-<today>.json` and `paper-test-log.json` (plus `index.html`
@@ -95,24 +103,49 @@ small-drug one; a breach is scored on how bad it really is.
    - `open_0915` = open of the 09:15 bar
    - `price_0930` = close of the 09:30 bar (or the last trade price at ~09:30)
    - `close` = last bar's close
+   - `gap_pct` = (open − prev close) / prev close × 100 (prev close from the
+     prior trading day's close)
+   - `high` = day high, `low` = day low (from the 1m bars)
 2. Fill in `ret_from_open_pct`, `ret_from_0930_pct`, and `correct` (true if the
-   close moved in the predicted direction vs the open).
-3. Save the log. Do **not** message Shiva in the evening unless the morning
-   report failed to send.
-4. Push the updated `paper-test-log.json` to the intraday repo (`MUSE/`
-   folder only, one batched commit): `printf 'muse/paper-test-log.json\0' >
+   close moved in the predicted direction vs the open). Fill in `assessment`
+   — one line per pick judging whether the call worked AND whether the actual
+   move matched the expected entry/exit pattern in `expected_move` (e.g.
+   "right direction but faded from the open — the gap-up-fades pattern, not
+   a hold" or "wrong: opened up 2% then fell all day"). Save the log. Append
+   one entry to `meta.day_notes` for today: `{date, correct_of_5, note}` —
+   the note is one line on what the day taught. Preserve the rest of meta.
+   (Picks from Wed 25 Nov have no `expected_move` — that field starts Thu
+   26 Nov; assess those on direction only.)
+3. Save the log. Push the updated `paper-test-log.json` to the intraday repo
+   (`MUSE/` folder only, one batched commit): `printf
+   'muse/paper-test-log.json\0' >
    /home/hatch/workspace/intraday-push-paths.txt`, then
    `/opt/hatch/bin/github push-files --owner 5HU3HENDU --repo intraday
    --branch main --message "Paper test results <today>" --source-dir
    /home/hatch/workspace/intraday --paths-file
    /home/hatch/workspace/intraday-push-paths.txt`. This is what fills in the
    results columns on the page.
+4. **Send Shiva the evening assessment** in WhatsApp chat
+   `0faa91ee-6edc-4317-85b1-6645c47a55a7`, chat text only, no file: one line
+   per pick — stock, predicted vs actual (open, close, `ret_from_open_pct`),
+   correct or not, and the assessment (did the move match the expected
+   entry/exit pattern). Plus a line on the running hit rate (correct/total
+   picks so far) and the day's learning note. If the morning report failed
+   to send, include the picks in the evening message too. If today had no
+   picks, do nothing.
 
 ## Judging the test (after 2–3 weeks)
 
 - Hit rate: share of picks where `correct` is true.
 - Average `ret_from_open_pct` in the predicted direction, vs the same from
   09:30 — which entry worked better?
+- Entry/exit patterns: how often did the actual move match the morning's
+  `expected_move`? (e.g. gap-ups that held vs gap-ups that faded — the
+  `gap_pct` + `high`/`low` + `assessment` fields are the evidence.)
+- Learning, day by day: `meta.day_notes` holds one entry per trading day
+  (date, correct_of_5, note) — what each day taught. Read it before scoring
+  the next morning's picks; the method should improve day by day, not just
+  repeat.
 - If the signal works, discuss going real (sizing, leverage, loss cap,
   kill switch — same rails as the parked trading bot). If not, stop.
 

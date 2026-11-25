@@ -51,13 +51,20 @@
  ],
  "meta": {
   "duration": "2-3 weeks from Wed 25 Nov 2026",
-  "judgement": "After 2-3 weeks: did the picks move the predicted way open-to-close, and was 09:15 or 09:30 the better entry?",
+  "judgement": "After 2-3 weeks: did the picks move the predicted way open-to-close, did the actual moves match the expected entry/exit patterns, and was 09:15 or 09:30 the better entry?",
+  "day_notes": [],
+  "learning": "Each evening appends one entry to day_notes (date, correct_of_5, note) — what the day taught, so the method improves day by day. The page shows the whole story day-wise.",
   "pick_fields": {
+   "assessment": "one-line evening assessment: did the call work, and did the actual move match the expected entry/exit pattern (filled in the evening)",
    "close": "day close (filled in the evening)",
    "company": "company name",
    "correct": "true if the close moved in the predicted direction vs the open (filled in the evening)",
    "date": "trading date YYYY-MM-DD",
    "direction": "\"up\" or \"down\" (predicted intraday direction)",
+   "expected_move": "how the price is expected to move for entry/exit — morning forecast, e.g. 'gap up 3-5% at open, hold; enter at open, exit near close' (filled in the morning; starts Thu 26 Nov 2026 — Wed 25 Nov picks have none)",
+   "gap_pct": "(open - prev close)/prev close*100 (filled in the evening)",
+   "high": "day high (filled in the evening)",
+   "low": "day low (filled in the evening)",
    "open_0915": "price at 09:15 open (filled in the evening)",
    "price_0930": "price at ~09:30 (filled in the evening)",
    "reason": "one-line reason for the score",
@@ -69,6 +76,6 @@
    "story_id": "story id from that morning's shortlist file"
   },
   "scoring": "HYBRID + SENTIMENT-BASED + SUBJECTIVE (Shiva, 2026-11-24): hard rules filter to a shortlist, then the morning agent reads each story and scores sentiment by judgment, -2 to +2, not by a formula",
-  "strategy": "Overnight-news intraday paper test (Nifty 500; news 16:00 last trading day -> 08:30 next trading day)"
+  "strategy": "Overnight-news intraday paper test (Nifty 500; news 16:00 last trading day -> 08:30 next trading day). 5 picks a day from Thu 26 Nov 2026 (Shiva, 25 Nov), each with reason + expected entry/exit move; evening assessment after market, day-wise."
  }
 }

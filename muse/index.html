@@ -63,13 +63,18 @@
       shortlist is read and scored by judgement, &minus;2 to +2, with a
       one-line reason. Size and context count: a large order beats a small
       one, a big-drug approval beats a small-drug one. No formula.</li>
-    <li><strong>Picks:</strong> the 2&ndash;3 stories with the highest absolute
+    <li><strong>Picks:</strong> the 5 stories with the highest absolute
       score each morning, up or down. If the best story scores 0, there is no
-      pick that day. Picks go out before 9:00 am.</li>
+      pick that day. Each pick also carries an expected entry/exit move —
+      how the price is expected to move — and the evening assessment judges
+      both the direction and whether the move matched that expectation.
+      Picks go out before 9:00 am.</li>
     <li><strong>Judging:</strong> each pick is logged with the 9:15 open price,
-      the ~9:30 price and the close. A pick is right if the close moved in the
-      predicted direction from the open. After 2&ndash;3 weeks we judge the hit
-      rate — and whether 9:15 or 9:30 was the better entry.</li>
+      the ~9:30 price, the close, the gap, and the day's high and low. A pick
+      is right if the close moved in the predicted direction from the open.
+      After market, each call is assessed in full — and one learning note per
+      day is kept, so the method improves day by day. After 2&ndash;3 weeks
+      we judge the hit rate — and whether 9:15 or 9:30 was the better entry.</li>
   </ul>
 
   <h2>Picks &amp; results</h2>
@@ -114,7 +119,7 @@ fetch('paper-test-log.json', {cache: 'no-store'})
       html += '<p class="dayhead">' + date +
         ' <span class="muted">— <a href="shortlist-' + date + '.json">shortlist</a></span></p>';
       html += '<table><tr><th>Stock</th><th>Direction</th><th>Score</th>' +
-        '<th>Reason</th><th>Open &rarr; close</th><th>9:30 &rarr; close</th><th>Right?</th></tr>';
+        '<th>Reason</th><th>Expected move</th><th>Open &rarr; close</th><th>9:30 &rarr; close</th><th>Right?</th><th>Assessment</th></tr>';
       byDate[date].forEach(function (p) {
         var dir = p.direction === 'up'
           ? '<span class="up">Up</span>' : '<span class="down">Down</span>';
@@ -130,8 +135,10 @@ fetch('paper-test-log.json', {cache: 'no-store'})
           ':NSE">' + p.stock + '</a><br><span class="muted">' + (p.company || '') +
           '</span></td><td>' + dir + '</td><td class="score">' +
           (p.score > 0 ? '+' : '') + p.score + '</td><td>' + (p.reason || '') +
-          '<br><span class="muted">' + (p.story || '') + '</span></td><td>' + ro +
-          '</td><td>' + r9 + '</td><td>' + ok + '</td></tr>';
+          '<br><span class="muted">' + (p.story || '') + '</span></td><td>' +
+          (p.expected_move || '&mdash;') + '</td><td>' + ro +
+          '</td><td>' + r9 + '</td><td>' + ok + '</td><td>' +
+          (p.assessment || '&mdash;') + '</td></tr>';
       });
       html += '</table>';
     });
