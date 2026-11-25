@@ -1,1 +1,74 @@
-{"days": [], "meta": {"duration": "2-3 weeks from Wed 25 Nov 2026", "judgement": "After 2-3 weeks: did the picks move the predicted way open-to-close, and was 09:15 or 09:30 the better entry?", "pick_fields": {"close": "day close (filled in the evening)", "company": "company name", "correct": "true if the close moved in the predicted direction vs the open (filled in the evening)", "date": "trading date YYYY-MM-DD", "direction": "\"up\" or \"down\" (predicted intraday direction)", "open_0915": "price at 09:15 open (filled in the evening)", "price_0930": "price at ~09:30 (filled in the evening)", "reason": "one-line reason for the score", "ret_from_0930_pct": "(close-price_0930)/price_0930*100 (filled in the evening)", "ret_from_open_pct": "(close-open)/open*100 (filled in the evening)", "score": "-2..+2 subjective sentiment score (sign matches direction)", "stock": "NSE symbol", "story": "one-line story summary", "story_id": "story id from that morning's shortlist file"}, "scoring": "HYBRID + SENTIMENT-BASED + SUBJECTIVE (Shiva, 2026-11-24): hard rules filter to a shortlist, then the morning agent reads each story and scores sentiment by judgment, -2 to +2, not by a formula", "strategy": "Overnight-news intraday paper test (Nifty 500; news 16:00 last trading day -> 08:30 next trading day)"}}
+{
+ "days": [
+  {
+   "date": "2026-11-25",
+   "stock": "APLAPOLLO",
+   "company": "APL Apollo Tubes Ltd.",
+   "direction": "up",
+   "score": 2,
+   "reason": "Open offer at Rs 2,301 vs ~Rs 2,121 Friday close, first trading day since the news",
+   "story": "Tata Steel open offer for APL Apollo at Rs 2,301 a share, about 8% above Friday close",
+   "story_id": "S1",
+   "open_0915": null,
+   "price_0930": null,
+   "close": null,
+   "ret_from_open_pct": null,
+   "ret_from_0930_pct": null,
+   "correct": null
+  },
+  {
+   "date": "2026-11-25",
+   "stock": "SHRIRAMFIN",
+   "company": "Shriram Finance Ltd.",
+   "direction": "up",
+   "score": 2,
+   "reason": "Joins Sensex, replacing Trent; index funds have to buy",
+   "story": "Shriram Finance joins the Sensex, replacing Trent",
+   "story_id": "S6",
+   "open_0915": null,
+   "price_0930": null,
+   "close": null,
+   "ret_from_open_pct": null,
+   "ret_from_0930_pct": null,
+   "correct": null
+  },
+  {
+   "date": "2026-11-25",
+   "stock": "TRENT",
+   "company": "Trent Ltd.",
+   "direction": "down",
+   "score": -1,
+   "reason": "Drops out of the Sensex; index funds have to sell, but Trent is large and liquid so the move should be modest",
+   "story": "Trent drops out of the Sensex, replaced by Shriram Finance",
+   "story_id": "S6",
+   "open_0915": null,
+   "price_0930": null,
+   "close": null,
+   "ret_from_open_pct": null,
+   "ret_from_0930_pct": null,
+   "correct": null
+  }
+ ],
+ "meta": {
+  "duration": "2-3 weeks from Wed 25 Nov 2026",
+  "judgement": "After 2-3 weeks: did the picks move the predicted way open-to-close, and was 09:15 or 09:30 the better entry?",
+  "pick_fields": {
+   "close": "day close (filled in the evening)",
+   "company": "company name",
+   "correct": "true if the close moved in the predicted direction vs the open (filled in the evening)",
+   "date": "trading date YYYY-MM-DD",
+   "direction": "\"up\" or \"down\" (predicted intraday direction)",
+   "open_0915": "price at 09:15 open (filled in the evening)",
+   "price_0930": "price at ~09:30 (filled in the evening)",
+   "reason": "one-line reason for the score",
+   "ret_from_0930_pct": "(close-price_0930)/price_0930*100 (filled in the evening)",
+   "ret_from_open_pct": "(close-open)/open*100 (filled in the evening)",
+   "score": "-2..+2 subjective sentiment score (sign matches direction)",
+   "stock": "NSE symbol",
+   "story": "one-line story summary",
+   "story_id": "story id from that morning's shortlist file"
+  },
+  "scoring": "HYBRID + SENTIMENT-BASED + SUBJECTIVE (Shiva, 2026-11-24): hard rules filter to a shortlist, then the morning agent reads each story and scores sentiment by judgment, -2 to +2, not by a formula",
+  "strategy": "Overnight-news intraday paper test (Nifty 500; news 16:00 last trading day -> 08:30 next trading day)"
+ }
+}
