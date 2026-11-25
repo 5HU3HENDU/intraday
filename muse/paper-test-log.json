@@ -9,12 +9,16 @@
    "reason": "Open offer at Rs 2,301 vs ~Rs 2,121 Friday close, first trading day since the news",
    "story": "Tata Steel open offer for APL Apollo at Rs 2,301 a share, about 8% above Friday close",
    "story_id": "S1",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null
+   "open_0915": 1503.0,
+   "price_0930": 1419.5,
+   "close": 1476.0,
+   "ret_from_open_pct": -1.8,
+   "ret_from_0930_pct": 3.98,
+   "correct": false,
+   "gap_pct": -10.0,
+   "high": 1548.1,
+   "low": 1343.0,
+   "assessment": "Wrong: gapped down 10% at the open and closed below it \u2014 the open-offer news was already stale, the stock had crashed 21% on Monday from Friday's close, so the morning's Friday-close anchor was wrong."
   },
   {
    "date": "2026-11-25",
@@ -25,12 +29,16 @@
    "reason": "Joins Sensex, replacing Trent; index funds have to buy",
    "story": "Shriram Finance joins the Sensex, replacing Trent",
    "story_id": "S6",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null
+   "open_0915": 1007.75,
+   "price_0930": 1016.95,
+   "close": 989.95,
+   "ret_from_open_pct": -1.77,
+   "ret_from_0930_pct": -2.65,
+   "correct": false,
+   "gap_pct": 1.19,
+   "high": 1024.7,
+   "low": 984.15,
+   "assessment": "Wrong: opened up on the Sensex-inclusion news but faded all day and closed below the open \u2014 index-buying did not hold the price up intraday."
   },
   {
    "date": "2026-11-25",
@@ -41,19 +49,29 @@
    "reason": "Drops out of the Sensex; index funds have to sell, but Trent is large and liquid so the move should be modest",
    "story": "Trent drops out of the Sensex, replaced by Shriram Finance",
    "story_id": "S6",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null
+   "open_0915": 3239.3,
+   "price_0930": 3263.6,
+   "close": 3319.6,
+   "ret_from_open_pct": 2.48,
+   "ret_from_0930_pct": 1.72,
+   "correct": false,
+   "gap_pct": 0.98,
+   "high": 3348.9,
+   "low": 3236.5,
+   "assessment": "Wrong: opened up and rose all day instead of falling on the Sensex exit \u2014 index-selling pressure never showed up intraday."
   }
  ],
  "meta": {
   "duration": "2-3 weeks from Wed 25 Nov 2026",
   "judgement": "After 2-3 weeks: did the picks move the predicted way open-to-close, did the actual moves match the expected entry/exit patterns, and was 09:15 or 09:30 the better entry?",
-  "day_notes": [],
-  "learning": "Each evening appends one entry to day_notes (date, correct_of_5, note) — what the day taught, so the method improves day by day. The page shows the whole story day-wise.",
+  "day_notes": [
+   {
+    "date": "2026-11-25",
+    "correct_of_5": "0/3",
+    "note": "0 of 3: the morning scored news against Friday's close, but Monday had already moved the stocks \u2014 APL Apollo had crashed 21% on Monday, so the open-offer anchor was stale; and both Sensex changes faded/reversed intraday instead of following the index-flow script."
+   }
+  ],
+  "learning": "Each evening appends one entry to day_notes (date, correct_of_5, note) \u2014 what the day taught, so the method improves day by day. The page shows the whole story day-wise.",
   "pick_fields": {
    "assessment": "one-line evening assessment: did the call work, and did the actual move match the expected entry/exit pattern (filled in the evening)",
    "close": "day close (filled in the evening)",
@@ -61,7 +79,7 @@
    "correct": "true if the close moved in the predicted direction vs the open (filled in the evening)",
    "date": "trading date YYYY-MM-DD",
    "direction": "\"up\" or \"down\" (predicted intraday direction)",
-   "expected_move": "how the price is expected to move for entry/exit — morning forecast, e.g. 'gap up 3-5% at open, hold; enter at open, exit near close' (filled in the morning; starts Thu 26 Nov 2026 — Wed 25 Nov picks have none)",
+   "expected_move": "how the price is expected to move for entry/exit \u2014 morning forecast, e.g. 'gap up 3-5% at open, hold; enter at open, exit near close' (filled in the morning; starts Thu 26 Nov 2026 \u2014 Wed 25 Nov picks have none)",
    "gap_pct": "(open - prev close)/prev close*100 (filled in the evening)",
    "high": "day high (filled in the evening)",
    "low": "day low (filled in the evening)",
