@@ -1,9 +1,11 @@
 # Disclosure log (record only)
 
-Logs NSE corporate announcements for the symbols in `../stocks.md` (554 rows) for the 16:00 to 08:30 IST window.
-A GitHub Action runs every 30 minutes from 15:30 to 09:00 IST and appends to `data/disclosures-<session date>.jsonl`.
+NSE corporate announcements for the symbols in `../stocks.md` (554 rows), all categories.
 
-- Each record keeps the exchange announcement time and our own capture time. `late_capture: true` means we saw it more than 45 minutes after it was filed (not a verified pre-open view).
-- `data/runs.jsonl` records every run: rows fetched, rows in universe, rows in window, new rows, and failures. A failed or missing run is a gap, not "no news".
-- No signals, no trades. Coverage is not proven complete: NSE only, symbols that are placeholders or not on NSE will never match, and the NSE API row cap is unverified.
-- Holidays and weekends are not special-cased yet; the window is applied by clock time only.
+**Window:** 16:00 IST on one trading day to 08:30 IST on the next trading day. Weekends and market holidays inside that span belong to the same window. One file per window: `disclosures-<session date>.jsonl` (next to this README) (session date = the next trading day).
+
+**Build:** `python3 build_window.py auto <outdir>` after 08:30 IST. It reads the NSE holiday calendar, fetches one request per calendar day, keeps universe symbols whose announcement time is inside the window, and writes a `_meta` line followed by one record per filing (symbol, announced time, dissemination time, category, subject, PDF link).
+
+**Commits:** one bulk commit per window. No automatic per-fetch commits, no Actions.
+
+**Limits:** NSE only. Built after the window closes, so times are exchange-stamped, not our own contemporaneous capture; do not treat a record as "seen in real time". Symbols not on NSE or placeholders never match. Special sessions are not handled. Record only: no signals, no trades.

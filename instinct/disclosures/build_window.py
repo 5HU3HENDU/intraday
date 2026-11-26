@@ -24,15 +24,15 @@ def universe(path):
         if m and m.group(2) not in ("Symbol", "---"): u[m.group(2)] = m.group(1)
     return u
 def main():
+    if len(sys.argv) > 2: os.makedirs(sys.argv[2], exist_ok=True)
     s = requests.Session(); s.get("https://www.nseindia.com/", headers=H, timeout=40)
     hol = {dt.datetime.strptime(x["tradingDate"], "%d-%b-%Y").date() for x in get(s, "https://www.nseindia.com/api/holiday-master", {"type": "trading"})["CM"]}
     trading = lambda d: d.weekday() < 5 and d not in hol
-    now = dt.datetime.now(IST)
+    now = dt.datetime.now(IST) if not os.environ.get("FAKE_NOW") else dt.datetime.fromisoformat(os.environ["FAKE_NOW"])
     if len(sys.argv) > 1 and sys.argv[1] != "auto": T = dt.date.fromisoformat(sys.argv[1])
     else:
         T = now.date()
-        if now.hour * 60 + now.minute < 8 * 60 + 30: T -= dt.timedelta(days=1)
-        while not trading(T): T -= dt.timedelta(days=1)
+        if not trading(T): print("auto: today is not a trading day, nothing to build"); return 0
     if not trading(T): print("T not a trading day"); return 2
     P = T - dt.timedelta(days=1)
     while not trading(P): P -= dt.timedelta(days=1)

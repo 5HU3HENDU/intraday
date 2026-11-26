@@ -1,0 +1,60 @@
+{
+ "session_date": "2026-11-26",
+ "lock_status": "locked_before_open",
+ "locked_at_ist": "2026-11-26T08:44:55+05:30",
+ "picks": [
+  {
+   "symbol": "ENRIN",
+   "side": "long",
+   "entry": {
+    "type": "break",
+    "level": 3050
+   },
+   "target": 3250,
+   "stop": 2920,
+   "time_exit": "14:45"
+  },
+  {
+   "symbol": "SCHAEFFLER",
+   "side": "short",
+   "entry": {
+    "type": "break",
+    "level": 3395
+   },
+   "target": 3300,
+   "stop": 3470
+  },
+  {
+   "symbol": "LUPIN",
+   "side": "long",
+   "entry": {
+    "type": "break",
+    "level": 2050
+   },
+   "target": 2150,
+   "stop": 1960,
+   "time_exit": "13:30"
+  },
+  {
+   "symbol": "LGEINDIA",
+   "side": "short",
+   "entry": {
+    "type": "break",
+    "level": 1780
+   },
+   "target": 1710,
+   "stop": 1860
+  },
+  {
+   "symbol": "ACMESOLAR",
+   "side": "long",
+   "entry": {
+    "type": "break",
+    "level": 425
+   },
+   "target": 445,
+   "stop": 405,
+   "time_exit": "14:00"
+  }
+ ]
+}
