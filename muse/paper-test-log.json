@@ -18,7 +18,7 @@
    "gap_pct": -10.0,
    "high": 1548.1,
    "low": 1343.0,
-   "assessment": "Wrong: gapped down 10% at the open and closed below it — the open-offer news was already stale, the stock had crashed 21% on Monday from Friday's close, so the morning's Friday-close anchor was wrong."
+   "assessment": "Wrong: gapped down 10% at the open and closed below it \u2014 the open-offer news was already stale, the stock had crashed 21% on Monday from Friday's close, so the morning's Friday-close anchor was wrong."
   },
   {
    "date": "2026-11-25",
@@ -38,7 +38,7 @@
    "gap_pct": 1.19,
    "high": 1024.7,
    "low": 984.15,
-   "assessment": "Wrong: opened up on the Sensex-inclusion news but faded all day and closed below the open — index-buying did not hold the price up intraday."
+   "assessment": "Wrong: opened up on the Sensex-inclusion news but faded all day and closed below the open \u2014 index-buying did not hold the price up intraday."
   },
   {
    "date": "2026-11-25",
@@ -58,7 +58,7 @@
    "gap_pct": 0.98,
    "high": 3348.9,
    "low": 3236.5,
-   "assessment": "Wrong: opened up and rose all day instead of falling on the Sensex exit — index-selling pressure never showed up intraday."
+   "assessment": "Wrong: opened up and rose all day instead of falling on the Sensex exit \u2014 index-selling pressure never showed up intraday."
   },
   {
    "date": "2026-11-26",
@@ -70,16 +70,16 @@
    "story": "Wipro bags BP finance operations deal; about 3,000 BP employees to move to Wipro",
    "story_id": "S1",
    "expected_move": "Gap up 1.5-2.5% at the open on the ADR lead, then hold above the open through the day; enter at the open, exit near the close",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null,
-   "gap_pct": null,
-   "high": null,
-   "low": null,
-   "assessment": null
+   "open_0915": 191.9,
+   "price_0930": 193.8,
+   "close": 196.54,
+   "ret_from_open_pct": 2.42,
+   "ret_from_0930_pct": 1.41,
+   "correct": true,
+   "gap_pct": 1.51,
+   "high": 197.37,
+   "low": 191.9,
+   "assessment": "Right: gapped up 1.5% on the ADR lead, held above the open all day and closed +2.4% above it \u2014 the expected pattern played out almost exactly."
   },
   {
    "date": "2026-11-26",
@@ -91,16 +91,16 @@
    "story": "Schaeffler AG plans Rs 3,188 crore block deal in Schaeffler India at Rs 3,400 per share",
    "story_id": "S32",
    "expected_move": "Opens down 4-6% toward the Rs 3,400 floor and stays weak; enter at the open, exit by mid-afternoon",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null,
-   "gap_pct": null,
-   "high": null,
-   "low": null,
-   "assessment": null
+   "open_0915": 3664.9,
+   "price_0930": 3761.9,
+   "close": 3701.7,
+   "ret_from_open_pct": 1.0,
+   "ret_from_0930_pct": -1.6,
+   "correct": false,
+   "gap_pct": 1.77,
+   "high": 3775.4,
+   "low": 3664.9,
+   "assessment": "Wrong: opened up 1.8% instead of down toward the Rs 3,400 floor and closed above the open \u2014 the block-deal discount never showed up intraday."
   },
   {
    "date": "2026-11-26",
@@ -112,16 +112,16 @@
    "story": "Carlyle pares 7.4% stake in Piramal Pharma for over Rs 2,211 crore",
    "story_id": "S47",
    "expected_move": "Opens down 4-6% on the block supply, drifts lower through the morning; enter at the open, exit by mid-afternoon",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null,
-   "gap_pct": null,
-   "high": null,
-   "low": null,
-   "assessment": null
+   "open_0915": 230.3,
+   "price_0930": 234.65,
+   "close": 235.6,
+   "ret_from_open_pct": 2.3,
+   "ret_from_0930_pct": 0.4,
+   "correct": false,
+   "gap_pct": -0.96,
+   "high": 240.2,
+   "low": 230.3,
+   "assessment": "Wrong: opened down only 1% then rose all day and closed +2.3% above the open \u2014 the Carlyle block supply was absorbed, no drift lower."
   },
   {
    "date": "2026-11-26",
@@ -133,16 +133,16 @@
    "story": "Avanti Feeds Q2FY27 results: PAT falls 56% YoY, cuts export guidance",
    "story_id": "S73",
    "expected_move": "Opens down 5-7% on the miss and guidance cut, stays weak through the day; enter at the open, exit by mid-afternoon",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null,
-   "gap_pct": null,
-   "high": null,
-   "low": null,
-   "assessment": null
+   "open_0915": 695.75,
+   "price_0930": 702.65,
+   "close": 702.2,
+   "ret_from_open_pct": 0.93,
+   "ret_from_0930_pct": -0.06,
+   "correct": false,
+   "gap_pct": -0.25,
+   "high": 707.2,
+   "low": 694.05,
+   "assessment": "Wrong: opened nearly flat despite the 56% PAT fall and guidance cut, then drifted up and closed +0.9% above the open \u2014 the miss looked already priced in."
   },
   {
    "date": "2026-11-26",
@@ -154,16 +154,16 @@
    "story": "Dalmia Bharat approves INR 700 crore share buyback at 19.3% premium",
    "story_id": "S65",
    "expected_move": "Gaps up 4-6% toward the buyback price at the open, holds most of the gain; enter at the open, exit near the close",
-   "open_0915": null,
-   "price_0930": null,
-   "close": null,
-   "ret_from_open_pct": null,
-   "ret_from_0930_pct": null,
-   "correct": null,
-   "gap_pct": null,
-   "high": null,
-   "low": null,
-   "assessment": null
+   "open_0915": 1595.0,
+   "price_0930": 1572.9,
+   "close": 1534.7,
+   "ret_from_open_pct": -3.78,
+   "ret_from_0930_pct": -2.43,
+   "correct": false,
+   "gap_pct": 0.52,
+   "high": 1595.0,
+   "low": 1530.0,
+   "assessment": "Wrong: opened up only 0.5%, not the 4-6% gap toward the buyback price, and fell all day to close 3.8% below the open \u2014 the buyback premium did not pull the price up."
   }
  ],
  "meta": {
@@ -173,10 +173,15 @@
    {
     "date": "2026-11-25",
     "correct_of_5": "0/3",
-    "note": "0 of 3: the morning scored news against Friday's close, but Monday had already moved the stocks — APL Apollo had crashed 21% on Monday, so the open-offer anchor was stale; and both Sensex changes faded/reversed intraday instead of following the index-flow script."
+    "note": "0 of 3: the morning scored news against Friday's close, but Monday had already moved the stocks \u2014 APL Apollo had crashed 21% on Monday, so the open-offer anchor was stale; and both Sensex changes faded/reversed intraday instead of following the index-flow script."
+   },
+   {
+    "date": "2026-11-26",
+    "correct_of_5": "1/5",
+    "note": "1 of 5: only Wipro worked, and it matched its expected pattern exactly \u2014 gap up, hold, close higher. The other four all reversed: the two block deals (Schaeffler, Piramal) and the earnings miss (Avanti) were absorbed instead of dragging prices down, and the buyback (Dalmia) never pulled the price up \u2014 overnight news moved the open a little, then the day went its own way."
    }
   ],
-  "learning": "Each evening appends one entry to day_notes (date, correct_of_5, note) — what the day taught, so the method improves day by day. The page shows the whole story day-wise.",
+  "learning": "Each evening appends one entry to day_notes (date, correct_of_5, note) \u2014 what the day taught, so the method improves day by day. The page shows the whole story day-wise.",
   "pick_fields": {
    "assessment": "one-line evening assessment: did the call work, and did the actual move match the expected entry/exit pattern (filled in the evening)",
    "close": "day close (filled in the evening)",
@@ -184,7 +189,7 @@
    "correct": "true if the close moved in the predicted direction vs the open (filled in the evening)",
    "date": "trading date YYYY-MM-DD",
    "direction": "\"up\" or \"down\" (predicted intraday direction)",
-   "expected_move": "how the price is expected to move for entry/exit — morning forecast, e.g. 'gap up 3-5% at open, hold; enter at open, exit near close' (filled in the morning; starts Thu 26 Nov 2026 — Wed 25 Nov picks have none)",
+   "expected_move": "how the price is expected to move for entry/exit \u2014 morning forecast, e.g. 'gap up 3-5% at open, hold; enter at open, exit near close' (filled in the morning; starts Thu 26 Nov 2026 \u2014 Wed 25 Nov picks have none)",
    "gap_pct": "(open - prev close)/prev close*100 (filled in the evening)",
    "high": "day high (filled in the evening)",
    "low": "day low (filled in the evening)",
