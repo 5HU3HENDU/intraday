@@ -1,0 +1,62 @@
+{
+ "session_date": "2026-11-27",
+ "lock_status": "locked_before_open",
+ "picks": [
+  {
+   "symbol": "DALBHARAT",
+   "side": "long",
+   "entry": {
+    "type": "break",
+    "level": 1650
+   },
+   "target": 1750,
+   "stop": 1555,
+   "time_exit": "14:30"
+  },
+  {
+   "symbol": "ZYDUSLIFE",
+   "side": "short",
+   "entry": {
+    "type": "break",
+    "level": 1205
+   },
+   "target": 1150,
+   "stop": 1260,
+   "time_exit": "14:30"
+  },
+  {
+   "symbol": "APARINDS",
+   "side": "short",
+   "entry": {
+    "type": "break",
+    "level": 14050
+   },
+   "target": 13500,
+   "stop": 14500,
+   "time_exit": "14:30"
+  },
+  {
+   "symbol": "IGIL",
+   "side": "short",
+   "entry": {
+    "type": "break",
+    "level": 422
+   },
+   "target": 400,
+   "stop": 448,
+   "time_exit": "14:30"
+  },
+  {
+   "symbol": "ZFCVINDIA",
+   "side": "long",
+   "entry": {
+    "type": "break",
+    "level": 2180
+   },
+   "target": 2280,
+   "stop": 2070,
+   "time_exit": "13:30"
+  }
+ ],
+ "locked_at_ist": "2026-11-27T08:42:12+05:30"
+}

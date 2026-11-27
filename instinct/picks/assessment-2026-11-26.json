@@ -1,0 +1,104 @@
+{
+ "session_date": "2026-11-26",
+ "label": "prospective (locked before the 09:15 open)",
+ "picks_locked_at_ist": "2026-11-26T08:44:55+05:30",
+ "assessed_at_ist": "2026-11-26T16:35:58.413614+05:30",
+ "source": "Yahoo Finance 5m bars (unofficial; may differ from NSE)",
+ "bar_definition": "labelled by start time; 75 bars expected 09:15-15:25",
+ "results": [
+  {
+   "symbol": "ENRIN",
+   "side": "long",
+   "prev_close": 2970.0,
+   "open": 3211.60009765625,
+   "gap_pct": 8.13,
+   "day_high": 3211.60009765625,
+   "day_low": 3058.0,
+   "last_price": 3058.0,
+   "volume": 2606986,
+   "bars": 74,
+   "data_flags": [
+    "1 of 75 five-minute bars missing, first 15:20"
+   ],
+   "entry_time_ist": "2026-11-26T09:15:00+05:30",
+   "entry_price": 3211.6,
+   "entry_fill_note": "gapped through the level, filled at bar open",
+   "max_favourable_pct": 0.0,
+   "max_adverse_pct": -4.69,
+   "status": "scored, data incomplete",
+   "exit_time_ist": "2026-11-26T14:45:00+05:30",
+   "exit_price": 3071.5,
+   "exit_reason": "time exit at bar open",
+   "gross_pct": -4.36
+  },
+  {
+   "symbol": "SCHAEFFLER",
+   "side": "short",
+   "prev_close": 3601.0,
+   "open": 3664.89990234375,
+   "gap_pct": 1.77,
+   "day_high": 3775.39990234375,
+   "day_low": 3664.89990234375,
+   "last_price": 3701.699951171875,
+   "volume": 260753,
+   "bars": 75,
+   "data_flags": [],
+   "status": "entry never triggered"
+  },
+  {
+   "symbol": "LUPIN",
+   "side": "long",
+   "prev_close": 2003.8,
+   "open": 2018.300048828125,
+   "gap_pct": 0.72,
+   "day_high": 2020.9000244140625,
+   "day_low": 1998.0,
+   "last_price": 2005.0,
+   "volume": 584480,
+   "bars": 73,
+   "data_flags": [
+    "2 of 75 five-minute bars missing, first 15:15"
+   ],
+   "status": "entry never triggered"
+  },
+  {
+   "symbol": "LGEINDIA",
+   "side": "short",
+   "prev_close": 1818.4,
+   "open": 1773.800048828125,
+   "gap_pct": -2.45,
+   "day_high": 1785.800048828125,
+   "day_low": 1746.800048828125,
+   "last_price": 1758.0999755859375,
+   "volume": 2392182,
+   "bars": 75,
+   "data_flags": [],
+   "entry_time_ist": "2026-11-26T09:15:00+05:30",
+   "entry_price": 1773.8,
+   "entry_fill_note": "gapped through the level, filled at bar open",
+   "max_favourable_pct": 1.52,
+   "max_adverse_pct": -0.68,
+   "status": "no exit rule reached",
+   "reference_mark_to_last_price": {
+    "exit_price": 1758.1,
+    "exit_reason": "last price, not an exit rule",
+    "gross_pct": 0.89
+   },
+   "note": "no stop/target/time_exit was hit or set; mark is a reference only"
+  },
+  {
+   "symbol": "ACMESOLAR",
+   "side": "long",
+   "prev_close": 416.7,
+   "open": 418.45001220703125,
+   "gap_pct": 0.42,
+   "day_high": 420.6499938964844,
+   "day_low": 412.20001220703125,
+   "last_price": 415.1000061035156,
+   "volume": 1228774,
+   "bars": 75,
+   "data_flags": [],
+   "status": "entry never triggered"
+  }
+ ]
+}

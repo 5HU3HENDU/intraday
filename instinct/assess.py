@@ -25,7 +25,9 @@ def bars(sym, day):
     j = r.json()["chart"]["result"][0]; q = j["indicators"]["quote"][0]; out = []
     for i, t in enumerate(j["timestamp"]):
         if None in (q["open"][i], q["high"][i], q["low"][i], q["close"][i]): continue
-        out.append({"t": dt.datetime.fromtimestamp(t, IST), "o": q["open"][i], "h": q["high"][i], "l": q["low"][i], "c": q["close"][i], "v": q["volume"][i] or 0})
+        bt = dt.datetime.fromtimestamp(t, IST)
+        if not (dt.time(9, 15) <= bt.time() <= dt.time(15, 25)): continue  # session bars only; drops e.g. the 15:30 zero-volume closing print
+        out.append({"t": bt, "o": q["open"][i], "h": q["high"][i], "l": q["low"][i], "c": q["close"][i], "v": q["volume"][i] or 0})
     return out, j["meta"].get("chartPreviousClose")
 def pct(a, b, s): return round(s * (a / b - 1) * 100, 2)
 def one(p, day):
